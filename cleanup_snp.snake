@@ -1,0 +1,169 @@
+""" the goal for this is to create a file in dat2 with the following properties:
+    - filename is same as datset name
+    - famfiles first two cols are identical, and preceeded by data set
+    - all SNP are on hg37
+    - ambiguous/uncertain SNP are removed
+    - in bed/bim/fam format
+    - snp id is in chr_pos format
+"""
+
+
+rule convert_lazaridis:
+    input:
+        'raw/{name}.geno',
+        'raw/{name}.snp',
+        'raw/{name}.ind',
+        convert_script='scripts/convert2ped.py'
+    output:
+        'raw/{name}.bed',
+        'raw/{name}.bim',
+        'raw/{name}.fam',
+    script: input.convert_script
+    
+rule setup_lazaridis:
+    input:
+        bed='raw/EuropeAllData/vdata.bed',
+        bim='raw/EuropeAllData/vdata.bim',
+        fam='raw/EuropeAllData/vdata.fam'
+    output:
+        bed='data/vdata.bed',
+        bim='data/vdata.bim',
+        fam='data/vdata.fam',
+    shell:
+        'cp {input.bed} {output.bed} && cp {input.fam} {output.fam} && '
+        ' sed "s/^90/24/" {input.bim} > {output.bim}'
+
+rule convert_hugo_step1:
+    input:
+        raw="raw/hugo/Genotypes_All.txt",
+        lifted='supplementary/lifted.xbed',
+        unlifted='supplementary/unlifted.xbed',
+        script='scripts/hugo_to_ped.py'
+    output:
+        tped=temp('tmp/hugo.tped'),
+        fam=temp('tmp/hugo.tfam')
+    script: input.script
+
+rule convert_hugo_step2:
+    input:
+        tped='tmp/hugo.tped',
+        fam='tmp/hugo.tfam'
+    output:
+        bed='data/hugo.bed',
+        bim='data/hugo.bim',
+        fam='data/hugo.fam'
+    run:
+        s = 'plink --tfile tmp/hugo  --out data/hugo --make-bed'
+        shell(s)
+
+rule convert_popres:
+    input:
+        bed='raw/POPRES_Genotypes_QC1_v2.bed',
+        bim='raw/POPRES_Genotypes_QC1_v2.bim',
+        fam='raw/POPRES_Genotypes_QC1_v2.fam',
+        chip=['chip/Mapping250K_Nsp.na32.annot.csv',
+              'chip/Mapping250K_Sty.na32.annot.csv'],
+        script='scripts/flip_popres.py'
+    output:
+        keep='tmp/keep.txt',
+        flip='tmp/popres.flip.txt',
+        bed='data/POPRES_Genotypes_QC1_v2.bed',
+        bim='data/POPRES_Genotypes_QC1_v2.bim',
+        fam='data/POPRES_Genotypes_QC1_v2.fam'
+    script: input.script
+
+rule convert_xing:
+    input:
+        file='raw/affy6_344_raw_genotype_xing',
+        chip='chip/GenomeWideSNP_6.na32.annot.csv',
+        script='scripts/xing_to_ped.py'
+    output:
+        tped=temp('tmp/xing.tped'),
+        tfam=temp('tmp/xing.tfam'),
+        flip=temp('tmp/xing.flip'),
+        bed='data/xing.bed',
+        bim='data/xing.bim',
+        fam='data/xing.fam',
+    script: input.script
+    
+rule convert_estonians:
+    input:
+        bed='raw/Data_for_Ben.bed',
+        bim='raw/Data_for_Ben.bim',
+        fam='raw/Data_for_Ben.fam',
+    output:
+        rem='tmp/Estonians.remove',
+        bed='data/Data_for_Ben.bed',
+        bim='data/Data_for_Ben.bim',
+        fam='data/Data_for_Ben.fam',
+    run:
+        bim = pd.read_table(input.bim, header=None)
+        dup_ids = bim[bim[3].duplicated()][1]
+        dup_ids.to_csv(output.rem, sep="\t")
+        s = 'plink --bfile %s --excludm {output.rem} --make-bed'
+        s+= ' --out %s'
+        s = s % (os.path.splitext(input.bim)[0], os.path.splitext(output.bim)[0])
+        shell(s)
+
+        
+rule convert_stoneking:
+    input:
+        bed='raw/reich2011/Denisova-SEAsia-Oceania.bed',
+        bim='raw/reich2011/Denisova-SEAsia-Oceania.bim',
+        fam='raw/reich2011/Denisova-SEAsia-Oceania.fam',
+        chip='chip/GenomeWideSNP_6.na32.annot.csv',
+        script='scripts/flip_reich2011.py'
+    output:
+        keep=temp('tmp/stoneking.keep'),
+        bed='data/reich2011.bed',
+        bim='data/reich2011.bim',
+        fam='data/reich2011.fam',
+    script: input.script
+
+rule convert_verdu:
+    input:
+        ped='raw/verdu2014/allAutosomes_82-nativeAmericans_illuminaHuman610_unphased_passedQC_SNPs_dbGaP.ped',
+        map='raw/verdu2014/allAutosomes_82-nativeAmericans_illuminaHuman610_unphased_passedQC_SNPs_dbGaP.map'
+    output:
+        bed='raw/verdu2014/verdu.bed',
+        bim='raw/verdu2014/verdu.bim',
+        fam='raw/verdu2014/verdu.fam',
+    run:
+        s = 'plink --file %s --make-bed --out %s'
+        s = s % (os.path.splitext(input.ped)[0],
+                 os.path.splitext(output.bed)[0])
+        shell(s)
+
+rule convert_verdu2:
+    input:
+        bed='raw/verdu2014/verdu.bed',
+        bim='raw/verdu2014/verdu.bim',
+        fam='raw/verdu2014/verdu.fam',
+        chip='chip/GenomeWideSNP_6.na32.annot.csv',
+        script='scripts/flip_verdu.py'
+    output:
+        keep=temp('tmp/verdu.keep'),
+        flip=temp('tmp/verdu.flip'),
+        bed='data/verdu.bed',
+        bim='data/verdu.bim',
+        fam='data/verdu.fam',
+    script: input.script
+        
+rule convert_paschou:
+    input:
+        bed='raw/MARITIME_ROUTE.bed',
+        bim='raw/MARITIME_ROUTE.bim',
+        fam='raw/MARITIME_ROUTE.fam',
+        chip='chip/GenomeWideSNP_6.na32.annot.csv',
+        script='scripts/flip_paschou.R',
+    output:
+        bed='data/MARITIME_ROUTE.bed',
+        bim='data/MARITIME_ROUTE.bim',
+        fam='data/MARITIME_ROUTE.fam',
+    script: input.script
+#    shell:
+#        "cp {input.bed} {output.bed} ;"
+#        "cp {input.fam} {output.fam} ;"
+#        ' sed -e "s/\t1\t2/\tA\tC/; s/\t1\t3/\tA\tG/; '
+#        's/\t3\t1/\tG\tA/; s/\t2\t1/\tC\tA/" {input.bim} > {output.bim}'
+

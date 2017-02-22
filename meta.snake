@@ -1,0 +1,193 @@
+import pandas as pd
+base = lambda x:os.path.splitext(x)[0]
+
+rule meta_all:
+    input:
+        'pgs/gvar.pop_geo',
+        'pgs/gvar.pop_display',
+        'pgs/gvar.indiv_label',
+        'pgs/gvar.indiv_prov',
+        'pgs/gvar.indiv_geo',
+
+rule gvar_pop_geo:
+    """
+    .pop_geo
+    metadata: Generic text string descriptor of file
+        fields:
+            <string> popId,
+            <double> latitude,
+            <double> longitude,
+            <double> accuracy
+    """
+    input:
+        'intermediate/locations_all.csv'
+    output:
+        'pgs/gvar.pop_geo'
+    run:
+        loc = pd.read_csv(input[0])
+        loc0= loc[['ID', 'Latitude', 'Longitude', 'Uncertainty']]
+        loc0.columns = ['popId', 'latitude', 'longitude', 'accuracy']
+        loc0.accuracy[pd.isnull(loc0.accuracy)] = 0
+        loc0.accuracy[loc0.accuracy == ' '] = 0
+        loc0.to_csv(output[0], index=False)
+
+rule pop_display:
+    """
+        .pop_display
+            metadata: Generic text string descriptor of file
+            fields:
+                <string> popId,
+                <string> name,
+                <string> abbrev,
+                <string> color,
+                <string> colorAlt
+    """
+    input:
+        abbrev="pgs/gvar.abbrev",
+        loc='intermediate/locations_all.csv'
+    output:
+        'pgs/gvar.pop_display'
+    run:
+        abbrev = pd.read_csv(input.abbrev)
+        abbrev = abbrev[['popId', 'abbrev']]
+        loc = pd.read_csv(input.loc)
+        loc = loc[['ID', 'Unique']]
+        loc.columns = ['popId', 'name']
+        loc = loc.merge(abbrev)
+        loc['color'] = 'black'
+        loc['colorAlt'] = 'purple'
+        loc['order'] = range(loc.shape[0])
+        loc.to_csv(output[0], index=False)
+        shell("Rscript scripts/assign_color_by_coord.R")
+
+rule gvar_indiv_label:
+    """
+        .indiv_label
+        metadata:  indiv_provFile (name of indiv_prov file), LabelRationale (description of label scheme)
+        fields: <string> sampleId,
+                <string> popId
+    """
+    input:
+        'intermediate/sample_pop_all.csv'
+    output:
+        'pgs/gvar.indiv_label'
+    run:
+        data = pd.read_csv(input[0])
+        data.columns =  ['sampleId', 'popId', 'src', 'p']
+        data['sampleId'] = pd.Series((a + b) 
+            for (a,b) in zip(data.src, data.sampleId))
+        data = data[['sampleId', 'popId']]
+        data.to_csv(output[0], index=False)
+
+rule gvar_indiv_prov_part1:
+    """
+        .indiv_prov : Describes individual level provenance and permissions
+        metadata:  Array of source entities (i.e. studyname + url) and platforms (by name, e.g. Illumina650);
+        fields: <string> sampleId,
+                <string> wasDerivedFrom (source entity),
+                <string> used (data generating platform),
+                <string> originalId,
+                <string> permissions (public, private)
+        Note:  originalId is the sampleId in source dataset -- helps us keep track of any changes that are necessary during merging
+    """
+    input:
+        'intermediate/sample_pop_all.csv'
+    output:
+        'intermediate/gvar.indiv_prov'
+    run:
+        data = pd.read_csv(input[0])
+        data.columns = ['originalId', 'PID',
+                        'wasDerivedFrom', 'permissions']
+        data['used'] = 'NA'
+        data['sampleId'] = pd.Series((a + b) 
+            for (a,b) in zip(data.wasDerivedFrom, data.originalId))
+
+        fields = ['sampleId', 'wasDerivedFrom', 'used',
+            'originalId', 'permissions']
+        data = data[fields]
+        data.to_csv(output[0], index=False)
+
+rule gvar_indiv_prov_part2:
+    input:
+        'intermediate/gvar.indiv_prov',
+        'sources/Data_for_Ben_Meta.xlsx',
+        __script__='scripts/table_sources.R'
+    output:
+        'pgs/gvar.indiv_prov'
+    script: input.__script__
+        
+rule indiv_geo:
+    """
+        .indiv_geo
+            metadata : provFile (name of prov file)
+            fields: 
+                <string> indivID,
+                <double> latitude,
+                <double> longitude,
+                <double> accuracy
+    """
+    input:
+        indiv_label='{name}.indiv_label',
+        pop_geo='{name}.pop_geo'
+    output:
+        '{name}.indiv_geo'
+    run:
+        loc = pd.read_csv(input.indiv_label)
+        geo = pd.read_csv(input.pop_geo)
+
+        print(loc.shape)
+        print(geo.shape)
+
+        indiv_geo = pd.merge(loc, geo)
+        print(indiv_geo.shape)
+
+        fields = ['sampleId', 'latitude', 'longitude', 'accuracy']
+        indiv_geo = indiv_geo[fields]
+        indiv_geo.to_csv(output[0], index=False)
+        
+rule indiv_meta:
+    input:
+        indiv_prov='{name}.indiv_prov',
+        indiv_label='{name}.indiv_label'
+    output:
+        indiv_meta='{name}.indiv_meta'
+    run:
+        prov = pd.read_csv(input.indiv_prov)
+        label = pd.read_csv(input.indiv_label)
+        data = pd.merge(prov, label)
+        data.to_csv(output.indiv_meta, index=False)
+
+
+rule thin_list_plink:
+    input:
+        bed='{name}.bed',
+        bim='{name}.bim',
+        fam='{name}.fam',
+    output:
+        insnp='{name}.thin5.prune.in',
+        outsnp='{name}.thin5.prune.out'
+    run:
+        infile = base(input.bed)
+        outname = infile + '.thin5'
+        s="plink --bfile {infile}  --out {outname} "
+        s += '--indep-pairwise 500kb 60 0.5 --maf 0.1 --geno 0.3'
+        shell(s)
+
+rule thin_plink:
+    input:
+        bed='{name}.bed',
+        bim='{name}.bim',
+        fam='{name}.fam',
+        insnp='{name}.thin{n}.prune.in',
+    output:
+        bed='{name}.thin{n}.bed',
+        bim='{name}.thin{n}.bim',
+        fam='{name}.thin{n}.fam',
+    run:
+        infile = base(input.bed)
+        outfile = base(output.bed)
+        s="plink --bfile {infile}  --out {outfile} --make-bed "
+        s += '--extract {input.insnp}'
+        shell(s)
+
+

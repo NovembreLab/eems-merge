@@ -1,0 +1,31 @@
+
+
+rule to_vcf:
+    input:
+        'vcf/popres_all_fwd.bed'
+    output:
+        vcf='vcf/popres_chr{CHROM}.vcf.gz'
+    shell:
+        'plink --bfile vcf/popres_all_fwd '
+        '--out vcf/popres_chr{wildcards.CHROM} '
+        "--recode vcf-iid bgz --chr {wildcards.CHROM} "
+        "--a2-allele x.txt "
+
+rule all_vcf:
+    input:
+        expand('vcf/popres_chr{CHROM}.vcf.gz',
+            CHROM = range(1,23))
+
+rule flip_popres:
+    input:
+        'data/POPRES_Genotypes_QC1_v2.bim',
+        flip='popres_to_flip.txt',
+        keep='/data/popres_data/Novembre_etal_2008_misc/files/POPRES_08_24_01.EuroThinFinal.LD_0.8.exLD.fam'
+    output:
+        'vcf/popres_all_fwd.bed'
+    shell:
+        'plink --bfile data/POPRES_Genotypes_QC1_v2 '
+        '--out vcf/popres_all_fwd '
+        '--flip {input.flip} --make-bed '
+        '--keep {input.keep} '
+        '--a2-allele x.txt '

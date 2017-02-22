@@ -1,0 +1,813 @@
+ID,Population,Group_Population,Region,State / Province / City,Country of origin / collected in,not_most_accurate,Continent,Sampling Location (Cambridgesamples),Latitude,Longitude,Uncertainty,Area,Certainty group,Comment,Source,Secondary Source
+134,Turkmens,Turkmens_Afghan,,,Afghanisthan,,Central Asia,,"36.670619, 65.732125",,200,,4,Shebergan,Estonians,
+142,Tajiks,Tajiks_Afghan,,,Afghanisthan,,Central Asia,," 34.383333, 67.016667",,200,,4,Taleqan,Estonians,
+145,Uzbeks,Uzbeks_Afghan,,,Afghanisthan,,Central Asia,,"36.689841, 67.117248",,200,,4,Mazari Sharif,Estonians,
+162,Hazara,Hazara_Afghan,,,Afghanisthan,,Central Asia,,"34.383333, 67.016667",,200,,4,https://en.wikipedia.org/wiki/Ethnic_groups_in_Afghanistan#/media/File:US_Army_ethnolinguistic_map_of_Afghanistan_--_circa_2001-09.jpg,Estonians,
+163,Pashtun,Pashtun_Afghan,,,Afghanisthan,,Central Asia,,"31.674465, 65.699064",,200,,4,Kandahar,Estonians,
+477,Albanian,Albanian,,,Albania,,WestEurasia,,41.3,19.8,,,1,,Human Origins,David Comas
+592,Albania,,,,Albania,,,,41.3,19.8,,,1,from Human Origins,Popres,
+21,Algerian_Jews,Jews,,,Algeria,,North Africa,,36.8,3,,,1,from Human Origins,Estonians,
+310,Ain_Touta_WGA,Ain_Touta_WGA,,,Algeria,,Africa,,35.4,5.9,,,1,,Human Origins,Mark G. Thomas / Leila Laredj
+311,Algerian,Algerian,,,Algeria,,Africa,,36.8,3,,,1,,Human Origins,David Comas
+312,Mozabite,Mozabite,,,Algeria,,Africa,,32,3,,,1,,Human Origins,Patterson et al. 2012
+795,Algeria,,,,Algeria,,,,36.8,3,,,1,from Human Origins,Paschou2014,
+794,Mozabite,,,,Algeria,,,,32,3,,,1,,Paschou2014,
+313,BantuSA,Bantu_SA_Ovambo,,,Angola,,Africa,,-19,18,,,1,,Human Origins,Patterson et al. 2012
+290,Wichi,Andean,,,Argentina,,America,Matacoan,-23.211137,-64.099653,,,1,,Estonians,
+291,Colla,Andean,,,Argentina,,America,Salta San Antonio de los Cobres,-24.216166,-66.322668,,,1,,Estonians,
+373,Chane,Chane,,,Argentina,,America,,-25,-60,,,1,,Human Origins,Andres Ruiz-Linares / Claudio M. Bravi / Graciela Bailliet / Daniel Corach
+374,Guarani,Guarani,,,Argentina,,America,,-27.5,-59,,,1,,Human Origins,Andres Ruiz-Linares / Claudio M. Bravi / Graciela Bailliet / Daniel Corach
+118,Armenians,Armenians,South Caucasus,,Armenia,,Caucasus,,40.2,44.5,,,1,from Human Origins,Estonians,
+478,Armenian,Armenian,,,Armenia,,WestEurasia,,40.2,44.5,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Levon Yepiskoposyan / Hovhannes Sahakyan
+479,Armenian_WGA,Armenian_WGA,,,Armenia,,WestEurasia,,40.2,44.5,,,1,,Human Origins,Mark G. Thomas / Levon Yepiskoposyan
+480,Assyrian_WGA,Assyrian_WGA,,,Armenia,,WestEurasia,,40.3,44.6,,,1,,Human Origins,Mark G. Thomas / Levon Yepiskoposyan
+481,Kurd_WGA,Kurd_WGA,,,Armenia,,WestEurasia,,40.7,44.3,,,1,,Human Origins,Mark G. Thomas / Levon Yepiskoposyan
+451,Australian,Australian_ECCAC,,,Australia,,Oceania,,-13,143,,,1,,Human Origins,European Collection of Cell Cultures
+33,Ashkenazi_Jews,Jews,,,Austria,,Europe,,47.6,14.1,,,1,from Popres,Estonians,
+579,Austria,,,,Austria,,,,47.6,14.1,,,1,,Popres,
+42,Azerbaijani_Jews,Jews,,,Azerbaijan,,Caucasus,,40.4,49.9,,,1,from Human Origins,Estonians,
+131,Azeris,Azeris,South Caucasus,,Azerbaijan,,Caucasus,,40.4,49.9,,,1,from Human Origins,Estonians,
+482,Baku_WGA,Baku_WGA,,,Azerbaijan,,WestEurasia,,40.4,49.9,,,1,from Human Origins,Human Origins,Mark G. Thomas / Ruslan Ruizbakiev
+454,Bengali,Bengali_Bangladesh_BEB,,,Bangladesh,,SouthAsia,,23.7,90.4,,,1,,Human Origins,Coriell Cell Repositories
+32,Ashkenazi_Jews,Jews,,,Belarus,,Europe,,53.9,28,,,1,from Human Origins,Estonians,
+86,Belarusians,Belarusians,,,Belarus,,Europe,,53.9,28,,,1,from Human Origins,Estonians,
+483,Belarusian,Belarusian,,,Belarus,,WestEurasia,,53.9,28,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Alena Kushniarevich
+575,Belgium,,,,Belgium,,,,50.7,4.61,,,1,,Popres,
+375,Aymara,Aymara,,,Bolivia,,America,,-16.5,-68.2,,,1,,Human Origins,Andres Ruiz-Linares / Francisco Rothhammer / Jean-Michel Dugoujon / René Vasquez / Mercedes Villena
+376,Bolivian,Bolivian_Cochabamba,,,Bolivia,,America,,-17.4,-66.2,,,1,,Human Origins,Antonio Salas
+377,Bolivian,Bolivian_LaPaz,,,Bolivia,,America,,-16.5,-68.2,,,1,,Human Origins,Antonio Salas
+378,Bolivian,Bolivian_Pando,,,Bolivia,,America,,-11.2,-67.2,,,1,,Human Origins,Antonio Salas
+379,Quechua,Quechua_RuizLinares,,,Bolivia,,America,,-20,-66,,,1,,Human Origins,Andres Ruiz-Linares / Jean-Michel Dugoujon / René Vasquez / Mercedes Villena
+606,Bolivian,,,,Bolivia,,,,-16.5,-68.2,,,1,"from Human Origins, La Paz",Xing,
+68,Bosnians,Bosnians,,,Bosnia and Herzegovina,,Europe,,44.2,17.9,,,1,from Popres,Estonians,
+70,Croats,Croats,,Bosnia,Bosnia and Herzegovina,,Europe,,44.2,17.9,,,1,from Popres,Estonians,
+71,Croats,Croats,,Herzegovina,Bosnia and Herzegovina,,Europe,,"42.431726, 19.262057",,,,3,Podgorica,Estonians,
+73,Serbians,Serbians,,,Bosnia and Herzegovina,,Europe,,"44.736615, 18.095041",,50,,4,Doboj,Estonians,
+584,Bosnia and Herzegovina,,,,Bosnia and Herzegovina,,,,44.2,17.9,,,1,,Popres,
+314,Gana,Gana,,,Botswana,,Africa,,-21.7,23.4,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+315,Gui,Gui,,,Botswana,,Africa,,-21.5,23.3,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+316,Hoan,Hoan,,,Botswana,,Africa,,-24,23.4,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+317,Ju_hoan_South,Ju_hoan_South,,,Botswana,,Africa,,-21.2,20.7,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+318,Kgalagadi,Kgalagadi,,,Botswana,,Africa,,-24.8,21.8,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+319,Khwe,Khwe,,,Botswana,,Africa,,-18.4,21.9,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+320,Naro,Naro,,,Botswana,,Africa,,-22,21.6,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+321,Shua,Shua,,,Botswana,,Africa,,-20.6,25.3,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+322,Taa_East,Taa_East,,,Botswana,,Africa,,-24.2,22.8,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+323,Taa_North,Taa_North,,,Botswana,,Africa,,-23,22.4,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+324,Taa_West,Taa_West,,,Botswana,,Africa,,-23.6,20.3,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+325,Tshwa,Tshwa,,,Botswana,,Africa,,-21,25.9,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+326,Tswana,Tswana,,,Botswana,,Africa,,-24.1,25.4,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+327,BantuSA,Bantu_SA_Herero,,,BotswanaOrNamibia,,Africa,,-22,19,,,1,,Human Origins,Patterson et al. 2012
+328,BantuSA,Bantu_SA_Tswana,,,BotswanaOrNamibia,,Africa,,-28,24,,,1,,Human Origins,Patterson et al. 2012
+380,Karitiana,Karitiana,,,Brazil,,America,,-10,-63,,,1,,Human Origins,Patterson et al. 2012
+381,Surui,Surui,,,Brazil,,America,,-11,-62,,,1,,Human Origins,Patterson et al. 2012
+27,Sephardic_Jews,Jews,,,Bulgaria,,Europe,,42.2,24.7,,,1,"Bulgaria, HO",Estonians,
+74,Bulgarians,Bulgarians,,,Bulgaria,,Europe,,42.2,24.7,,,1,from Human Origins,Estonians,
+484,Bulgarian,Bulgarian,,,Bulgaria,,WestEurasia,,42.2,24.7,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Draga Toncheva / Sena Karachanak-Yankova / Mari Nelis*
+594,Bulgaria,,,,Bulgaria,,,,42.8,25.2,,,1,,Popres,
+429,Cambodian,Cambodian,,,Cambodia,,EastAsia,,12,105,,,1,,Human Origins,Patterson et al. 2012
+619,Khmer Cambodian,,,,Cambodia,,,,12.5333,103.9167,,,1,,Xing,
+287,Athabascans,Athabascans,,,Canada,,America,,"54.381964, -124.872659",,400,,4,,Estonians,
+382,Algonquin,Algonquin,,,Canada,,America,,48.4,-71.1,,,1,,Human Origins,Damian Labuda*
+383,Chipewyan,Chipewyan,,,Canada,,America,,59.6,-107.3,,,1,,Human Origins,Damian Labuda*
+384,Cree,Cree,,,Canada,,America,,50.3,-102.5,,,1,,Human Origins,Damian Labuda*
+385,Ojibwa,Ojibwa,,,Canada,,America,,46.5,-81,,,1,,Human Origins,David E. C. Cole / Damian Labuda*
+329,Biaka,BiakaPygmy,,,CentralAfricanRepublic,,Africa,,4,17,,,1,,Human Origins,Patterson et al. 2012
+386,Chilote,Chilote,,,Chile,,America,,-42.5,-73.9,,,1,,Human Origins,Andres Ruiz-Linares / Francisco Rothhammer
+154,Uygurs,Uygurs,,,China,,Central Asia,,44,81,,,1,from Human Origins,Estonians,
+400,Mongola,Mongola,,,China,,CentralAsiaSiberia,,45,111,,,1,,Human Origins,Patterson et al. 2012
+430,Dai,Dai,,,China,,EastAsia,,21,100,,,1,,Human Origins,Patterson et al. 2012
+431,Daur,Daur,,,China,,EastAsia,,48.5,124,,,1,,Human Origins,Patterson et al. 2012
+432,Han,Han,,,China,,EastAsia,,32.3,114,,,1,,Human Origins,Patterson et al. 2012
+433,Han_NChina,Han_NChina,,,China,,EastAsia,,32.3,114,,,1,,Human Origins,Patterson et al. 2012
+434,Hezhen,Hezhen,,,China,,EastAsia,,47.5,133.5,,,1,,Human Origins,Patterson et al. 2012
+435,Lahu,Lahu,,,China,,EastAsia,,22,100,,,1,,Human Origins,Patterson et al. 2012
+436,Miao,Miao,,,China,,EastAsia,,28,109,,,1,,Human Origins,Patterson et al. 2012
+437,Naxi,Naxi,,,China,,EastAsia,,26,100,,,1,,Human Origins,Patterson et al. 2012
+438,Oroqen,Oroqen,,,China,,EastAsia,,50.4,126.5,,,1,,Human Origins,Patterson et al. 2012
+439,She,She,,,China,,EastAsia,,27,119,,,1,,Human Origins,Patterson et al. 2012
+440,Tu,Tu,,,China,,EastAsia,,36,101,,,1,,Human Origins,Patterson et al. 2012
+441,Tujia,Tujia,,,China,,EastAsia,,29,109,,,1,,Human Origins,Patterson et al. 2012
+442,Uygur,Uygur,,,China,,EastAsia,,44,81,,,1,,Human Origins,Patterson et al. 2012
+443,Xibo,Xibo,,,China,,EastAsia,,43.5,81.5,,,1,,Human Origins,Patterson et al. 2012
+444,Yi,Yi,,,China,,EastAsia,,28,103,,,1,,Human Origins,Patterson et al. 2012
+608,CHB,,,,China,,,,39.9717,116.2915,,,1,,Xing,
+609,Chinese,,,,China,,,,30.6667,104.0667,,,1,,Xing,
+711,CN-CC,,,,China,,,,24.4,110.2333333333,,,1,,HUGO,
+712,CN-CC,,,,China,,,,23.35,108.1166666667,,,1,,HUGO,
+713,CN-GA,,,,China,,,,23.3333333333,113.5,,,1,,HUGO,
+714,CN-HM,,,,China,,,,26.25,108.6666666667,,,1,,HUGO,
+715,CN-JI,,,,China,,,,18.9333333333,109.8166666667,,,1,,HUGO,
+716,CN-JN,,,,China,,,,22,101,,,1,,HUGO,
+717,CN-SH,,,,China,,,,31.2166666667,121.5,,,1,,HUGO,
+718,CN-UG,,,,China,,,,37.05,86.6166666667,,,1,,HUGO,
+719,CN-WA,,,,China,,,,22.7833333333,100.2333333333,,,1,,HUGO,
+720,CN-WA,,,,China,,,,22.4,99.7833333333,,,1,,HUGO,
+755,CHB,,,,China,,,,39.9833333333,116.3833333333,,,1,,HUGO,
+387,Inga,Inga,,,Colombia,,America,,1,-77,,,1,,Human Origins,Andres Ruiz-Linares / Gabriel Bedoya
+388,Piapoco,Piapoco,,,Colombia,,America,,3,-68,,,1,,Human Origins,Patterson et al. 2012
+389,Ticuna,Ticuna,,,Colombia,,America,,-3.8,-70,,,1,,Human Origins,Andres Ruiz-Linares / Gabriel Bedoya
+390,Wayuu,Wayuu,,,Colombia,,America,,11,-73,,,1,,Human Origins,Andres Ruiz-Linares / Gabriel Bedoya
+330,Mbuti,MbutiPygmy,,,Congo,,Africa,,1,29,,,1,,Human Origins,Patterson et al. 2012
+391,Cabecar,Cabecar,,,Costa Rica,,America,,9.5,-84,,,1,,Human Origins,Andres Ruiz-Linares / Ramiro Barrantes
+69,Croats,Croats,,,Croatia,,Europe,,43.5,16.4,,,1,from Human Origins,Estonians,
+485,Croatian,Croatian,,,Croatia,,WestEurasia,,43.5,16.4,,,1,,Human Origins,Cristian Capelli / George B. J. Busby / Igor Rudan / Tatijana Zemunik
+585,Croatia,,,,Croatia,,,,45.3,16.1,,,1,,Popres,
+62,Cypriots,Cypriots,,,Cyprus,,Europe,,35.1,33.4,,,1,from Human Origins,Estonians,
+486,Cypriot,Cypriot,,,Cyprus,,WestEurasia,,35.1,33.4,,,1,,Human Origins,David Comas / Pierre Zalloua
+589,Cyprus,,,,Cyprus,,,,35.1,33.4,,,1,from Human Origins,Popres,
+582,Czech Republic,,,,Czech Republic,,,,49.7,15.4,,,1,,Popres,
+487,Czech,Czech,,,Czechoslovia(pre1989),,WestEurasia,,50.1,14.4,,,1,,Human Origins,Coriell Cell Repositories
+597,Denmark,,,,Denmark,,,,56.1,9.25,,,1,,Popres,
+611,Hema,,,,DRC,,,,1.5667,30.25,,,1,,Xing,
+629,Pygmy,,,,DRC,,,,1.15,29.6667,,,1,,Xing,
+746,AX-AI,,,,Ecuador,,,,-10.6166666667,-62.7666666667,,,1,,HUGO,
+747,AX-AI,,,,Ecuador,,,,18.6166666667,-90.6833333333,,,1,,HUGO,
+748,AX-AI,,,,Ecuador,,,,-12.0333333333,-77,,,1,,HUGO,
+749,AX-AI,,,,Ecuador,,,,-1.6333333333,-78.5,,,1,,HUGO,
+750,AX-AI,,,,Ecuador,,,,29.8166666667,-110.7166666667,,,1,,HUGO,
+7,Egyptans,Egyptans,,,Egypt,,North Africa,,30.2,31.2,,,5,Location from Human Origins,Estonians,
+331,Egyptian,Egyptian_Comas,,,Egypt,,Africa,,31,31.2,,,1,,Human Origins,David Comas / Pierre Zalloua
+332,Egyptian,Egyptian_Metspalu,,,Egypt,,Africa,,30.2,31.2,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+797,Egypt,,,,Egypt,,,,30.040566,31.232373,,,1,,Paschou2014,
+488,English,English_Cornwall_GBR,,,England,,WestEurasia,,50.3,-4.9,,,1,,Human Origins,Coriell Cell Repositories
+489,English,English_Kent_GBR,,,England,,WestEurasia,,51.2,0.7,,,1,,Human Origins,Coriell Cell Repositories
+490,Scottish,Scottish_Argyll_Bute_GBR,,,England,,WestEurasia,,56,-3.9,,,1,,Human Origins,Coriell Cell Repositories
+80,Poles,Poles,,,Estonia,,Europe,,52.2,21,,,5,Poland,Estonians,
+91,Russians,Russians,Central Russia,,Estonia,,Europe,,NA,NA,,,6,,Estonians,
+94,Russians,Russians_North,North Russia,,Estonia,,Europe,,NA,NA,,,6,,Estonians,
+97,Estonians,Estonians,,,Estonia,,Europe,,58.5,24.9,,,1,,Estonians,
+491,Estonian,Estonian,,,Estonia,,WestEurasia,,58.5,24.9,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Jüri Parik
+1,Ethiopians,Ethiopians,,Amara,Ethiopia,,Africa,," 11.5, 38.5",,,154709,3,Amhara,Estonians,
+2,Ethiopians,Ethiopians,,Oromo,Ethiopia,,Africa,,7.989061,39.381181,,284538,3,Oromia,Estonians,
+3,Ethiopians,Ethiopians,,Tigrani,Ethiopia,,Africa,,14.136578,38.309328,,41409,3,Tigray,Estonians,
+5,Ethiopian_Jews,Jews,,,Ethiopia,,Africa,,"9.016667, 38.75",,,1104300,5,Ethiopia (Addis Ababa),Estonians,
+333,Afar_WGA,Afar_WGA,,,Ethiopia,,Africa,,11.8,41.4,,,1,,Human Origins,Mark G. Thomas / Ayele Tarekegn
+334,Ethiopian_Jew,Ethiopian_Jew,,,Ethiopia,,Africa,,9,38.7,,,1,,Human Origins,The National Laboratory for the Genetics of Israeli Populations 
+335,Oromo,Oromo,,,Ethiopia,,Africa,,9,36.5,,,1,,Human Origins,Anna Di Rienzo* / Cynthia Beall* / Amha Gebremedhin*
+767,Fiji,Fiji,,,Fiji,,,,"-18.166667, 178.45",,,,5,,Stoneking,
+492,Finnish,Finnish_FIN,,,Finland,,WestEurasia,,60.2,24.9,,,1,,Human Origins,Coriell Cell Repositories
+493,Saami_WGA,Saami_WGA,,,Finland,,WestEurasia,,68.4,23.6,,,1,,Human Origins,Svante Pääbo / Antti Sajantila / Klemetti Näkkäläjärvi
+598,Finland,,,,Finland,,,,60.2,24.9,,,1,,Popres,
+29,Ashkenazi_Jews,Jews,,,France,,Europe,,46,2,,,1,from Human Origins,Estonians,
+494,Basque,Basque_French,,,France,,WestEurasia,,43,0,,,1,,Human Origins,Patterson et al. 2012
+495,French,French,,,France,,WestEurasia,,46,2,,,1,,Human Origins,Patterson et al. 2012
+496,French_South,French_South,,,France,,WestEurasia,,43.4,-0.6,,,1,,Human Origins,David Comas
+570,France,,,,France,,,,46.6,2.39,,,1,,Popres,
+812,Basque,,,,France,,,,43.265706,-2.934407,,,1,,Paschou2014,
+336,Gambian,Gambian_GWD,,,Gambia,,Africa,,13.4,16.7,,,1,,Human Origins,Coriell Cell Repositories
+39,Georgian_Jews,Jews,,,Georgia,,Caucasus,,41.7,44.8,,,1,from Human Origins,Estonians,
+119,Georgians,Georgians,South Caucasus,,Georgia,,Caucasus,,41.7,44.8,,,1,from Human Origins,Estonians,
+120,Georgians,northwest_Mingrelians,South Caucasus,,Georgia,,Caucasus,,42.5,41.9,,,1,from Human Origins,Estonians,
+121,Abkhasians,Abkhasians,South Caucasus,,Georgia,,Caucasus,,43,41,,,1,from Human Origins,Estonians,
+476,Abkhasian,Abkhasian,,,Georgia,,WestEurasia,,43,41,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+497,Georgian,Georgian_Megrels,,,Georgia,,WestEurasia,,42.5,41.9,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+498,Georgian_Jew,Georgian_Jew,,,Georgia,,WestEurasia,,41.7,44.8,,,1,,Human Origins,The National Laboratory for the Genetics of Israeli Populations 
+499,Georgian_WGA,Georgian_WGA,,,Georgia,,WestEurasia,,41.7,44.8,,,1,,Human Origins,Mark G. Thomas / Haim Ben-Ami
+36,Ashkenazi_Jews,Jews,,,Germany,,Europe,,51.1,10.4,,,1,from Popres,Estonians,
+56,Germans,Germans,,,Germany,,Europe,,51.1,10.4,,,1,from Popres,Estonians,
+572,Germany,,,,Germany,,,,51.1,10.4,,,1,,Popres,
+63,Greeks,Greeks,,Central,Greece,,Europe,,NA,NA,,,6,,Estonians,
+64,Greeks,Greeks,,Thessaly,Greece,,Europe,,"39.6, 22.2",, ,14036,3,Larissa,Estonians,
+500,Greek,Greek_Comas,,,Greece,,WestEurasia,,40.6,22.9,,,1,,Human Origins,David Comas
+501,Greek,Greek_Coriell,,,Greece,,WestEurasia,,38,23.7,,,1,,Human Origins,Coriell Cell Repositories
+502,Greek_WGA,Greek_WGA,,,Greece,,WestEurasia,,37.9,23.7,,,1,,Human Origins,Mark G. Thomas / Theologos Loukidis
+586,Greece,,,,Greece,,,,40,22.7,,,1,,Popres,
+804,Peloponnese,,,,Greece,,,,37.511088,22.372785,,,1,,Paschou2014,
+805,SE Laconia,,,,Greece,,,,36.512844,23.060167,,,1,,Paschou2014,
+806,Dodecanese,,,,Greece,,,,36.435923,28.217683,,,1,,Paschou2014,
+807,Crete,,,,Greece,,,,35.340895,25.144416,,,1,,Paschou2014,
+288,East_Greenlanders,East_Greenlanders,,,Greenland,,America,,"65.6075, -37.566667",,,,4,Tasiilaq,Estonians,
+289,West_Greenlanders,West_Greenlanders,,,Greenland,,America,,"64.173105, -51.686236",,,,4,Nuuk,Estonians,
+392,Kaqchikel,Kaqchikel,,,Guatemala,,America,,15,-91,,,1,,Human Origins,Andres Ruiz-Linares / Julio Molina
+75,Hungarians,Hungarians,,,Hungary,,Europe,,47.5,19.1,,,1,from Human Origins,Estonians,
+503,Hungarian,Hungarian_Coriell,,,Hungary,,WestEurasia,,47.5,19.1,,,1,,Human Origins,Coriell Cell Repositories
+504,Hungarian,Hungarian_Metspalu,,,Hungary,,WestEurasia,,47.5,19.1,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Béla Melegh / Judit Bene
+577,Hungary,,,,Hungary,,,,47.2,19.4,,,1,,Popres,
+505,Icelandic,Icelandic,,,Iceland,,WestEurasia,,64.1,-21.9,,,1,,Human Origins,Coriell Cell Repositories
+164,Mumbai_Jews,Jews,,Mumbai,India,,South Asia,,"19.07283, 72.88261",,,,2,,Estonians,
+165,Brahmins_UTT,Brahmins,,Uttarakhand,India,,South Asia,,"30.25, 79.25",,,53483,3,,Estonians,
+166,Brahmins_UP,Brahmins,,Uttar Pradesh,India,,South Asia,,"27.25, 80.75",,,243286,3,,Estonians,
+167,Brahmins_TN,Brahmins,,Tamil Nadu,India,,South Asia,,"11, 78.33333",,,130058,3,,Estonians,
+168,Meena,Rajasthan,,Rajasthan,India,,South Asia,,"26.58333, 73.83333",,,342239,3,,Estonians,
+169,Meghawal,Rajasthan,,Rajasthan,India,,South Asia,,"26.58333, 73.83333",,,342239,3,,Estonians,
+170,Kshatriya,Kshatriya,,Uttar Pradesh,India,,South Asia,,"27.25, 80.75",,,243286,3,,Estonians,
+171,Muslim,Muslim,,Uttar Pradesh,India,,South Asia,,"27.25, 80.75",,,243286,3,,Estonians,
+172,Chamar,Chamar,,Uttar Pradesh,India,,South Asia,,"27.25, 80.75",,,243286,3,,Estonians,
+173,Dharkars,Dharkars,,Uttar Pradesh,India,,South Asia,,"27.25, 80.75",,,243286,3,,Estonians,
+174,Dusadh,Dusadh,,Uttar Pradesh,India,,South Asia,,"27.25, 80.75",,,243286,3,,Estonians,
+175,Kanjars,Kanjars,,Uttar Pradesh,India,,South Asia,,"27.25, 80.75",,,243286,3,,Estonians,
+176,Kol,Kol,,Uttar Pradesh,India,,South Asia,,"27.25, 80.75",,,243286,3,,Estonians,
+177,Kurmi,UP_Low_Caste,,Uttar Pradesh,India,,South Asia,,"27.25, 80.75",,,243286,3,,Estonians,
+178,UP_Low_Caste,UP_Low_Caste,,Uttar Pradesh,India,,South Asia,,"27.25, 80.75",,,243286,3,,Estonians,
+179,Tharus,Tharus,,Uttar Pradesh,India,,South Asia,,"27.25, 80.75",,,243286,3,,Estonians,
+180,Bengali,Central_India_mix,,Jharkhand,India,,South Asia,,"23.35, 85.33",,,79714,3,,Estonians,
+181,Bhunjia,Central_India_mix,,Chattisgarh,India,,South Asia,," 21.27, 81.6",,,135194,3,,Estonians,
+182,Dhurwa,Central_India_mix,,Orissa,India,,South Asia,," 20.15, 85.5",,,155820,3,,Estonians,
+183,Gond,Central_India_mix,,Madhya Pradesh,India,,South Asia,," 23.25, 77.417",,,308245,3,,Estonians,
+184,Gond,Central_India_mix,,Chattisgarh,India,,South Asia,," 21.27, 81.6",,,135194,3,,Estonians,
+185,Chenchus,Chenchus,,Andhra Pradesh,India,,South Asia,," 16.5, 80.64",,,160205,3,,Estonians,
+186,Lambadi,Lambadi,,Andhra Pradesh,India,,South Asia,," 16.5, 80.64",,,160205,3,,Estonians,
+187,Velmas,Velmas,,Andhra Pradesh,India,,South Asia,," 16.5, 80.64",,,160205,3,,Estonians,
+188,Halakipikki,Halakipikki,,Karnataka,India,,South Asia,," 12.97, 77.5",,,191791,3,,Estonians,
+189,North_Kannadi,North_Kannadi,,Karnataka,India,,South Asia,," 12.97, 77.5",,,191791,3,,Estonians,
+190,Cochin_Jews,Jews,,Kerala,India,,South Asia,," 8.5074, 76.973",,,38863,3,,Estonians,
+191,Malayan,Malayan,,Kerala,India,,South Asia,," 8.5074, 76.973",,,38863,3,,Estonians,
+192,Paniya,Paniya,,Kerala,India,,South Asia,," 8.5074, 76.973",,,38863,3,,Estonians,
+193,Sakilli,Sakilli,,Kerala,India,,South Asia,," 8.5074, 76.973",,,38863,3,,Estonians,
+194,Kurumba,Kurumba,,Tamil Nadu,India,,South Asia,,"11, 78.33333",,,130058,3,,Estonians,
+195,TN_Low_Caste,TN_Low_Caste,,Tamil Nadu,India,,South Asia,,"11, 78.33333",,,130058,3,,Estonians,
+196,Piramalai_Kallars,Piramalai_Kallars,,Tamil Nadu,India,,South Asia,,"11, 78.33333",,,130058,3,,Estonians,
+197,Pulliyar,Pulliyar,,Tamil Nadu,India,,South Asia,,"11, 78.33333",,,130058,3,,Estonians,
+198,Asur,Munda_north,north,Jharkhand,India,,South Asia,,"23.35, 85.33",,,79714,3,,Estonians,
+199,Ho,Munda_north,north,Jharkhand,India,,South Asia,,"23.35, 85.33",,,79714,3,,Estonians,
+200,Ho,Munda_north,north,BIHAR,India,,South Asia,," 25.37, 85.13",,,94163,3,,Estonians,
+201,Mawasi,Munda_north,north,Chattisgarh,India,,South Asia,," 21.27, 81.6",,,135194,3,,Estonians,
+202,Santhal,Munda_north,north,Jharkhand,India,,South Asia,,"23.35, 85.33",,,79714,3,,Estonians,
+203,Bonda,Munda_south,south,Orissa,India,,South Asia,," 20.15, 85.5",,,155820,3,,Estonians,
+204,Gadaba,Munda_south,south,Orissa,India,,South Asia,," 20.15, 85.5",,,155820,3,,Estonians,
+205,Juang,Munda_south,south,Orissa,India,,South Asia,," 20.15, 85.5",,,155820,3,,Estonians,
+206,Kharia,Munda_south,south,Chattisgarh,India,,South Asia,," 21.27, 81.6",,,135194,3,,Estonians,
+207,Savara,Munda_south,south,Orissa,India,,South Asia,," 20.15, 85.5",,,155820,3,,Estonians,
+208,Khasi,Khasi,Lyngam,Magalaya,India,,South Asia,," 25.5667, 91.8833",,,22429,3,,Estonians,
+209,Khasi,Khasi,Pnar,Magalaya,India,,South Asia,," 25.5667, 91.8833",,,22429,3,,Estonians,
+210,Garo,Garo,,Magalaya,India,,South Asia,," 25.5667, 91.8833",,,22429,3,,Estonians,
+211,Naga,Naga,,Nagaland,India,,South Asia,," 25.67, 94.12",,,16579,3,,Estonians,
+212,Nihali,Nihali,,Maharastra,India,,South Asia,," 18.96, 72.82",,,307713,3,,Estonians,
+455,Cochin_Jew,Cochin_Jew,,,India,,SouthAsia,,10,76.3,,,1,,Human Origins,The National Laboratory for the Genetics of Israeli Populations 
+456,GujaratiA,GujaratiA_GIH,,,India,2,SouthAsia,,23.2,72.7,,,1,,Human Origins,Coriell Cell Repositories
+457,GujaratiB,GujaratiB_GIH,,,India,2,SouthAsia,,23.2,72.7,,,1,,Human Origins,Coriell Cell Repositories
+458,GujaratiC,GujaratiC_GIH,,,India,2,SouthAsia,,23.2,72.7,,,1,,Human Origins,Coriell Cell Repositories
+459,GujaratiD,GujaratiD_GIH,,,India,2,SouthAsia,,23.2,72.7,,,1,,Human Origins,Coriell Cell Repositories
+460,Kharia,Kharia,,,India,,SouthAsia,,25.8,82.7,,,1,,Human Origins,Lalji Singh / Kumarasamy Thangaraj
+461,Lodhi,Lodhi,,,India,,SouthAsia,,25.5,78.6,,,1,,Human Origins,Lalji Singh / Kumarasamy Thangaraj
+462,Mala,Mala,,,India,,SouthAsia,,18.7,78.2,,,1,,Human Origins,Lalji Singh / Kumarasamy Thangaraj
+463,Onge,Onge,,,India,,SouthAsia,,10.8,92.5,,,1,,Human Origins,Lalji Singh / Kumarasamy Thangaraj
+464,Tiwari,Tiwari,,,India,,SouthAsia,,21.9,83.4,,,1,,Human Origins,Lalji Singh / Kumarasamy Thangaraj
+465,Vishwabrahmin,Vishwabrahmin,,,India,,SouthAsia,,16.3,80.5,,,1,,Human Origins,Lalji Singh / Kumarasamy Thangaraj
+604,AP Brahmin,,,,India,,,,17.7,83.3,,,1,,Xing,
+613,TN Dalit,,,,India,,,,13.0833,80.3,,,1,,Xing,
+614,TN Brahmin,,,,India,,,,13.0833,80.3,,,1,,Xing,
+622,AP Madiga,,,,India,,,,17.7,83.3,,,1,,Xing,
+623,AP Mala,,,,India,,,,17.7,83.3,,,1,,Xing,
+736,IN-DR,,,,India,,,,15.25,77.7666666667,,,1,,HUGO,
+737,IN-DR,,,,India,,,,15.4833333333,74.75,,,1,,HUGO,
+738,IN-EL,,,,India,,,,22.95,88.1833333333,,,1,,HUGO,
+739,IN-IL,,,,India,,,,26.65,74,,,1,,HUGO,
+740,IN-NI,,,,India,,,,30.4,79.1666666667,,,1,,HUGO,
+741,IN-NL,,,,India,,,,26.7666666667,81.4166666667,,,1,,HUGO,
+742,IN-SP,,,,India,,,,29.1166666667,76.4833333333,,,1,,HUGO,
+743,IN-TB,,,,India,,,,34.6833333333,76.45,,,1,,HUGO,
+744,IN-WI,,,,India,,,,26.65,74,,,1,,HUGO,
+745,IN-WL,,,,India,,,,19.6833333333,75.8666666667,,,1,,HUGO,
+765,Dravidian speakers,South India,,,India,,,,NA,NA,,,6,,Stoneking,
+215,Bajo,Bajo,,,Indonesia,,Southeast Asia,Sulawesi," -2, 121",,,174600,3,,Estonians,
+216,Kayah_Lebbo,Lebbo,,,Indonesia,,Southeast Asia,Borneo," 1, 114",,,743330,3,,Estonians,
+721,ID-AL,,,,Indonesia,,,,-8.2833333333,124.7333333333,,,1,,HUGO,
+722,ID-DY,,,,Indonesia,,,,1.2333333333,116.6666666667,,,1,,HUGO,
+723,ID-JA,,,,Indonesia,,,,-6.15,106.7,,,1,,HUGO,
+724,ID-JV,,,,Indonesia,,,,-7.3333333333,110.3666666667,,,1,,HUGO,
+725,ID-KR,,,,Indonesia,,,,1.5166666667,99.95,,,1,,HUGO,
+726,ID-LA,,,,Indonesia,,,,-8.3333333333,123,,,1,,HUGO,
+727,ID-LE,,,,Indonesia,,,,-8.3,124.6666666667,,,1,,HUGO,
+728,ID-ML,,,,Indonesia,,,,-2.9833333333,104.7333333333,,,1,,HUGO,
+729,ID-MT,,,,Indonesia,,,,-0.2833333333,98.4166666667,,,1,,HUGO,
+730,ID-RA,,,,Indonesia,,,,-8.65,120.45,,,1,,HUGO,
+731,ID-SB,,,,Indonesia,,,,-9.75,120,,,1,,HUGO,
+732,ID-SO,,,,Indonesia,,,,-8.6333333333,120.1166666667,,,1,,HUGO,
+733,ID-SU,,,,Indonesia,,,,-6.15,106.7,,,1,,HUGO,
+734,ID-TB,,,,Indonesia,,,,2.3166666667,99.0666666667,,,1,,HUGO,
+735,ID-TR,,,,Indonesia,,,,-4.7333333333,119.7166666667,,,1,,HUGO,
+758,Alor,"Alor, Indonesia",,,Indonesia,,,," -8.25, 124.75",,,,3,Alor island,Stoneking,
+761,Besemah,"Sumatra, Indonesia",,,Indonesia,,,,"-3.814831, 102.898398",,100,,4,Pasemah Plateau,Stoneking,
+762,Borneo,"Barito River region, Borneo",,,Indonesia,,,,"-3.322530, 114.590387",,100,,4,Banjarmasin,Stoneking,
+763,Borneo,"Kalimantan, Land Dayak, Borneo",,,Indonesia,,,,"0.494590, 113.693409",,200,,4,,Stoneking,
+766,Flores,"Flores, Indonesia",,,Indonesia,,,," -8.674722, 121.384444",,,,3,,Stoneking,
+768,Hiri,"Hiri, Indonesia",,,Indonesia,,,," 0.9, 127.32",,,,4,Mt Hiri,Stoneking,
+776,Roti,"Roti, Indonesia",,,Indonesia,,,,"-10.756506, 123.106354",,,,4,Rote Island,Stoneking,
+779,Semende,"Sumatra, Indonesia",,,Indonesia,,,,"-3.633300, 103.865103",,400,,4,,Stoneking,
+780,Ternate,"Ternate, Indonesia",,,Indonesia,,,,"0.809570, 127.333366",,,,3,,Stoneking,
+781,Timor,"Timor, Indonesia",,,Indonesia,,,,"-9.863833, 124.316753",,20,,3,,Stoneking,
+44,Iranian_Jews,Jews,,,Iran,,Near East,,35.7,51.4,,,1,from Human Origins,Estonians,
+53,Iranians,Iranians,,,Iran,,Central Asia,,35.6,51.5,,,1,from Human Origins,Estonians,
+54,Azeris,Azeris,South Caucasus,,Iran,,Caucasus,,"38.145386, 46.274224",,,,4,Tabriz,Estonians,
+506,Iranian,Iranian,,,Iran,,WestEurasia,,35.6,51.5,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+507,Iranian_Jew,Iranian_Jew,,,Iran,,WestEurasia,,35.7,51.4,,,1,,Human Origins,The National Laboratory for the Genetics of Israeli Populations 
+48,Iraqi_Jews,Jews,,,Iraq,,Near East,,33.3,44.4,,,1,from Human Origins,Estonians,
+508,Iraqi_Jew,Iraqi_Jew,,,Iraq,,WestEurasia,,33.3,44.4,,,1,,Human Origins,The National Laboratory for the Genetics of Israeli Populations 
+615,Kurds,,,,Iraq,,,,36.7343,43.9074,,,1,,Xing,
+573,Ireland,,,,Ireland,,,,53.2,-8.18,,,1,,Popres,
+4,Ethiopian_Jews,Jews,,,Israel,,Near East,,"9.016667, 38.75",,,1104300,5,Ethiopia (Addis Ababa),Estonians,
+8,Arab_Christian,Arab_Christian,,,Israel,,Near East,,32,35,,20770,5,Jerusalem,Estonians,
+9,Arab_Muslim,Arab_Muslim,,,Israel,,Near East,,32,35,,20770,5,Jerusalem,Estonians,
+12,Yemenite_Jews,Jews,,,Israel,,Near East,,32,35,,20770,5,Jerusalem,Estonians,
+18,Druze,Druze,,,Israel,,Near East,,32,35,,20770,5,Jerusalem,Estonians,
+19,Samaritians,Samaritians,,,Israel,,Near East,,32,35,,20770,5,Jerusalem,Estonians,
+22,Moroccan_Jews,Jews,,,Israel,,Near East,,32,35,,20770,5,Jerusalem,Estonians,
+40,Ashkenazi_Jews,Jews,,,Israel,,Near East,,32,35,,,5,Jerusalem,Estonians,
+41,Georgian_Jews,Jews,,,Israel,,Near East,,41.7,44.8,,,1,from Human Origins,Estonians,
+43,Azerbaijani_Jews,Jews,,,Israel,,Near East,,40.4,49.9,,,1,from Human Origins,Estonians,
+45,Iranian_Jews,Jews,,,Israel,,Near East,,35.7,51.4,,,1,from Human Origins,Estonians,
+46,Kurd_Jews,Jews,,,Israel,,Near East,,NA,NA,,,6,,Estonians,
+47,Turkey_Jews,Jews,,,Israel,,Near East,,41,29,,,1,from Human Origins,Estonians,
+49,Iraqi_Jews,Jews,,,Israel,,Near East,,33.3,44.4,,,1,from Human Origins,Estonians,
+798,Druze,,,,Israel,,,,33.513919,36.308057,,,1,,Paschou2014,
+799,Palestine,,,,Israel,,,,31.517679,34.452246,,,1,,Paschou2014,
+509,Druze,Druze,,,Israel(Carmel),,WestEurasia,,32,35,,,1,,Human Origins,Patterson et al. 2012
+510,Palestinian,Palestinian,,,Israel(Central),,WestEurasia,,32,35,,,1,,Human Origins,Patterson et al. 2012
+511,BedouinA,BedouinA,,,Israel(Negev),,WestEurasia,,31,35,,,1,,Human Origins,Patterson et al. 2012
+512,BedouinB,BedouinB,,,Israel(Negev),,WestEurasia,,31,35,,,1,,Human Origins,Patterson et al. 2012
+28,Italian_Jews,Jews,,,Italy,,Europe,,42,12.5,,,1,from Popres,Estonians,
+57,Sicilians,Italians,Sicily,west,Italy,,Europe,,38,12.5,,,1,from Human Origins,Estonians,
+58,Sicilians,Italians,Sicily,central,Italy,,Europe,,"37.509571, 14.069031",,50,,4,Caltanisetta,Estonians,
+59,Sicilians,Italians,Sicily,east,Italy,,Europe,,37.1,15.3,,,1,from Human Origins,Estonians,
+60,Sicilians,Italians,Sicily,south,Italy,,Europe,,"36.945345, 14.717224",,50,,4,Ragusa,Estonians,
+61,Italians_Abruzzo,Italians,Abruzzo,,Italy,,Europe,,"42.366111, 13.394444",,,10794,3,,Estonians,
+513,Italian_South,Italian_South,,,Italy,,WestEurasia,,39.4,15.5,,,1,,Human Origins,Cristian Capelli / George B. J. Busby / Francesca Brisighelli
+514,Sicilian,Italian_EastSicilian,,,Italy,,WestEurasia,,37.1,15.3,,,1,,Human Origins,Cristian Capelli / George B. J. Busby / Francesco Cali / Valentino Romano
+515,Sicilian,Italian_WestSicilian,,,Italy,,WestEurasia,,38,12.5,,,1,,Human Origins,Cristian Capelli / George B. J. Busby / Francesca Brisighelli
+565,Italy,,,,Italy,,,,42,12.5,,,1,,Popres,
+637,Tuscan,,,,Italy,,,,43,11,,,1,from Human Origins,Xing,
+808,Sicily,,,,Italy,,,,37.512722,15.083487,,,1,,Paschou2014,
+809,Italy,,,,Italy,,,,42,12.5,,,1,,Paschou2014,
+810,Tuscany,,,,Italy,,,,43,11,,,1,from Human Origins,Paschou2014,
+811,Sardinia,,,,Italy,,,,40.927392,9.495078,,,1,,Paschou2014,
+516,Bergamo,Italian_Bergamo,,,Italy(Bergamo),,WestEurasia,,46,10,,,1,,Human Origins,Patterson et al. 2012
+517,Sardinian,Sardinian,,,Italy(Sardinia),,WestEurasia,,40,9,,,1,,Human Origins,Patterson et al. 2012
+518,Tuscan,Italian_Tuscan,,,Italy(Tuscany),,WestEurasia,,43,11,,,1,,Human Origins,Patterson et al. 2012
+445,Japanese,Japanese,,,Japan,,EastAsia,,35.69,139.82,,,1,from HUGO,Human Origins,Patterson et al. 2012
+616,Irula,,,,Japan,,,,13.0833,80.2833,,,1,,Xing,
+617,Japanese,,,,Japan,,,,34.8,135,,,1,,Xing,
+618,JPT,,,,Japan,,,,35.69,139.82,,,1,from HUGO,Xing,
+649,JP-ML,,,,Japan,,,,35.6666666667,139.75,,,1,,HUGO,
+650,JP-RK,,,,Japan,,,,26.4666666667,127.9333333333,,,1,,HUGO,
+756,JPT,,,,Japan,,,,35.69,139.82,,,1,,HUGO,
+519,Jordanian,Jordanian,,,Jordan,,WestEurasia,,32.1,35.9,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+15,Jordanians,Jordanians,,,Jordania,,Near East,,32.1,35.9,,,1,from Human Origins,Estonians,
+52,Kurds,Kurds,,,Kazakhstan,,Central Asia,,NA,NA,,,6,Diaspora,Estonians,
+152,Kazakhs,Kazakhs,Central-West,,Kazakhstan,,Central Asia,,"47.917826, 59.619093",,200,,4,Shalkar,Estonians,
+153,Kazakhs,Kazakhs,,,Kazakhstan,,Central Asia,,"51.251829, 71.572626",,200,,5,Astana,Estonians,
+337,BantuKenya,BantuKenya,,,Kenya,,Africa,,-3,37,,,1,,Human Origins,Patterson et al. 2012
+338,Kikuyu,Kikuyu,,,Kenya,,Africa,,-0.4,36.9,,,1,,Human Origins,George Ayodo
+339,Luhya,Luhya_Kenya_LWK,,,Kenya,,Africa,,1.3,36.8,,,1,,Human Origins,Coriell Cell Repositories
+340,Luo,Luo,,,Kenya,,Africa,,-0.1,34.3,,,1,,Human Origins,George Ayodo
+341,Masai,Masai_Ayodo,,,Kenya,,Africa,,-1.1,35.9,,,1,,Human Origins,George Ayodo
+342,Masai,Masai_Kinyawa_MKK,,,Kenya,,Africa,,-1.5,35.2,,,1,,Human Origins,Coriell Cell Repositories
+343,Somali,Somali,,,Kenya,,Africa,,5.6,48.3,,,1,,Human Origins,George Ayodo
+621,Luhya,,,,Kenya,,,,0.602,34.7588,,,1,,Xing,
+446,Korean,Korean,,,Korea,,EastAsia,,37.6,127,,,1,,Human Origins,Coriell Cell Repositories
+678,KR-KR,,,,Korea,,,,36.9365805556,127.4937555556,,,1,,HUGO,
+66,Kosovars,Kosovars,,,Kosovo,,Europe,,"42.620543, 20.871751",,,,5,,Estonians,
+595,Kosovo,,,,Kosovo,,,,42.7,21.1,,,1,,Popres,
+146,Kyrgyzians,Kyrgyzians,TienShan,,Kyrgyzstan,,Central Asia,,42.9,74.6,,,1,from Human Origins,Estonians,
+147,Kyrgyzians,Kyrgyzians,,,Kyrgyzstan,,Central Asia,,42.9,74.6,,,1,from Human Origins,Estonians,
+151,Kazakhs,Kazakhs,TienShan,,Kyrgyzstan,,Central Asia,,42.9,74.6,,,1,from Human Origins,Estonians,
+401,Kyrgyz,Kyrgyz,,,Kyrgyzstan,,CentralAsiaSiberia,,42.9,74.6,,,1,,Human Origins,Robert W. Mahley / Ugur Hodoglugil
+620,Kyrgyzstani,,,,Kyrgyzstan,,,,43.194,74.5715,,,1,,Xing,
+34,Ashkenazi_Jews,Jews,,,Latvia,,Europe,,56.9,24.9,,,1,from Popres,Estonians,
+599,Latvia,,,,Latvia,,,,56.9,24.9,,,1,,Popres,
+17,Lebanese,Lebanese,,,Lebanon,,Near East,,"33.9, 35.533333",,,89342,5,Beirut,Estonians,
+520,Lebanese,Lebanese,,,Lebanon,,WestEurasia,,33.8,35.6,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+344,BantuSA,Bantu_SA_S_Sotho,,,Lesotho,,Africa,,-29,29,,,1,,Human Origins,Patterson et al. 2012
+24,Libyan_Jews,Jews,,,Libya,,North Africa,,32.9,13.2,,,1,from Human Origins,Estonians,
+345,Libyan_Jew,Libyan_Jew,,,Libya,,Africa,,32.9,13.2,,,1,,Human Origins,The National Laboratory for the Genetics of Israeli Populations 
+796,Libya,,,,Libya,,,,32.129105,20.059277,,,1,,Paschou2014,
+35,Ashkenazi_Jews,Jews,,,Lithuania,,Europe,,54.9,23.9,,,1,from Human Origins,Estonians,
+96,Lithuanians,Lithuanians,,,Lithuania,,Europe,,54.9,23.9,,,1,from Human Origins,Estonians,
+521,Lithuanian,Lithuanian,,,Lithuania,,WestEurasia,,54.9,23.9,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Vaidutis Kučinskas / Ingrida Uktveryte
+65,Macedonians,Macedonians,,,Macedonia,,Europe,,41.7,21.7,,,1,from Popres,Estonians,
+590,Macedonia,,,,Macedonia,,,,41.7,21.7,,,1,,Popres,
+803,Macedonia,,,,Macedonia,,,,41.7,21.7,,,1,from Popres,Paschou2014,
+217,Antemoro,Antemoro,,,Madagascar,,Madagascar,,"-22.402708, 47.918607",,,,4,,Estonians,
+218,Mikea,Mikea,,,Madagascar,,Madagascar,,"-22.6, 43.4",,,3706,4,Mikea Forest,Estonians,
+219,Vezo,Vezo,,,Madagascar,,Madagascar,,"-19.404698, 44.532209",,200,,4,,Estonians,
+612,Iban,,,,Malaysia,,,,3.1228,113.0112,,,1,,Xing,
+642,MY-TM,,,,Malaysia,,,,2.9330555556,102.0830555556,,,1,,HUGO,
+643,MY-TM,,,,Malaysia,,,,2.7330555556,102.25,,,1,,HUGO,
+644,MY-BD,,,,Malaysia,,,,1.4158333333,110.1480555556,,,1,,HUGO,
+645,MY-KS,,,,Malaysia,,,,5.6666666667,100.9166666667,,,1,,HUGO,
+646,MY-JH,,,,Malaysia,,,,5.4166666667,101.1330555556,,,1,,HUGO,
+647,MY-KN,,,,Malaysia,,,,6.1180888889,102.2397916667,,,1,,HUGO,
+648,MY-MN,,,,Malaysia,,,,2.7,101.9333333333,,,1,,HUGO,
+605,Bambaran,,,,Mali,,,,12.5074,-7.9578,,,1,,Xing,
+610,Dogon,,,,Mali,,,,15.1485,-4.1821,,,1,,Xing,
+522,Maltese,Maltese,,,Malta,,WestEurasia,,35.9,14.4,,,1,,Human Origins,David Comas / Pierre Zalloua
+393,Mayan,Mayan,,,Mexico,,America,,19,-91,,,1,,Human Origins,Patterson et al. 2012
+394,Mixe,Mixe,,,Mexico,,America,,17,96.6,,,1,,Human Origins,William Klitz / Cheryl Winkler
+395,Mixtec,Mixtec,,,Mexico,,America,,16.7,-97.2,,,1,,Human Origins,William Klitz / Cheryl Winkler
+396,Pima,Pima,,,Mexico,,America,,29,-108,,,1,,Human Origins,Patterson et al. 2012
+397,Zapotec,Zapotec,,,Mexico,,America,,17,-96.5,,,1,,Human Origins,William Klitz / Cheryl Winkler
+636,Totonac,,,,Mexico,,,,19.143,-96.1652,,,1,,Xing,
+77,Moldavians,Moldavians,,,Moldova,,Europe,,"47, 28.916667",,,33800,5,Chisinau,Estonians,
+78,Gagauzes,Gagauzes,,,Moldova,,Europe,,"46.316667, 28.666667",,,1832,3,Comrat,Estonians,
+220,Mongolians,Mongolians,,Halha,Mongolia,,Siberia,,"47.588530, 118.655584",,50,,4,Kalkhgol,Estonians,
+221,Mongolians,Mongolians,,,Mongolia,,Siberia,,48.0663,114.5645,,,1,from Xing,Estonians,
+624,Buryat,,,,Mongolia,,,,48.0663,114.5645,,,1,,Xing,
+67,Montenegrins,Montenegrins,,,Montenegro,,Europe,," 42.783333, 19.466667",,,,3,,Estonians,
+6,Moroccans,Moroccans,,,Morocco,,North Africa,,34,-6.8,,,1,from Human Origins,Estonians,
+20,Moroccan_Jews,Jews,,,Morocco,,North Africa,,34,-6.8,,,1,from Human Origins,Estonians,
+346,Burbur_WGA,Burbur_WGA,,,Morocco,,Africa,,33.5,5.1,,,1,,Human Origins,Mark G. Thomas / Fouad Berrada
+347,Moroccan,Moroccan,,,Morocco,,Africa,,32.3,-6.4,,,1,,Human Origins,David Comas
+348,Moroccan_Jew,Moroccan_Jew,,,Morocco,,Africa,,34,-6.8,,,1,,Human Origins,The National Laboratory for the Genetics of Israeli Populations 
+791,South Morocco,,,,Morocco,,,,30.439202,-9.603809,,,1,,Paschou2014,
+792,North Morocco,,,,Morocco,,,,34,-6.8,,,1,from Human Origins,Paschou2014,
+214,Burmese,Burmese,,,Myanmar,,Southeast Asia,,"19.75, 96.1",,,676578,5,Naypydaw,Estonians,
+349,Damara,Damara,,,Namibia,,Africa,,-19.8,16.2,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+350,Haiom,Haiom,,,Namibia,,Africa,,-19.3,17,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+351,Himba,Himba,,,Namibia,,Africa,,-19.1,14.1,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+352,Ju_hoan_North,Ju_hoan_North,,,Namibia,,Africa,,-18.9,21.5,,,1,,Human Origins,Patterson et al. 2012
+353,Nama,Nama,,,Namibia,,Africa,,-24.3,17.3,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+354,Wambo,Wambo,,,Namibia,,Africa,,-17.7,18.1,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+355,Xuun,Xuun,,,Namibia,,Africa,,-18.7,19.7,,,1,,Human Origins,Pickrell et al. 2012 and 2014
+602,!Kung,,,,Namibia,,,,-19.6,20.5,,,1,,Xing,
+213,Kusundas,Kusundas,western Nepal,,Nepal,,South Asia,,28.1,82.5,,,1,from Human Origins,Estonians,
+466,Kusunda,Kusunda,,,Nepal,,SouthAsia,,28.1,82.5,,,1,,Human Origins,Aashish R. Jha / George van Driem / Irene Gallego Romero / Toomas Kivisild
+625,Nepalese,,,,Nepal,,,,27.6711,85.3059,,,1,,Xing,
+31,Ashkenazi_Jews,Jews,,,Netherlands,,Europe,,52.3,5.67,,,1,from Popres,Estonians,
+578,Netherlands,,,,Netherlands,,,,52.3,5.67,,,1,,Popres,
+356,Esan,Esan_Nigeria_ESN,,,Nigeria,,Africa,,6.5,6,,,1,,Human Origins,Coriell Cell Repositories
+357,Yoruba,Yoruba,,,Nigeria,,Africa,,7.4,3.9,,,1,from Human Origins,Human Origins,Coriell Cell Repositories
+641,YRI,,,,Nigeria,,,,7.4,3.9,,,1,from Human Origins,Xing,
+757,YRI,,,,Nigeria,,,,7.4,3.9,,,1,from Human Origins,HUGO,
+523,Norwegian,Norwegian,,,Norway,,WestEurasia,,59.9,10.7,,,1,from Popres,Human Origins,Cristian Capelli / George B. J. Busby / Tor Hervig
+593,Norway,,,,Norway,,,,59.9,10.7,,,1,from Popres,Popres,
+524,Orcadian,Orcadian,,,OrkneyIslands,,WestEurasia,,59,-3,,,1,,Human Origins,Patterson et al. 2012
+467,Balochi,Balochi,,,Pakistan,,SouthAsia,,30.5,66.5,,,1,,Human Origins,Patterson et al. 2012
+468,Brahui,Brahui,,,Pakistan,,SouthAsia,,30.5,66.5,,,1,,Human Origins,Patterson et al. 2012
+469,Burusho,Burusho,,,Pakistan,,SouthAsia,,36.5,74,,,1,,Human Origins,Patterson et al. 2012
+470,Hazara,Hazara,,,Pakistan,,SouthAsia,,33.5,70,,,1,,Human Origins,Patterson et al. 2012
+471,Kalash,Kalash,,,Pakistan,,SouthAsia,,36,71.5,,,1,,Human Origins,Patterson et al. 2012
+472,Makrani,Makrani,,,Pakistan,,SouthAsia,,26,64,,,1,,Human Origins,Patterson et al. 2012
+473,Pathan,Pathan,,,Pakistan,,SouthAsia,,33.5,70.5,,,1,,Human Origins,Patterson et al. 2012
+474,Punjabi,Punjabi_Lahore_PJL,,,Pakistan,,SouthAsia,,31.5,74.3,,,1,,Human Origins,Coriell Cell Repositories
+475,Sindhi,Sindhi,,,Pakistan,,SouthAsia,,25.5,69,,,1,,Human Origins,Patterson et al. 2012
+627,Pakistani,,,,Pakistan,,,,28.6482,70.2869,,,1,,Xing,
+307,PNG_Highlander,PNG_Highlander,PNG Highlands,,Papua New Guinea,,Oceania,,"-5.981829, 143.925028",,400,,4,Mende,Estonians,
+308,Koinambe,Koinambe,Koinambe,,Papua New Guinea,,Oceania,,"-5.475450, 144.590297",,,,2,,Estonians,
+309,Kosipe,Kosipe,Kosipe,,Papua New Guinea,,Oceania,,"-8.448486, 147.218136",,,,2,,Estonians,
+769,Papua New Guinea,Southern Highlands of Papua New Guinea,,,Papua New Guinea,,,,"-8.886714, 147.623307",,200,,4,,Stoneking,
+452,Bougainville,Bougainville,,,PapuaNewGuinea,,Oceania,,-6,155,,,1,,Human Origins,Patterson et al. 2012
+453,Papuan,Papuan,,,PapuaNewGuinea,,Oceania,,-4,143,,,1,,Human Origins,Patterson et al. 2012
+398,Quechua,Quechua_Coriell,,,Peru,,America,,-13.5,-72,,,1,,Human Origins,Coriell Cell Repositories
+292,Casigurans,Casigurans,Casiguran,,Philippines,,Southeast Asia,,"16.226305, 122.040504",,,,2,,Estonians,
+293,Lowlander,Lowlander,Kanaynayan,,Philippines,,Southeast Asia,,"14.933468, 120.199085",,,,3,,Estonians,
+294,Zambales,Zambales,Zambales,,Philippines,,Southeast Asia,,"15.381118, 120.082008",,,,3,,Estonians,
+295,Tagbanua,Tagbanua,Mangapin,,Philippines,,Southeast Asia,,"9.963481, 118.789626",,,,3,,Estonians,
+296,Tagbanua,Tagbanua,Kayasan,,Philippines,,Southeast Asia,,"9.963481, 118.789626",,,,3,,Estonians,
+297,Tagbanua,Tagbanua,Tanabag (Barocan),,Philippines,,Southeast Asia,,"9.963481, 118.789626",,,,3,,Estonians,
+298,Tagbanua,Tagbanua,,,Philippines,,Southeast Asia,,"9.963481, 118.789626",,,,3,,Estonians,
+299,Aeta,Aeta,Kanaynayan,,Philippines,,Southeast Asia,,"14.933468, 120.199085",,,,3,,Estonians,
+300,Aeta,Aeta,Zambales,,Philippines,,Southeast Asia,,"15.381118, 120.082008",,,,3,,Estonians,
+301,Aeta,Aeta,,,Philippines,,Southeast Asia,,15,120,,,3,,Estonians,
+302,Agta,Agta,San Ildefonso Peninsular,,Philippines,,Southeast Asia,,"16.076087, 122.049784",,,,2,,Estonians,
+303,Batak,Batak,Tanabag (Barocan),,Philippines,,Southeast Asia,,"9.963481, 118.789626",,,,3,Palawan Island,Estonians,
+304,Batak,Batak,Mangapin,,Philippines,,Southeast Asia,,"9.963481, 118.789626",,,,3,,Estonians,
+305,Batak,Batak,Kayasan,,Philippines,,Southeast Asia,,"9.963481, 118.789626",,,,3,,Estonians,
+306,Batak,Batak,,,Philippines,,Southeast Asia,,"9.963481, 118.789626",,,,3,,Estonians,
+651,PI-AT,,,,Philippines,,,,11.8833333333,121.95,,,1,,HUGO,
+652,PI-AT,,,,Philippines,,,,11.85,121.8833333333,,,1,,HUGO,
+653,PI-AT,,,,Philippines,,,,11.9833333333,121.9166666667,,,1,,HUGO,
+654,PI-AT,,,,Philippines,,,,11.2666666667,122.6833333333,,,1,,HUGO,
+655,PI-AT,,,,Philippines,,,,11.05,122.85,,,1,,HUGO,
+656,PI-AT,,,,Philippines,,,,10.5166666667,121.95,,,1,,HUGO,
+657,PI-AT,,,,Philippines,,,,10.4166666667,121.9166666667,,,1,,HUGO,
+658,PI-AT,,,,Philippines,,,,10.6666666667,122.5833333333,,,1,,HUGO,
+659,PI-AG,,,,Philippines,,,,13.45,123.4333333333,,,1,,HUGO,
+660,PI-AG,,,,Philippines,,,,13.9166666667,122.9333333333,,,1,,HUGO,
+661,PI-AG,,,,Philippines,,,,13.55,123.3666666667,,,1,,HUGO,
+662,PI-MA,,,,Philippines,,,,8.1666666667,125.8666666667,,,1,,HUGO,
+663,PI-MW,,,,Philippines,,,,9.8833333333,125.5166666667,,,1,,HUGO,
+664,PI-MW,,,,Philippines,,,,9.5833333333,125.7333333333,,,1,,HUGO,
+665,PI-MW,,,,Philippines,,,,9.5833333333,125.6833333333,,,1,,HUGO,
+666,PI-MW,,,,Philippines,,,,9.6,125.6333333333,,,1,,HUGO,
+667,PI-MW,,,,Philippines,,,,9.5333333333,125.4666666667,,,1,,HUGO,
+668,PI-AE,,,,Philippines,,,,14.9333333333,120.2,,,1,,HUGO,
+669,PI-AE,,,,Philippines,,,,14.6833333333,120.2666666667,,,1,,HUGO,
+670,PI-AE,,,,Philippines,,,,14.8333333333,120.5,,,1,,HUGO,
+671,PI-AE,,,,Philippines,,,,14.8833333333,120.2333333333,,,1,,HUGO,
+672,PI-AE,,,,Philippines,,,,14.6166666667,120.5666666667,,,1,,HUGO,
+673,PI-IR,,,,Philippines,,,,13.4166666667,121.1666666667,,,1,,HUGO,
+674,PI-IR,,,,Philippines,,,,13.35,121.0833333333,,,1,,HUGO,
+675,PI-UI,,,,Philippines,,,,6.9,122.0666666667,,,1,,HUGO,
+676,PI-UN,,,,Philippines,,,,14.6333333333,121.0333333333,,,1,,HUGO,
+677,PI-UB,,,,Philippines,,,,17.1666666667,121.9,,,1,,HUGO,
+771,Mamanwa (Negrito),"Mindanao, Philippines",,,Philippines,,,,"9.341354, 125.539811",,50,,4,Jabonga,Stoneking,
+772,Manobo,"Mindanao, Philippines",,,Philippines,,,,"9.341354, 125.539811",,50,,4,Jabonga,Stoneking,
+37,Ashkenazi_Jews,Jews,,,Poland,,Europe,,52.2,21,,,1,from Human Origins,Estonians,
+79,Poles,Poles,,,Poland,,Europe,,52.2,21,,,1,from Human Origins,Estonians,
+525,Ashkenazi_Jew,Ashkenazi_Jew,,,Poland,,WestEurasia,,52.2,21,,,1,from Human Origins,Human Origins,The National Laboratory for the Genetics of Israeli Populations 
+576,Poland,,,,Poland,,,,52.2,21,,,1,from Human Origins,Popres,
+774,Polynesia,Polynesia,,,Polynesia,,,,"-13.836558, -171.759683",,100,,4,Apia,Stoneking,
+26,Sephardic_Jews,Jews,,Belmonte,Portugal,,Europe,,39.6,-8.02,,,1,from Popres,Estonians,
+568,Portugal,,,,Portugal,,,,39.6,-8.02,,,1,,Popres,
+38,Ashkenazi_Jews,Jews,,,Romania,,Europe,,45.9,25,,,1,from Popres,Estonians,
+76,Romanians,Romanians,,,Romania,,Europe,,45.9,25,,,1,from Popres,Estonians,
+580,Romania,,,,Romania,,,,45.9,25,,,1,from Popres,Popres,
+801,East Rumelia,,,,Romania,,,,42.140241,24.746992,,,1,,Paschou2014,
+30,Ashkenazi_Jews,Jews,,,Russia,,Europe,,NA,NA,,,NA,,Estonians,
+87,Russians,Russians_Southern,Voronez,,Russia,,Europe,," 51.671667, 39.210556",,,,3,,Estonians,
+88,Russians,Russians_Southern,Kursk,,Russia,,Europe,," 51.716667, 36.183333",,,,3,,Estonians,
+89,Russians,Russians_Southern,Orjol,,Russia,,Europe,," 52.966667, 36.066667",,,,3,,Estonians,
+90,Russians,Russians,Smolensk,,Russia,,Europe,," 54.782778, 32.045278",,,,3,,Estonians,
+92,Russians,Russians,Tver,,Russia,,Europe,," 56.8625, 35.924167",,,,3,,Estonians,
+93,Russians,Russians_North,Arhangelsk,,Russia,,Europe,," 64.533333, 40.533333",,,,3,,Estonians,
+95,Russians,Russians,Kostroma,,Russia,,Europe,," 57.766667, 40.933333",,,,3,,Estonians,
+98,Karelian,Karelian,,,Russia,,Europe,," 63.816667, 33",,,172400,4,,Estonians,
+101,Vepsas,Vepsas,,,Russia,,Europe,,"59.865163, 30.339024",,50,,4,"Vepsians, St. Petersburg https://en.wikipedia.org/wiki/Vepsians#/media/File:Muromian-map.png",Estonians,
+102,Maris,Maris,,,Russia,,Europe,,"57.038866, 45.830390",,50,,4,,Estonians,
+103,Mordovians,Erza,,Mordovia,Russia,,Europe,,54.2,45.2,,,1,from Human Origins,Estonians,
+104,Mordovians,Moksha,,Mordovia,Russia,,Europe,,54.2,45.2,,,1,from Human Origins,Estonians,
+105,Mordovians,Mordva_mix,,Mordovia,Russia,,Europe,,54.2,45.2,,,1,from Human Origins,Estonians,
+106,Komis,Komis_Permic,,,Russia,,Europe,," 59.233333, 56.133333",,,161000,4,Perm Krai,Estonians,
+107,Komis,Komis_Zyrian,,,Russia,,Europe,,"61.687876, 50.656646",,100,,4,Komi Republic,Estonians,
+108,Udmurts,Udmurts,,,Russia,,Europe,," 57.283333, 52.75",,,42100,4,Udmurtia,Estonians,
+109,Nenets,Forest_Nenets,,Nenets Auton. Okr.,Russia,,Siberia,,"67.614241, 53.005421",,200,,4,Nenets Autonomous Okrug,Estonians,
+110,Nenets,Tundra_Nenets,,Nenets Auton. Okr.,Russia,,Siberia,,"67.614241, 53.005421",,200,,4,Nenets Autonomous Okrug,Estonians,
+111,Nenets,Nenets_Tundra,,,Russia,,Siberia,,"67.614241, 53.005421",,200,,4,Nenets Autonomous Okrug,Estonians,
+112,Nenets,Nenets_Forest,,,Russia,,Siberia,,"67.614241, 53.005421",,200,,4,Nenets Autonomous Okrug,Estonians,
+113,Chuvash,Chuvash,,,Russia,,Europe,,56.1,47.3,,,1,from Human Origins,Estonians,
+114,Bashkirs,Bashkirs,,,Russia,,Europe,," 54.466667, 56.266667",,,143600,4,Republic of Bashkortostan,Estonians,
+115,Tatars,Tatars,,,Russia,,Europe,," 53.25, 44.566667",,200,,4,Penza Oblast,Estonians,
+116,Tatar_Mishar,Tatars,,,Russia,,Europe,," 53.25, 44.566667",,200,,4,Penza Oblast,Estonians,
+117,Kryashen__Baptised_Tatars,Tatars,,,Russia,,Europe,," 53.25, 44.566667",,200,,4,Penza Oblast,Estonians,
+122,Balkars,Balkars,North Caucasus,,Russia,,Caucasus,,43.5,43.6,,,1,from Human Origins,Estonians,
+123,Kabardin,Kabardin,North Caucasus,,Russia,,Caucasus,," 43.583333, 43.4",,,12500,4,Kabardino-Balkaria,Estonians,
+124,North_Ossetians,North_Ossetians,North Caucasus,,Russia,,Caucasus,,44.4,41.9,,,1,from Human Origins,Estonians,
+125,Chechens,Chechens,North Caucasus,,Russia,,Caucasus,,43.3,45.7,,,1,from Human Origins,Estonians,
+126,Lezgins,Lezgins,North Caucasus,,Russia,,Caucasus,,42.1,48.2,,,1,from Human Origins,Estonians,
+127,Kumyks,Kumyks,North Caucasus,,Russia,,Caucasus,,43.3,46.6,,,1,from Human Origins,Estonians,
+128,Tabasarans,Tabasarans,North Caucasus,,Russia,,Caucasus,," 43.1, 46.883333",,,50300,4,Dagestan,Estonians,
+129,Nogais,Nogais,North Caucasus,,Russia,,Caucasus,,44.4,41.9,,,1,from Human Origins,Estonians,
+130,Kalmyks,Kalmyks,North Caucasus,,Russia,,Caucasus,," 46.566667, 45.316667",,,76000,4,Kalmykia,Estonians,
+132,Azeris,Azeris,South Caucasus,Dagestan,Russia,,Caucasus,," 43.1, 46.883333",,,50300,4,Dagestan,Estonians,
+155,Altaians,Altaians,,,Russia,,Siberia,,51.9,86,,,1,from Human Origins,Estonians,
+156,Altaians,Altaians,Turochak,,Russia,,Siberia,,"52.249396, 87.126258",,,,2,,Estonians,
+157,Altaians,Altaians,Telengit-Sortogoy,,Russia,,Siberia,,"50.005109, 88.743930",,,,2,,Estonians,
+158,Altaian-Kizhi,Altaians,,,Russia,,Siberia,Kaysyn,"50.950007, 84.593867",,,,2,,Estonians,
+159,Teleut,Teleut,,,Russia,,Siberia,Novokuznetsk,"53.7557, 87.1099",,,,2,,Estonians,
+160,Russians,Russians,Turochak,,Russia,,Siberia,,"52.237673, 87.124561",,,,2,,Estonians,
+161,Khakases,Khakases,Khakasiya,,Russia,,Siberia,,"53.786391, 91.420958",, ,61900,3,,Estonians,
+222,Buryats,Buryats,,,Russia,,Siberia,," 53.8, 109.333333",,,,2,Buryatia,Estonians,
+223,Tuvinians,Tuvinians,,,Russia,,Siberia,,50.3,95.2,,,1,from Human Origins,Estonians,
+224,Tuvinians,Tuvinians,Upsunur,,Russia,,Siberia,," 51.783333, 94.75",, ,170500,4,Tyva Republic,Estonians,
+225,Dolgans,Dolgans,,,Russia,,Siberia,,73,115.4,,,1,from Human Origins,Estonians,
+226,Kets,Kets,Central Siberia,,Russia,,Siberia,,"52.286548, 104.436790",,200,,2,Irkutsk,Estonians,
+227,Nganasans,Nganasans,Taymyr Peninsula,,Russia,,Siberia,,"74.132902, 99.045821",,,,2,,Estonians,
+228,Nganasans,Nganasans,,,Russia,,Siberia,,"74.132902, 99.045821",,,,2,,Estonians,
+229,Selkups,Selkups,,,Russia,,Siberia,,"65.090553, 70.333107",,500,,4,,Estonians,
+230,Shors,Shors,Gorge_Shoria,,Russia,,Siberia,," 54.933333, 87.233333",,100,,4,Kemerovo Oblast,Estonians,
+231,Shors,Shors,,,Russia,,Siberia,," 54.933333, 87.233333",,100,,4,Kemerovo Oblast,Estonians,
+232,Shors,Shors,Ust Mrass,,Russia,,Siberia,," 54.933333, 87.233333",,100,,4,Kemerovo Oblast,Estonians,
+233,Shors,Shors,TOZ,,Russia,,Siberia,," 54.933333, 87.233333",,100,,4,Kemerovo Oblast,Estonians,
+234,Shors,Shors,,,Russia,,Siberia,Tashtagol," 52.766667, 87.866667",,,,2,,Estonians,
+235,Shors,Shors,,,Russia,,Siberia,Orton,"53.203413, 88.621398",,,,2,,Estonians,
+236,Yukaghirs,Yukaghirs,,,Russia,,Siberia,," 64, 153.5",,,91800,4,Srednekansky District,Estonians,
+237,Nivkhs,Nivkhs,,,Russia,,Siberia,," 51, 143",,,72492,4,Sakhalin,Estonians,
+238,Yakuts,Yakuts,,Sakha Republic,Russia,,Siberia,," 66.4, 129.166667",,,3083523,2,Sakha Republic,Estonians,
+239,Yakuts,Yakuts,,,Russia,,Siberia,Essey,68.45849,102.398521,,,2,,Estonians,
+240,Yakuts,Yakuts,,,Russia,,Siberia,Seymchan," 62.930833, 152.385",,,,2,,Estonians,
+241,Yakuts,Yakuts,,,Russia,,Siberia,"Vilyuy, Yakut Republic","63.402076, 119.813034",,100,,4,River,Estonians,
+242,Yakuts,Yakuts,,,Russia,,Siberia,Yakutsk,"62.000238, 129.716319",,,,2,,Estonians,
+243,Yakuts,Yakuts,,,Russia,,Siberia,Ekonda,"65.760273, 105.338178",,500,,4,,Estonians,
+244,Yakuts,Yakuts,,,Russia,,Siberia,Chirinda,"67.889454, 99.977984",,,,2,,Estonians,
+245,Yakuts,Yakuts,,,Russia,,Siberia,"Olenek, Yakut Republic","68.505203, 112.491886",,,,2,,Estonians,
+246,Yakuts,Yakuts,,,Russia,,Siberia,Ust-Alan,NA,NA,,,6,,Estonians,
+247,Yakuts,Yakuts,,,Russia,,Siberia,"Nyurba, Yakut Republic"," 63.283333, 118.333333",,,,2,,Estonians,
+248,Yakuts,Yakuts,,,Russia,,Siberia,"Nakkano, Irkutsk Region",NA,NA,,,6,,Estonians,
+249,Evenkis,Evenkis,,,Russia,,Siberia,,NA,NA,,,6,,Estonians,
+250,Evenkis,Evenkis,,,Russia,,Siberia,"Kuyumba, Baikit District","60.959466, 96.966293",,,,2,,Estonians,
+251,Evenkis,Evenkis,,,Russia,,Siberia,"Irokan, Amur Region"," 53.55, 127.833333",,,363700,4,Amur Region,Estonians,
+252,Evenkis,Evenkis,,,Russia,,Siberia,Strelka-Chunya,"61.738033, 102.796113",,,,2,,Estonians,
+253,Evenkis,Evenkis,,,Russia,,Siberia,Essey,68.45849,102.398521,,,2,,Estonians,
+254,Evenkis,Evenkis,,,Russia,,Siberia,Chirinda,67.542549,100.4108219,,,2,,Estonians,
+255,Evenkis,Evenkis,,,Russia,,Siberia,Tutonchany,"64.2092694, 93.7979341",,,,2,,Estonians,
+256,Evenkis,Evenkis,,,Russia,,Siberia,Tura,"64.275345, 100.216177",,,,2,,Estonians,
+257,Evenkis,Evenkis,,,Russia,,Siberia,Ekonda,"65.7539927, 105.3287109",,,,2,,Estonians,
+258,Evenkis,Evenkis,,,Russia,,Siberia,Kislokan,"63.5885216, 103.9508864",,,,2,,Estonians,
+259,Evenkis,Evenkis,,,Russia,,Siberia,"Erbogachen, Irkutsk Region",57.366667,106,,767900,3,,Estonians,
+260,Evenkis,Evenkis,,,Russia,,Siberia,Nidym,"64.1145202, 99.9175066",,,,2,,Estonians,
+261,Evenkis,Evenkis,,,Russia,,Siberia,Kuyumba,"60.9600711, 96.9752136",,,,2,,Estonians,
+262,Evenkis,Evenkis,,,Russia,,Siberia,Surinda," 62.556478, 97.4085391",,,,2,,Estonians,
+263,Evenkis,Evenkis,,,Russia,,Siberia,Poligus,"61.977487, 94.659969",,,,2,,Estonians,
+264,Evenkis,Evenkis,,,Russia,,Siberia,"Nakanno, Irkutsk Region"," 62.9007006, 108.4520586",,,,2,,Estonians,
+265,Evenkis,Evenkis,,,Russia,,Siberia,Baykit,"61.6794237, 96.3583826",,,,2,,Estonians,
+266,Evenkis,Evenkis,,Sakha Republica,Russia,,Siberia,," 66.4, 129.166667",,,3083523,2,,Estonians,
+267,Evens,Evens,,,Russia,,Siberia,,NA,NA,,,6,,Estonians,
+268,Evens,Evens,,,Russia,,Siberia,"Gadlya, Ola District",59.683225,151.300006,,,1,,Estonians,
+269,Evens,Evens,,,Russia,,Siberia,"Gizhiga, Severo-Evensk District",62.04985,160.499995,,,1,,Estonians,
+270,Evens,Evens,,,Russia,,Siberia,"Evensk, Severo-Evensk District",61.921572,159.236046,,,1,,Estonians,
+271,Evens,Evens,,,Russia,,Siberia,"Paren, Severo-Evensk District",62.418056,163.090278,,,1,,Estonians,
+272,Evens,Evens,,,Russia,,Siberia,"Arman, Ola District",59.673571,150.130615,,,1,,Estonians,
+273,Evens,Evens,,,Russia,,Siberia,"Topolovka, Severo-Evensk District",61.365225,160.125767,,,1,,Estonians,
+274,Evens,Evens,,,Russia,,Siberia,"Rossoha, Srednekan District",64,153.5,,,1,,Estonians,
+275,Evens,Evens,,,Russia,,Siberia,"Garmanda, Severo-Evensk District",62.179694,159.086676,,,1,,Estonians,
+276,Evens,Evens,,Sakha Republica,Russia,,Siberia,," 66.4, 129.166667",,,3083523,3,,Estonians,
+277,Koryaks,Koryaks,,,Russia,,Siberia,,NA,NA,,,6,,Estonians,
+278,Koryaks,Koryaks,,,Russia,,Siberia,"Paren, Severo-Evensk District","62.423773, 163.182477",,,,1,,Estonians,
+279,Koryaks,Koryaks,,,Russia,,Siberia,"Evensk, Severo-Evensk District","61.934852, 159.356953",,,,1,,Estonians,
+280,Koryaks,Koryaks,,,Russia,,Siberia,"Topolovka, Severo-Evensk District"," 61.3654649, 160.119276",,,,1,,Estonians,
+281,Koryaks,Koryaks,,,Russia,,Siberia,"Gizhiga, Severo-Evensk District","61.950237, 160.378535",,,,1,,Estonians,
+282,Koryaks,Koryaks,North-East Siberia,,Russia,,Siberia,,NA,,,,6,,Estonians,
+283,Chukchis,Chukchis,,,Russia,,Siberia,,"64.714322, 177.445407",,,,4,other Chukchis,Estonians,
+284,Chukchis,Chukchis,,,Russia,,Siberia,"Anadyr, Chukotka","64.714322, 177.445407",,,,1,,Estonians,
+285,Eskimo,Eskimo,,,Russia,,Siberia,"Novoe Chaplino, Chukotka",64.5036,172.855,,,1,,Estonians,
+402,Aleut,Aleut,,,Russia,,CentralAsiaSiberia,,53.6,160.8,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+403,Altaian,Altaian,,,Russia,,CentralAsiaSiberia,,51.9,86,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Olga L. Posukh
+404,Chukchi,Chukchi,,,Russia,,CentralAsiaSiberia,,69.5,168.8,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+405,Chukchi,Chukchi_Reindeer,,,Russia,,CentralAsiaSiberia,,64.4,173.9,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+406,Chukchi,Chukchi_Sir,,,Russia,,CentralAsiaSiberia,,64.4,173.9,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+407,Dolgan,Dolgan,,,Russia,,CentralAsiaSiberia,,73,115.4,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Sardana A. Fedorova / Fedor Platonov
+408,Eskimo,Eskimo_Chaplin,,,Russia,,CentralAsiaSiberia,,64.5,172.9,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+409,Eskimo,Eskimo_Naukan,,,Russia,,CentralAsiaSiberia,,66,169.7,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+410,Eskimo,Eskimo_Sireniki,,,Russia,,CentralAsiaSiberia,,64.4,173.9,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+411,Even,Even,,,Russia,,CentralAsiaSiberia,,57.5,135.9,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+412,Itelmen,Itelmen,,,Russia,,CentralAsiaSiberia,,57.2,156.9,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+413,Kalmyk,Kalmyk,,,Russia,,CentralAsiaSiberia,,46.2,45.3,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+414,Koryak,Koryak,,,Russia,,CentralAsiaSiberia,,58.1,159,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+415,Mansi,Mansi,,,Russia,,CentralAsiaSiberia,,62.5,63.3,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+416,Nganasan,Nganasan,,,Russia,,CentralAsiaSiberia,,71.1,96.1,,,1,,Human Origins,Rem Sukernik / Elena B. Starikovskaya
+417,Selkup,Selkup,,,Russia,,CentralAsiaSiberia,,65.5,82.3,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Ludmila Osipova
+418,Tlingit,Tlingit,,,Russia,,CentralAsiaSiberia,,54.7,164.5,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+419,Tubalar,Tubalar,,,Russia,,CentralAsiaSiberia,,51.1,87,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+420,Tuvinian,Tuvinian,,,Russia,,CentralAsiaSiberia,,50.3,95.2,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Larissa Damba / Mikhail Voevoda / Marina Gubina
+421,Ulchi,Ulchi,,,Russia,,CentralAsiaSiberia,,52.2,140.4,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+422,Yakut,Yakut,,,Russia,,CentralAsiaSiberia,,63,129.5,,,1,,Human Origins,Patterson et al. 2012
+423,Yakut,Yakut_Metspalu,,,Russia,,CentralAsiaSiberia,,NA,NA,,,6,more accurate,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Sardana A. Fedorova / Fedor Platonov
+424,Yukagir,Yukagir_Forest,,,Russia,,CentralAsiaSiberia,,65.5,151,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+425,Yukagir,Yukagir_Tundra,,,Russia,,CentralAsiaSiberia,,68.6,153,,,1,,Human Origins,Rem Sukernik / Stanislav Dryomov
+526,Balkar,Balkar,,,Russia,,WestEurasia,,43.5,43.6,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+527,Chechen,Chechen,,,Russia,,WestEurasia,,43.3,45.7,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+528,Chuvash,Chuvash,,,Russia,,WestEurasia,,56.1,47.3,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+529,Kumyk,Kumyk,,,Russia,,WestEurasia,,43.3,46.6,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+530,Lezgin,Lezgin,,,Russia,,WestEurasia,,42.1,48.2,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+531,Mordovian,Mordovian,,,Russia,,WestEurasia,,54.2,45.2,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+532,Nogai,Nogai,,,Russia,,WestEurasia,,44.4,41.9,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+533,North_Ossetian,North_Ossetian,,,Russia,,WestEurasia,,43,44.7,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+534,Russian,Russian,,,Russia,2,WestEurasia,,61,40,,,1,,Human Origins,Patterson et al. 2012
+633,Stalskoe,,,,Russia,,,,42.9753,47.5022,,,1,,Xing,
+638,Urkarah,,,,Russia,,,,42.9753,47.5022,,,1,,Xing,
+535,Adygei,Adygei,,,Russia(Caucasus),,WestEurasia,,44,39,,,1,,Human Origins,Coriell Cell Repositories
+587,Russian Federation,,,,Russian Federation,,,,55.8,37.5,,,1,,Popres,
+790,Sahara Occidental,,,,Sahara,,,,27.166695,-13.196338,,,1,,Paschou2014,
+630,Samoan,,,,Samoa,,,,-13.5984,-172.4418,,,1,,Xing,
+10,Saudis,Saudis,,,Saudi Arabia,,Arabia,,18.5,42.5,,,1,from Human Origins,Estonians,
+536,Saudi,Saudi,,,Saudi_Arabia,,WestEurasia,,18.5,42.5,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+588,Scotland,,,,Scotland,,,,56,-3.2,,,1,,Popres,
+358,Mandenka,Mandenka,,,Senegal,,Africa,,12,-12,,,1,,Human Origins,Patterson et al. 2012
+72,Serbians,Serbians,,,Serbia,,Europe,,43.9,20.6,,,1,from Popres,Estonians,
+802,Serbia,,,,Serbia,,,,43.9,20.6,,,1,from Popres,Paschou2014,
+574,Serbia and Montenegro,,,,Serbia and Montenegro,,,,43.9,20.6,,,1,,Popres,
+359,Mende,Mende_Sierra_Leone_MSL,,,SierraLeone,,Africa,,8.5,-13.2,,,1,,Human Origins,Coriell Cell Repositories
+708,SG-CH,,,,Singapore,,,,1.35,103.8,,,1,,HUGO,
+709,SG-ML,,,,Singapore,,,,1.35,103.8,,,1,,HUGO,
+710,SG-ID,,,,Singapore,,,,1.35,103.8,,,1,,HUGO,
+600,Slovakia,,,,Slovakia,,,,48.7,19.5,,,1,,Popres,
+596,Slovenia,,,,Slovenia,,,,46.1,14.8,,,1,,Popres,
+631,Slovenian,,,,Slovenia,,1,,46.0191,14.5505,,,1,,Xing,
+753,AX-ME,,,,Solomon Islands,,,,-6.2333333333,155.1333333333,,,1,,HUGO,
+360,Khomani,Khomani,,,South_Africa,,Africa,,-27.8,21.1,,,1,,Human Origins,Brenna Henna
+626,Nguni,,,,South_Africa,,,,-33.2667,26.4833,,,1,,Xing,
+628,Pedi,,,,South_Africa,,,,-25.5333,26.0833,,,1,,Xing,
+632,Sotho/Tswana,,,,South_Africa,,,,-26.2,28.0833,,,1,,Xing,
+361,BantuSA,Bantu_SA_Pedi,,,SouthAfrica,,Africa,,-29,30,,,1,,Human Origins,Patterson et al. 2012
+362,BantuSA,Bantu_SA_Zulu,,,SouthAfrica,,Africa,,-28,31,,,1,,Human Origins,Patterson et al. 2012
+55,Spaniards,Spaniards,,,Spain,2,Europe,,40.3,-3.57,,,1,from Popres,Estonians,
+537,Basque,Basque_Spanish,,,Spain,,WestEurasia,,43.1,-2.1,,,1,,Human Origins,David Comas
+538,Canary_Islanders,Spanish_Canarias_IBS,,,Spain,,WestEurasia,,28.1,-15.4,,,1,,Human Origins,Coriell Cell Repositories
+539,Spanish,Spanish_Andalucia_IBS,,,Spain,,WestEurasia,,37.4,-6,,,1,,Human Origins,Coriell Cell Repositories
+540,Spanish,Spanish_Aragon_IBS,,,Spain,,WestEurasia,,41,-1,,,1,,Human Origins,Coriell Cell Repositories
+541,Spanish,Spanish_Baleares_IBS,,,Spain,,WestEurasia,,39.5,3,,,1,,Human Origins,Coriell Cell Repositories
+542,Spanish,Spanish_Cantabria_IBS,,,Spain,,WestEurasia,,43.3,-4,,,1,,Human Origins,Coriell Cell Repositories
+543,Spanish,Spanish_Castilla_la_Mancha_IBS,,,Spain,,WestEurasia,,39.9,-4,,,1,,Human Origins,Coriell Cell Repositories
+544,Spanish,Spanish_Castilla_y_Leon_IBS,,,Spain,,WestEurasia,,41.4,-4.5,,,1,,Human Origins,Coriell Cell Repositories
+545,Spanish,Spanish_Cataluna_IBS,,,Spain,,WestEurasia,,41.8,1.5,,,1,,Human Origins,Coriell Cell Repositories
+546,Spanish,Spanish_Extremadura_IBS,,,Spain,,WestEurasia,,39,-6,,,1,,Human Origins,Coriell Cell Repositories
+547,Spanish,Spanish_Galicia_IBS,,,Spain,,WestEurasia,,42.5,-8.1,,,1,,Human Origins,Coriell Cell Repositories
+548,Spanish,Spanish_Murcia_IBS,,,Spain,,WestEurasia,,38,-1.1,,,1,,Human Origins,Coriell Cell Repositories
+549,Spanish,Spanish_Valencia_IBS,,,Spain,,WestEurasia,,39.5,-0.4,,,1,,Human Origins,Coriell Cell Repositories
+550,Spanish_North,Spanish_Pais_Vasco_IBS,,,Spain,,WestEurasia,,42.8,-2.7,,,1,,Human Origins,Coriell Cell Repositories
+567,Spain,,,,Spain,2,,,40.3,-3.57,,,1,,Popres,
+363,Dinka,Dinka,,,Sudan,,Africa,,8.8,27.4,,,1,,Human Origins,Michael Hammer
+364,Shaigi_WGA,Shaigi_WGA,,,Sudan,,Africa,,15.6,32.5,,,1,,Human Origins,Mark G. Thomas / Hamza A. Babiker
+99,Swedes,Swedes,,,Sweden,,Europe,," 59.35, 18.066667",,,450295,5,,Estonians,
+100,Saami,Saami_SWE,,Norrbotten,Sweden,,Europe,," 65.584444, 22.153889",,,98244,3,,Estonians,
+583,Sweden,,,,Sweden,,,,59.4,18,,,1,,Popres,
+569,Swiss-French,,,,Swiss-French,,,,46.2,6.15,,,1,,Popres,
+571,Swiss-German,,,,Swiss-German,,,,47.4,8.55,,,1,,Popres,
+581,Swiss-Italian,,,,Swiss-Italian,,,,46,8.95,,,1,,Popres,
+14,Syrian_Jews,Jews,,,Syria,,Near East,,35.1,36.9,,,1,from Human Origins,Estonians,
+16,Syrians,Syrians,,,Syria,,Near East,,35.1,36.9,,,1,from Human Origins,Estonians,
+551,Syrian,Syrian,,,Syrian,,WestEurasia,,35.1,36.9,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+447,Ami,Ami_Coriell,,,Taiwan,,EastAsia,,22.8,121.2,,,1,,Human Origins,Coriell Cell Repositories
+448,Atayal,Atayal_Coriell,,,Taiwan,,EastAsia,,24.6,121.3,,,1,,Human Origins,Coriell Cell Repositories
+706,TW-HA,,,,Taiwan,,,,25.0333333333,121.5166666667,,,1,,HUGO,
+707,TW-HB,,,,Taiwan,,,,25.0333333333,121.5166666667,,,1,,HUGO,
+751,AX-AM,,,,Taiwan,,,,23.7333333333,121.4,,,1,,HUGO,
+752,AX-AT,,,,Taiwan,,,,24.6333333333,121.4333333333,,,1,,HUGO,
+759,"Amis, Taiwan aborigines","Taitung county, Taiwan",,,Taiwan,,,," 22.933333, 120.933333",,,3515.2526,3,,Stoneking,
+760,"Atayal, Taiwan aborigines","Taoyuan and Hsinchu counties, Taiwan",,,Taiwan,,,," 24.991278, 121.314328",,,2600,3,,Stoneking,
+764,"Bunun, Taiwan aborigines","Kaohsiung county, Taiwan",,,Taiwan,,,," 22.633333, 120.266667",,,2200,3,,Stoneking,
+770,"Paiwan, Taiwan aborigines","Kaohsiung county, Taiwan",,,Taiwan,,,," 22.633333, 120.266667",,,2200,3,,Stoneking,
+773,"Pingpu, Taiwan aborigines","Pingtung county, Taiwan",,,Taiwan,,,," 22.675494, 120.491414",,,2700,3,,Stoneking,
+775,"Puyuma, Taiwan aborigines","Taitung county, Taiwan",,,Taiwan,,,," 22.933333, 120.933333",,,3515.2526,3,,Stoneking,
+777,"Rukai, Taiwan aborigines","Kaohsiung county, Taiwan",,,Taiwan,,,," 22.633333, 120.266667",,,2200,3,,Stoneking,
+778,"Saisiat, Taiwan aborigines","Miaoli county, Taiwan",,,Taiwan,,,," 24.563414, 120.825828",,,1820,3,,Stoneking,
+782,"Tsou, Taiwan aborigines","Taitung county, Taiwan",,,Taiwan,,,," 22.933333, 120.933333",,,3515.2526,3,,Stoneking,
+135,Tajiks,Tajiks,,,Tajikistan,2,Central Asia,,NA,NA,,,4,,Estonians,
+136,Pamiris,Tajiks,Pamir Ishkashim,Ishkashim,Tajikistan,,Central Asia,,37.002553,71.729736,,,1,,Estonians,
+137,Pamiris,Tajiks,Pamir Rushan,Rushan,Tajikistan,,Central Asia,,37.944596,71.557045,,,1,,Estonians,
+138,Pamiris,Tajiks,Pamir Rushan Vanch,Rushan Vanch,Tajikistan,,Central Asia,,38.526413,71.690426,,,1,,Estonians,
+139,Pamiris,Tajiks,Pamir Shugnan,Shugnan,Tajikistan,,Central Asia,,37.544577,72.421875,,,1,,Estonians,
+140,Tajiks,Tajiks,plain,,Tajikistan,,Central Asia,,NA,NA,,,4,,Estonians,
+141,Yaghnobi,Tajiks,plain West Tajikistan,,Tajikistan,,Central Asia,,39.495563,67.631836,,,1,,Estonians,
+148,Kyrgyzians,Kyrgyzians,Pamir,Murghab,Tajikistan,,Central Asia,,38.188847,74.019656,,,1,,Estonians,
+149,Kyrgyzians,Kyrgyzians,Pamir,Alichur,Tajikistan,,Central Asia,,37.751444,73.262329,,,1,,Estonians,
+150,Kyrgyzians,Kyrgyzians,Pamir,,Tajikistan,,Central Asia,,37.4,71.7,,,1,from Human Origins,Estonians,
+426,Tajik_Pomiri,Tajik_Pomiri,,,Tajikistan,,CentralAsiaSiberia,,37.4,71.7,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Oleg Balanovsky / Elena Balanovska
+365,Datog,Datog,,,Tanzania,,Africa,,-3.3,35.7,,,1,,Human Origins,Brenna Henna / Joanna Mountain
+366,Hadza,Hadza,,,Tanzania,,Africa,,-3.8,35.3,,,1,,Human Origins,Sarah A. Tishkoff / Thomas Nyambo
+367,Hadza,Hadza_Henn,,,Tanzania,,Africa,,-3.6,35.1,,,1,,Human Origins,Brenna Henna / Joanna Mountain
+368,Hadza_WGA,Hadza_Henn_WGA,,,Tanzania,,Africa,,-3.6,35.1,,,1,,Human Origins,Brenna Henna / Joanna Mountain
+369,Sandawe,Sandawe,,,Tanzania,,Africa,,-5.5,35.5,,,1,,Human Origins,Sarah A. Tishkoff / Thomas Nyambo
+449,Thai,Thai,,,Thailand,,EastAsia,,13.8,100.5,,,1,,Human Origins,European Collection of Cell Cultures
+634,Thai,,,,Thailand,,,,13.8,100.5,,,1,from Human Origins,Xing,
+679,TH-HM,,,,Thailand,,,,18.6333333333,98.0833333333,,,1,,HUGO,
+680,TH-HM,,,,Thailand,,,,19.9166666667,100.1166666667,,,1,,HUGO,
+681,TH-HM,,,,Thailand,,,,18.5333333333,98.5166666667,,,1,,HUGO,
+682,TH-HM,,,,Thailand,,,,19.9333333333,100.15,,,1,,HUGO,
+683,TH-KA,,,,Thailand,,,,17.9666666667,98.35,,,1,,HUGO,
+684,TH-KA,,,,Thailand,,,,19.7,98.2333333333,,,1,,HUGO,
+685,TH-KA,,,,Thailand,,,,19.3833333333,97.8833333333,,,1,,HUGO,
+686,TH-LW,,,,Thailand,,,,18.35,98.0833333333,,,1,,HUGO,
+687,TH-MA,,,,Thailand,,,,18.7,100.4666666667,,,1,,HUGO,
+688,TH-MO,,,,Thailand,,,,18.5166666667,98.9,,,1,,HUGO,
+689,TH-PL,,,,Thailand,,,,19.9333333333,99.15,,,1,,HUGO,
+690,TH-PL,,,,Thailand,,,,19.9333333333,99.15,,,1,,HUGO,
+691,TH-PP,,,,Thailand,,,,20.4166666667,99.8666666667,,,1,,HUGO,
+692,TH-PP,,,,Thailand,,,,20.1333333333,99.8333333333,,,1,,HUGO,
+693,TH-TK,,,,Thailand,,,,18.6333333333,98.85,,,1,,HUGO,
+694,TH-TL,,,,Thailand,,,,19.15,100.9333333333,,,1,,HUGO,
+695,TH-TL,,,,Thailand,,,,18.8666666667,99.1166666667,,,1,,HUGO,
+696,TH-TN,,,,Thailand,,,,19.1333333333,100.9333333333,,,1,,HUGO,
+697,TH-TN,,,,Thailand,,,,19.45,100.85,,,1,,HUGO,
+698,TH-TU,,,,Thailand,,,,19,98.9833333333,,,1,,HUGO,
+699,TH-TU,,,,Thailand,,,,19.1833333333,98.9833333333,,,1,,HUGO,
+700,TH-TU,,,,Thailand,,,,18.4,98.75,,,1,,HUGO,
+701,TH-TU,,,,Thailand,,,,14.55,100.8833333333,,,1,,HUGO,
+702,TH-TY,,,,Thailand,,,,18.4,98.9333333333,,,1,,HUGO,
+703,TH-YA,,,,Thailand,,,,19.9833333333,100.1666666667,,,1,,HUGO,
+704,TH-YA,,,,Thailand,,,,19.3333333333,100.4333333333,,,1,,HUGO,
+705,TH-YA,,,,Thailand,,,,18.8333333333,100.6666666667,,,1,,HUGO,
+635,Tongan,,,,Tonga,,,,-21.1608,-175.1888,,,1,,Xing,
+23,Tunisian_Jews,Jews,,,Tunesia,,North Africa,,36.8,10.2,,,1,from Human Origins,Estonians,
+793,Tunisia,,,,Tunesia,,,,36.81808,10.149609,,,1,,Paschou2014,
+370,Tunisian,Tunisian,,,Tunisia,,Africa,,36.8,10.2,,,1,,Human Origins,David Comas
+371,Tunisian_Jew,Tunisian_Jew,,,Tunisia,,Africa,,36.8,10.2,,,1,,Human Origins,The National Laboratory for the Genetics of Israeli Populations 
+25,Sephardic_Jews,Jews,,,Turkey,,Near East,,41,29,,,1,from Human Origins,Estonians,
+51,Turks,Turks,,,Turkey,2,Near East,,41,29,,,1,from Human Origins,Estonians,
+552,Turkish,Turkish,,,Turkey,2,WestEurasia,,39.6,28.5,,,1,,Human Origins,David Comas / Pierre Zalloua
+553,Turkish,Turkish_Adana,,,Turkey,,WestEurasia,,37,35.3,,,1,,Human Origins,Robert W. Mahley / Ugur Hodoglugil
+554,Turkish,Turkish_Aydin,,,Turkey,,WestEurasia,,37.9,27.8,,,1,,Human Origins,Robert W. Mahley / Ugur Hodoglugil
+555,Turkish,Turkish_Balikesir,,,Turkey,,WestEurasia,,39.4,27.5,,,1,,Human Origins,Robert W. Mahley / Ugur Hodoglugil
+556,Turkish,Turkish_Istanbul,,,Turkey,,WestEurasia,,41,29,,,1,,Human Origins,Robert W. Mahley / Ugur Hodoglugil
+557,Turkish,Turkish_Kayseri,,,Turkey,,WestEurasia,,38.7,35.5,,,1,,Human Origins,Robert W. Mahley / Ugur Hodoglugil
+558,Turkish,Turkish_Trabzon,,,Turkey,,WestEurasia,,41,39.7,,,1,,Human Origins,Robert W. Mahley / Ugur Hodoglugil
+559,Turkish_Jew,Turkish_Jew,,,Turkey,,WestEurasia,,41,29,,,1,,Human Origins,The National Laboratory for the Genetics of Israeli Populations 
+591,Turkey,,,,Turkey,2,,,39.1,35.4,,,1,,Popres,
+800,Cappadocia,,,,Turkey,,,,38.73641,35.478864,,,1,,Paschou2014,
+133,Turkmens,Turkmens,,,Turkmenistan,,Central Asia,,42.5,59.6,,,1,from Human Origins,Estonians,
+603,Alur,,,,Uganda,,,,3.0167,30.9167,,,1,,Xing,
+81,Ukranians,Ukranians,,Svetlovodsk(central Ukr),Ukraine,,Europe,," 49.050278, 33.241944",,,,2,,Estonians,
+82,Ukranians,Ukranians,,Kharkov,Ukraine,,Europe,," 50.004444, 36.231389",,,,2,,Estonians,
+83,Ukranians,Ukranians,,Poltava,Ukraine,,Europe,,"49.589444, 34.551389",,,,2,,Estonians,
+84,Ukranians,Ukranians,,Belgorod,Ukraine,,Europe,," 46.192222, 30.333333",,,,2,,Estonians,
+85,Ukranians,Ukranians,,Lviv,Ukraine,,Europe,," 49.85, 24.016667",,,,2,,Estonians,
+560,Ukrainian,Ukrainian_East,,,Ukraine,,WestEurasia,,50.3,31.6,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Oleg Balanovsky / Elena Balanovska / Mikhail Churnosov
+561,Ukrainian,Ukrainian_West,,,Ukraine,,WestEurasia,,49.9,24,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Oleg Balanovsky / Elena Balanovska / Mikhail Churnosov / Olga Utevska
+601,Ukraine,,,,Ukraine,2,,,49.1,31.4,,,1,,Popres,
+566,United Kingdom,,,,United Kingdom,,,,53.5,-2.33,,,1,,Popres,
+286,Aleutians,Aleutians,,Alaska,USA,,America,,"58.020271, -152.7691199",,,,3,,Estonians,
+399,AA,AA_Denver,,,USA,2,America,,39.7,-105,,,1,,Human Origins,Rick Kittles
+607,CEU,,,,USA,2,,,53.825,6.6667,,,1,,Xing,
+639,Utah N. European,,,,USA,2,,,53.825,6.6667,,,1,,Xing,
+754,CEU,,,,USA,2,,,39.9166666667,-116.3833333333,,,1,,HUGO,
+783,Tsimishian,,,,USA,,,,54.4,-130.4,,,1,,Verdu2014,
+784,Nisga'a,,,,USA,,,,55,-129.5,,,1,,Verdu2014,
+785,Haida,,,,USA,,,,54,-132.1,,,1,,Verdu2014,
+786,Tlingit,,,,USA,,,,57.1,-135.3,,,1,,Verdu2014,
+787,Stswecem'c,,,,USA,,,,51.6,-122.1,,,1,,Verdu2014,
+788,Splatsin,,,,USA,,,,50.6,-119.1,,,1,,Verdu2014,
+789,Seri,,,,USA,,,,29,-112.2,,,1,,Verdu2014,
+50,Uzbekistani_Jews,Jews,,,Uzbekistan,,Central Asia,,41.3,69.2,,,1,from Human Origins,Estonians,
+143,Karakalpak,Karakalpak,,,Uzbekistan,,Central Asia,,"41.306003, 69.578659",,,,2,,Estonians,
+144,Uzbeks,Uzbeks,,,Uzbekistan,,Central Asia,,41.3,69.2,,,1,from Human Origins,Estonians,
+427,Turkmen,Turkmen,,,Uzbekistan,,CentralAsiaSiberia,,42.5,59.6,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Oleg Balanovsky / Elena Balanovska / Shahlo Turdikulova
+428,Uzbek,Uzbek,,,Uzbekistan,,CentralAsiaSiberia,,41.3,69.2,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+562,Uzbek_WGA,Uzbek_WGA,,,Uzbekistan,,WestEurasia,,41.3,69.3,,,1,,Human Origins,Mark G. Thomas / Ruslan Ruizbakiev
+450,Kinh,Kinh_Vietnam_KHV,,,Vietnam,,EastAsia,,21,105.9,,,1,,Human Origins,Coriell Cell Repositories
+640,Vietnamese,,,,Vietnam,,,,16.7333,107.3,,,1,,Xing,
+372,Saharawi,Saharawi,,,WesternSahara(Morocco),,Africa,,27.3,-8.9,,,1,,Human Origins,David Comas
+11,Yemenese,Yemenese,,,Yemen,,Arabia,,14,44.6,,,1,from Human Origins,Estonians,
+13,Yemenite_Jews,Jews,,,Yemen,,Arabia,,15.4,44.2,,,5,Sanaa,Estonians,
+563,Yemen,Yemen,,,Yemen,,WestEurasia,,14,44.6,,,1,,Human Origins,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+564,Yemenite_Jew,Yemenite_Jew,,,Yemen,,WestEurasia,,15.4,44.2,,,1,,Human Origins,The National Laboratory for the Genetics of Israeli Populations 
