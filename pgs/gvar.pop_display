@@ -21,9 +21,9 @@
 65,"Macedonians","MK","#9C9100","purple",19
 66,"Kosovars","KV","#9C9100","purple",20
 67,"Montenegrins","ME-Me","#A09600","purple",21
-68,"Bosnians","BA-ba","#A39A00","purple",22
-69,"Croats_Croatia","Cro","#A89D00","purple",23
-71,"Croats_Bosnia","???Cro","#A19500","purple",24
+68,"Bosnians","BA-Ba","#A39A00","purple",22
+69,"Croats_Croatia","HR-Hr","#A89D00","purple",23
+71,"Croats_Bosnia","Ba-Hr","#A19500","purple",24
 72,"Serbians_Serbia","RS","#999200","purple",25
 73,"Serbians_Bosnia","BA-se","#A39A00","purple",26
 74,"Bulgarians","BG-bg","#938900","purple",27
@@ -38,7 +38,7 @@
 84,"Ukranians_Belgorod","UA-Be","#838300","purple",36
 85,"Ukranians_Lviv","UA-Lv","#8C9000","purple",37
 86,"Belarusians","BY","#7D8900","purple",38
-87,"Russians_Voronez","RU-Vo,#869100""","#647100","purple",39
+87,"Russians_Voronez","RU-Vo","#647100","purple",39
 88,"Russians_Kursk","RU-Ku","#6D7900","purple",40
 89,"Russians_Orjol","Ru-Or","#6B7900","purple",41
 90,"Russians_Smolensk","Ru-Sm","#718200","purple",42
@@ -48,7 +48,7 @@
 96,"Lithuanians","LT","#869200","purple",46
 97,"Estonians","EE","#7B8E00","purple",47
 98,"Karelian","RU-Kar","#597F00","purple",48
-100,"Saami","Saa","#7B9800","purple",49
+100,"Saami","SE-Sa","#7B9800","purple",49
 101,"Vepsas","RU-Vep","#6E8600","purple",50
 102,"Maris","RU-Mar","#486500","purple",51
 103,"Mordovians","RU-Mor","#506500","purple",52
@@ -72,7 +72,7 @@
 128,"Tabasarans","RU-Tab","#656203","purple",70
 130,"Kalmyks","RU-Kal","#5F6500","purple",71
 131,"Azeris_Azerbaijan","AZ","#6B610D","purple",72
-133,"Turkmens","???UZ-Tu","#6D5A2D","purple",73
+133,"Turkmens","UZ-Tu","#6D5A2D","purple",73
 134,"Turkmens_Afghan","AF-tu","#78583B","purple",74
 136,"Pamiris_Ishkashim","TJ-PaI","#775548","purple",75
 137,"Pamiris_Rushan","TJ-PaR","#775548","purple",76
@@ -83,15 +83,15 @@
 143,"Karakalpak","UZ-Ka","#715544","purple",81
 144,"Uzbeks","UZ-Uz","#715544","purple",82
 145,"Uzbeks_Afghan","AF-Uz","#795740","purple",83
-146,"Kyrgyzians_TienShan","Kyr","#6D514C","purple",84
+146,"Kyrgyzians_TienShan","KG","#6D514C","purple",84
 148,"Kyrgyzians_Murghab","TJ-KaM","#75534D","purple",85
 149,"Kyrgyzians_Alichur","TJ-KaA","#77544D","purple",86
 152,"Kazakhs_CentralWest","KZ-W","#625A2C","purple",87
 153,"Kazakhs_General","KZ-Kz","#5F5046","purple",88
 154,"Uygurs","CN-Uy","#6C4D58","purple",89
-156,"Altaians_Turochak","RU-Tur","#5E4166","purple",90
-157,"Altaians_Telengit","RU-Tel","#624367","purple",91
-158,"Altaian-Kizhi","RU-Kiz","#60455F","purple",92
+156,"Altaians_Turochak","RU-ATu","#5E4166","purple",90
+157,"Altaians_Telengit","RU-ATe","#624367","purple",91
+158,"Altaian-Kizhi","RU-AKi","#60455F","purple",92
 159,"Teleut","RU-Tel","#5C4261","purple",93
 161,"Khakases","RU-Kha","#5B3C6E","purple",94
 163,"Pashtun","AF-Pa","#80593B","purple",95
@@ -107,7 +107,7 @@
 188,"Halakipikki","ID-Ha","#A15E5A","purple",105
 191,"Malayan","ID-My","#A86056","purple",106
 200,"Ho","ID-Ho","#8B5669","purple",107
-208,"Khasi","ID-Kha","#8B5477","purple",108
+208,"Khasi","ID-Khi","#8B5477","purple",108
 211,"Naga","ID-Na","#8B537B","purple",109
 212,"Nihali","ID-Ni","#975B4B","purple",110
 213,"Kusundas","NP-Ku","#875560","purple",111
@@ -129,9 +129,9 @@
 230,"Shors_Gorge_Shoria","RU-Gor","#5A3F65","purple",127
 234,"Shors_Tashtagol","RU-Tas","#5E4166","purple",128
 235,"Shors_Orton","RU-Ort","#5C4066","purple",129
-236,"Yukaghirs","???RU-Yuk","#281846","purple",130
-237,"Nivkhs","Niv","#442A66","purple",131
-239,"Yakuts_Essey","RU-YaE","#37227A","purple",132
+236,"Yukaghirs","RU-Yuk","#281846","purple",130
+237,"Nivkhs","RU-Niv","#442A66","purple",131
+239,"Yakuts_Essey","RU-YaY","#37227A","purple",132
 240,"Yakuts_Seymchan","RU-YaS","#2A1A47","purple",133
 241,"Yakuts_Vilyuy","RU-YaV","#361684","purple",134
 242,"Yakuts_Yakutsk","RU-YaY","#361A72","purple",135
@@ -152,7 +152,7 @@
 262,"Evenkis_Surinda","RU-EkSu","#472D75","purple",150
 263,"Evenkis_Poligus","RU-EkP","#4B336E","purple",151
 264,"Evenkis_Nakanno","RU-EkNa","#3F1E88","purple",152
-265,"Evenkis_Baykit","RU_EkB","#4B3072","purple",153
+265,"Evenkis_Baykit","RU-EkB","#4B3072","purple",153
 268,"Evens_Gadlya","RU-EvGa","#321F4F","purple",154
 269,"Evens_Gizhiga","RU-EvGi","#271C3B","purple",155
 270,"Evens_Evensk","RU-EvEv","#291C3E","purple",156
@@ -176,7 +176,7 @@
 293,"Lowlander","PH-Ll","#9561A6","purple",174
 294,"Zambales","PH-Za","#9561A6","purple",175
 295,"Tagbanua","PH-Ta","#A16AAC","purple",176
-301,"Aeta","Aet","#9561A6","purple",177
+301,"Aeta","PH-Ae","#9561A6","purple",177
 302,"Agta","PH-Ag","#915FA3","purple",178
 307,"PNG_Highlander","PG-Hl","#A686A2","purple",179
 308,"Koinambe","PG-Koi","#A686A2","purple",180
@@ -202,9 +202,9 @@
 329,"Biaka","CF-Bi","#D18700","purple",200
 330,"Mbuti","CD-Mb","#C57100","purple",201
 331,"Egyptian","EG","#977B00","purple",202
-335,"Oromo","???Oro","#B26B00","purple",203
-336,"Gambian","???Cha","#C78C00","purple",204
-337,"BantuKenya","???TZ-Ba,#D08200""","#C46100","purple",205
+335,"Oromo","ET-Oro","#B26B00","purple",203
+336,"Gambian","ET-Cha","#C78C00","purple",204
+337,"BantuKenya","TZ-Ba","#C46100","purple",205
 338,"Kikuyu","KE-Kik","#BE6300","purple",206
 339,"Luhya_Kenya_LWK","LWK","#BC6300","purple",207
 340,"Luo","KE-Luo","#C36A00","purple",208
@@ -222,7 +222,7 @@
 356,"Esan","NG-Es","#DD9E00","purple",220
 357,"Yoruba","YRI","#E0A100","purple",221
 358,"Mandenka","GN-Ma","#F5C100","purple",222
-359,"Mende","Men","#F5BE00","purple",223
+359,"Mende","SL-Men","#F5BE00","purple",223
 360,"Khomani","ZA-Kh","#F06B00","purple",224
 361,"Bantu_SA_Pedi","ZA-Pe","#EE5B00","purple",225
 362,"Bantu_SA_Zulu","ZA-Zu","#EC5800","purple",226
@@ -231,14 +231,14 @@
 366,"Hadza","TZ-Ha","#C66400","purple",229
 367,"Hadza_Henn","TZ-Ha2","#C66400","purple",230
 369,"Sandawe","TZ-Sa","#C96300","purple",231
-370,"Tunisian","Tun","#BDA600","purple",232
+370,"Tunisian","TN","#BDA600","purple",232
 372,"Saharawi","MA-Sa","#E9C400","purple",233
 373,"Chane","AR-Ch","#AAAAAA","purple",234
 374,"Guarani","AR-Gu","#B1B1B1","purple",235
 375,"Aymara","BO-Ay","#9B9B9B","purple",236
 376,"Bolivian_Cochabamba","BO-Co","#9D9D9D","purple",237
 378,"Bolivian_Pando","BO-Pa","#929292","purple",238
-379,"Quechua_RuizLinares","Que","#A2A2A2","purple",239
+379,"Quechua_RuizLinares","BO-Qu","#A2A2A2","purple",239
 380,"Karitiana","BR-Ka","#909090","purple",240
 381,"Surui","BR-Su","#909090","purple",241
 382,"Algonquin","Alg","#2E2E2E","purple",242
@@ -258,9 +258,9 @@
 396,"Pima","MX-Pi","#4B4B4B","purple",256
 397,"Zapotec","MX-Za","#5F5F5F","purple",257
 398,"Quechua_Coriell","PE-Qu","#979797","purple",258
-400,"Mongola","???Mon","#623495","purple",259
-402,"Aleut","Ale","#342745","purple",260
-404,"Chukchi","Chu","#170F23","purple",261
+400,"Mongola","MN-mn","#623495","purple",259
+402,"Aleut","RU-Al","#342745","purple",260
+404,"Chukchi","RU-Ck","#170F23","purple",261
 405,"Chukchi_Reindeer","RU-Ch2","#1C1823","purple",262
 409,"Eskimo_Naukan","RU-Es2","#1C1527","purple",263
 411,"Even","RU-Evn","#3D216B","purple",264
@@ -277,11 +277,11 @@
 424,"Yukagir_Forest","RU-Yu1","#281749","purple",275
 425,"Yukagir_Tundra","RU-Yu2","#201241","purple",276
 429,"Cambodian","KH","#A26499","purple",277
-430,"Dai","???CN-Dai","#92588B","purple",278
+430,"Dai","CN-Dai","#92588B","purple",278
 431,"Daur","CN-Dar","#532D88","purple",279
 434,"Hezhen","CN-He","#512F7B","purple",280
 435,"Lahu","CN-La","#90578B","purple",281
-436,"Miao","Mia","#844D9A","purple",282
+436,"Miao","CN-Mo","#844D9A","purple",282
 437,"Naxi","CN-Nx","#8A538A","purple",283
 438,"Oroqen","CN-Or","#502B83","purple",284
 439,"She","CN-She","#814EA1","purple",285
@@ -290,7 +290,7 @@
 443,"Xibo","CN-Xi","#6E4C5C","purple",288
 444,"Yi","CN-Yi","#85508C","purple",289
 446,"Korean","KR","#683E8D","purple",290
-447,"Ami","Ami","#8855A1","purple",291
+447,"Ami","TW-Ami","#8855A1","purple",291
 448,"Atayal","TW-At","#84529F","purple",292
 449,"Thai","TH-Th","#9E608E","purple",293
 450,"Kinh","VN","#915899","purple",294
@@ -298,11 +298,11 @@
 452,"Bougainville","PG-Bo","#9E879B","purple",296
 453,"Papuan","PG-Pa","#A482A1","purple",297
 454,"Bengali_Bangladesh_BEB","BD","#8F5773","purple",298
-460,"Kharia","ID-Kha","#8B5661","purple",299
+460,"Kharia","ID-Khar","#8B5661","purple",299
 461,"Lodhi","ID-Lo","#8B5758","purple",300
 462,"Mala","ID-Ml","#975B59","purple",301
 463,"Onge","ID-On","#A5627C","purple",302
-464,"Tiwari","ID-Ti","#915866","purple",303
+464,"Tiwari","ID-Tw","#915866","purple",303
 465,"Vishwabrahmin","ID-Vi","#9B5C5E","purple",304
 467,"Balochi","PK-Ba","#82593C","purple",305
 469,"Burusho","PK-Bu","#79544D","purple",306
@@ -318,22 +318,22 @@
 490,"Scottish","GB-Sc","#D1CD00","purple",316
 492,"Finnish","FI-Fi","#778F00","purple",317
 493,"Saami_WGA","FI-Sa","#6F9600","purple",318
-494,"Basque_French","FR-Ba","#CFBE00","purple",319
+494,"Basque_French","FR-Bq","#CFBE00","purple",319
 495,"French","FR-fr","#C8BB00","purple",320
 496,"French_South","FR-S","#CFBE00","purple",321
 501,"Greek_Coriell","GR-Gr","#9D8C00","purple",322
 505,"Icelandic","IS","#FFF700","purple",323
 511,"BedouinA","IL-Be","#8F7400","purple",324
-513,"Italian_South","Ita","#AC9C00","purple",325
+513,"Italian_South","IT-S","#AC9C00","purple",325
 516,"Bergamo","IT-Be","#B4AA00","purple",326
 517,"Sardinian","IT-Sa","#BAA800","purple",327
 518,"Tuscan","IT-Tu","#B2A600","purple",328
 522,"Maltese","MT","#B59E00","purple",329
-523,"Norwegian","Nor","#A0AD00","purple",330
+523,"Norwegian","NO","#A0AD00","purple",330
 524,"Orcadian","GB-Or","#C9CB00","purple",331
-533,"North_Ossetian","Nor","#6B6800","purple",332
-535,"Adygei","Ady","#717000","purple",333
-537,"Basque_Spanish","ES-Ba","#D4C200","purple",334
+533,"North_Ossetian","RU-No","#6B6800","purple",332
+535,"Adygei","RU-Ay","#717000","purple",333
+537,"Basque_Spanish","ES-Bq","#D4C200","purple",334
 538,"Canary_Islanders","ES-Ca","#F4D000","purple",335
 539,"Spanish_Andalucia_IBS","ES-An","#E0C600","purple",336
 540,"Spanish_Aragon_IBS","ES-Ar","#D0BC00","purple",337
@@ -341,7 +341,7 @@
 542,"Spanish_Cantabria_IBS","ES-Ct","#D9C500","purple",339
 543,"Spanish_Castilla_la_Mancha_IBS","ES-CM","#DBC300","purple",340
 544,"Spanish_Castilla_y_Leon_IBS","ES-Le","#DAC400","purple",341
-545,"Spanish_Cataluna_IBS","ES-Ca","#CBB900","purple",342
+545,"Spanish_Cataluna_IBS","ES-Cy","#CBB900","purple",342
 546,"Spanish_Extremadura_IBS","ES-Ex","#E0C700","purple",343
 547,"Spanish_Galicia_IBS","ES-Ga","#E3CD00","purple",344
 548,"Spanish_Murcia_IBS","ES-Mu","#D2BB00","purple",345
@@ -365,7 +365,7 @@
 581,"Swiss-Italian","CH-I","#B4AA00","purple",363
 582,"Czech Republic","CZ","#A0A000","purple",364
 583,"Sweden","SE","#90A000","purple",365
-586,"Greece","Gre","#9B8D00","purple",366
+586,"Greece","GR","#9B8D00","purple",366
 597,"Denmark","DK","#AAAF00","purple",367
 599,"Latvia","LV","#7D8E00","purple",368
 600,"Slovakia","SK","#989800","purple",369
@@ -442,9 +442,9 @@
 763,"Kalimantan, Land Dayak, Borneo","ID-BK","#B579B5","purple",440
 764,"Bunun, Taiwan aborigines","TW-Bu","#8855A1","purple",441
 766,"Flores","ID-Fl","#BE87B5","purple",442
-767,"Fiji","Fij","#A1A0A0","purple",443
-768,"Hiri","Hir","#A978AA","purple",444
-769,"Papua New Guinea","???PG-Pap","#AB8CA4","purple",445
+767,"Fiji","FJ","#A1A0A0","purple",443
+768,"Hiri","ID-Hir","#A978AA","purple",444
+769,"Papua New Guinea","PG-Pap","#AB8CA4","purple",445
 771,"Mamanwa (Negrito)","PH-Mam","#9A6BA3","purple",446
 773,"Pingpu, Taiwan aborigines","TW-Pi","#8855A1","purple",447
 774,"Polynesia","WS-Po","#979797","purple",448
@@ -463,7 +463,7 @@
 796,"Libya","LY","#AE9100","purple",461
 798,"Druze","SY-Dr","#8B7500","purple",462
 800,"Cappadocia","TR-Ca","#847600","purple",463
-801,"East_Rumelia","BG_er","#938900","purple",464
+801,"East_Rumelia","BG-Er","#938900","purple",464
 804,"Peloponnese","GR-Pe","#A38F00","purple",465
 805,"SE_Laconia","GR-La","#A08B00","purple",466
 806,"Dodecanese","GR-Do","#988400","purple",467

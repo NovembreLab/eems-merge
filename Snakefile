@@ -625,6 +625,7 @@ rule merge_tib_meta:
         bip="tib/tibetan.indiv_prov",
         bpd="tib/tibetan.pop_display",
         bpg="tib/tibetan.pop_geo",
+        fam="merged/tib_prune0.6.fam"
     output:
         oil="pgs/gvar2.indiv_label",
         oip="pgs/gvar2.indiv_prov",
@@ -632,30 +633,81 @@ rule merge_tib_meta:
         opg="pgs/gvar2.pop_geo",
     run:
         import pandas as pd
+        fam = pd.read_table(input.fam, sep=" ", names=range(6))
+        fam = pd.DataFrame({'sampleId':fam[0]})
 
         p1, p2 = pd.read_csv(input.ail), pd.read_csv(input.bil)
         iil = p1.append(p2)
         assert len(p1.popId.unique()) + len(p2.popId.unique()) ==\
             len(iil.popId.unique())
-        #assert sum(iil.sampleId.duplicated()) == 0
-        iil.to_csv(output.oil)
+        iil = iil.merge(fam)
+        assert sum(iil.sampleId.duplicated()) == 0
+        iil.to_csv(output.oil, index=False, columns=('sampleId', 'popId'))
 
         p1, p2 = pd.read_csv(input.aip), pd.read_csv(input.bip)
         iip = p1.append(p2)
+        iip = iip.merge(fam)
         assert set(iil.sampleId) == set(iip.sampleId)
-        #assert sum(iip.sampleId.duplicated()) == 0
-        iip.to_csv(output.oip)
+        assert sum(iip.sampleId.duplicated()) == 0
+        iip.to_csv(output.oip, index=False)
 
         p1, p2 = pd.read_csv(input.apd), pd.read_csv(input.bpd)
         ipd = p1.append(p2)
         assert sum(ipd.popId.duplicated()) == 0
-        ipd.to_csv(output.opd)
+        ipd.to_csv(output.opd, index=False)
 
         p1, p2 = pd.read_csv(input.apg), pd.read_csv(input.bpg)
         ipg = p1.append(p2)
         assert sum(ipg.popId.duplicated()) == 0
         assert set(ipg.popId) == set(ipd.popId)
-        ipg.to_csv(output.opg)
+        ipg.to_csv(output.opg, index=False)
+
+rule merge_qatar_to_tib_meta:
+    input:
+        ail="pgs/gvar2.indiv_label",
+        aip="pgs/gvar2.indiv_prov",
+        apd="pgs/gvar2.pop_display",
+        apg="pgs/gvar2.pop_geo",
+        bil="qatari/qatari.indiv_label",
+        bip="qatari/qatari.indiv_prov",
+        bpd="qatari/qatari.pop_display",
+        bpg="qatari/qatari.pop_geo",
+        fam="merged/tq_prune0.6.fam"
+    output:
+        oil="pgs/gvar3.indiv_label",
+        oip="pgs/gvar3.indiv_prov",
+        opd="pgs/gvar3.pop_display",
+        opg="pgs/gvar3.pop_geo",
+    run:
+        import pandas as pd
+        fam = pd.read_table(input.fam, sep=" ", names=range(6))
+        fam = pd.DataFrame({'sampleId':fam[0]})
+
+        p1, p2 = pd.read_csv(input.ail), pd.read_csv(input.bil)
+        iil = p1.append(p2)
+        assert len(p1.popId.unique()) + len(p2.popId.unique()) ==\
+            len(iil.popId.unique())
+        iil = iil.merge(fam)
+        assert sum(iil.sampleId.duplicated()) == 0
+        iil.to_csv(output.oil, index=False, columns=('sampleId', 'popId'))
+
+        p1, p2 = pd.read_csv(input.aip), pd.read_csv(input.bip)
+        iip = p1.append(p2)
+        iip = iip.merge(fam)
+        assert set(iil.sampleId) == set(iip.sampleId)
+        assert sum(iip.sampleId.duplicated()) == 0
+        iip.to_csv(output.oip, index=False)
+
+        p1, p2 = pd.read_csv(input.apd), pd.read_csv(input.bpd)
+        ipd = p1.append(p2)
+        assert sum(ipd.popId.duplicated()) == 0
+        ipd.to_csv(output.opd, index=False)
+
+        p1, p2 = pd.read_csv(input.apg), pd.read_csv(input.bpg)
+        ipg = p1.append(p2)
+        assert sum(ipg.popId.duplicated()) == 0
+        assert set(ipg.popId) == set(ipd.popId)
+        ipg.to_csv(output.opg, index=False)
 
 rule all:
     input:
@@ -727,6 +779,77 @@ rule add_tibetans:
         bed='merged/tib_master.bed',
         bim='merged/tib_master.bim',
         fam='merged/tib_master.fam',
+    run:
+        in1 = os.path.splitext(input.bed)[0]
+        in2 = os.path.splitext(input.tibbed)[0]
+        out = os.path.splitext(output.bed)[0]
+        plink_merge(in1, in2, out)
+
+rule flip_qatari:
+    input:
+        bed="qatari/NWAfrica_HM3_Qat.bed",
+        bim="qatari/NWAfrica_HM3_Qat.bim",
+        fam="qatari/NWAfrica_HM3_Qat.fam",
+    output:
+        bed="qatari/hg37.bed",
+        bim="qatari/hg37.bim",
+        fam="qatari/hg37.fam",
+    script: 
+        "scripts/flip_henn2012.py"
+
+
+rule clean_qatari:
+    input:
+        bed="qatari/hg37.bed",
+        bim="qatari/hg37.bim",
+        fam="qatari/hg37.fam",
+        samples="qatari/qatari.indiv_prov"
+    output:
+        bed="qatari/qatari.bed",
+        bim="qatari/qatari.bim",
+        fam="qatari/qatari.fam",
+        tmp=temp("qatari/other.fam"),
+        tmp_id=temp("qatari/ids.txt"),
+    run:
+        s = """cut -d, -f2 {input.samples} | sed 's/"//g' > {output.tmp} """
+        shell(s)
+        s = 'grep -F -f {output.tmp} {input.fam} | cut -f-2 -d" "' 
+        s += " > {output.tmp_id}"
+        shell(s)
+
+        inname=base(input.bed)
+        outname=base(output.bed)
+        s = "plink --bfile {inname} --make-bed --out {outname}"
+        s += " --keep {output.tmp_id}"
+        shell(s)
+        with open(output.fam, 'r') as f:
+            with open(output.tmp, "w") as o:
+                for line in f:
+                    l = line.split()
+                    l[0] = l[1]
+                    o.write(" ".join(l) + "\n")
+        shell("mv {output.tmp} {output.fam}")
+
+        with open(output.bim, 'r') as f:
+            with open(output.tmp, "w") as o:
+                for line in f:
+                    l = line.split()
+                    l[1] = "%s_%s" % (l[0],l[3])
+                    o.write(" ".join(l) + "\n")
+        shell("mv {output.tmp} {output.bim}")
+
+rule add_qatari:
+    input:
+        bed='merged/tib_master.bed',
+        bim='merged/tib_master.bim',
+        fam='merged/tib_master.fam',
+        tibbed='qatari/qatari.bed',
+        tibbim='qatari/qatari.bim',
+        tibfam='qatari/qatari.fam',
+    output:
+        bed='merged/tq_master.bed',
+        bim='merged/tq_master.bim',
+        fam='merged/tq_master.fam',
     run:
         in1 = os.path.splitext(input.bed)[0]
         in2 = os.path.splitext(input.tibbed)[0]
