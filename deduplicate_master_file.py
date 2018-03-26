@@ -14,12 +14,16 @@ lc.not_most_accurate.loc[np.isnan(lc.not_most_accurate)] = 0
 print(lc.shape)
 
 
-jews = [l.ID for l in lc.itertuples()  
-        if 'jew' in str(l.Group_Population).lower() or
-          'jew' in str(l.Population).lower()]                                                        
+exclude_jews = True
+if exclude_jews:
+    jews = [l.ID for l in lc.itertuples()  
+            if 'jew' in str(l.Group_Population).lower() or
+              'jew' in str(l.Population).lower()]                                                        
 
-lc  =  lc[np.logical_not(lc.ID.isin(jews))]
-print(lc.shape)
+    print("JEWS: ", len(jews))
+
+    lc  =  lc[np.logical_not(lc.ID.isin(jews))]
+    print(lc.shape)
 
 
 

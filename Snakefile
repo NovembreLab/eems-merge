@@ -203,7 +203,6 @@ rule deduplicate_master_table:
         input.script
 
         
-        
 rule sample_pop_estonia:
     """ assigns estonian individuals id to population
         ids """
@@ -672,7 +671,10 @@ rule merge_qatar_to_tib_meta:
         bip="qatari/qatari.indiv_prov",
         bpd="qatari/qatari.pop_display",
         bpg="qatari/qatari.pop_geo",
-        fam="merged/tq_prune0.6.fam"
+        fam="merged/tq_prune0.6.fam",
+        fix=["pgs/gvar3.names", "pgs/update_pos.csv", "pgs/merge.csv",
+            "fix.R"
+        ]
     output:
         oil="pgs/gvar3.indiv_label",
         oip="pgs/gvar3.indiv_prov",
@@ -684,6 +686,7 @@ rule merge_qatar_to_tib_meta:
         fam = pd.DataFrame({'sampleId':fam[0]})
 
         p1, p2 = pd.read_csv(input.ail), pd.read_csv(input.bil)
+        print(p2.head())
         iil = p1.append(p2)
         assert len(p1.popId.unique()) + len(p2.popId.unique()) ==\
             len(iil.popId.unique())
@@ -694,6 +697,7 @@ rule merge_qatar_to_tib_meta:
         p1, p2 = pd.read_csv(input.aip), pd.read_csv(input.bip)
         iip = p1.append(p2)
         iip = iip.merge(fam)
+        s1, s2 =set(iil.sampleId), set(iip.sampleId)
         assert set(iil.sampleId) == set(iip.sampleId)
         assert sum(iip.sampleId.duplicated()) == 0
         iip.to_csv(output.oip, index=False)
@@ -708,6 +712,10 @@ rule merge_qatar_to_tib_meta:
         assert sum(ipg.popId.duplicated()) == 0
         assert set(ipg.popId) == set(ipd.popId)
         ipg.to_csv(output.opg, index=False)
+
+        R("source('fix.R')")
+	
+
 
 rule all:
     input:
@@ -811,7 +819,7 @@ rule clean_qatari:
         tmp=temp("qatari/other.fam"),
         tmp_id=temp("qatari/ids.txt"),
     run:
-        s = """cut -d, -f2 {input.samples} | sed 's/"//g' > {output.tmp} """
+        s = """cut -d, -f1 {input.samples} | sed 's/"//g' > {output.tmp} """
         shell(s)
         s = 'grep -F -f {output.tmp} {input.fam} | cut -f-2 -d" "' 
         s += " > {output.tmp_id}"
@@ -826,6 +834,7 @@ rule clean_qatari:
             with open(output.tmp, "w") as o:
                 for line in f:
                     l = line.split()
+                    l[1] = "QATAR" + l[1]
                     l[0] = l[1]
                     o.write(" ".join(l) + "\n")
         shell("mv {output.tmp} {output.fam}")

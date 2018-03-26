@@ -38,7 +38,13 @@ def remove_sample_without_loc(data, loc):
     intersection = set.intersection(set(data.PID), set(loc.ID))
     data = data[data.PID.isin(intersection)]
     loc = loc[loc.ID.isin(intersection)]
+
+    excluded_data = data[~data.PID.isin(intersection)]
+    excluded_loc = loc[~loc.ID.isin(intersection)]
     print(data.shape, loc.shape)
+    print("EX")
+    print(excluded_data.shape)
+    print(excluded_loc.shape)
     return data, loc
 
 try:
