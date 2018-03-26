@@ -174,3 +174,8 @@ tib/HGDP_Tibetan_Merged_160509_tibetan.pop\* #all tibetan (for Jeong et al 2017
 tib/HGDP_Tibetan_Merged_160509.indiv\* #all data from Jeong et al 2017)
 tib/HGDP_Tibetan_Merged_160509.pop\* #all data from Jeong et al 2017)
 
+Northafrican / Qatari data
+qatari/codes.txt
+qatari/flip.txt
+qatari/keep_snp.txt
+
