@@ -1,0 +1,221 @@
+sample ID	pop ID	sampling location
+Alor19	Alor	Alor, Indonesia
+Alor9	Alor	Alor, Indonesia
+AMI20	Amis, Taiwan aborigines	Taitung county, Taiwan
+AMI34	Amis, Taiwan aborigines	Taitung county, Taiwan
+ATA15	Atayal, Taiwan aborigines	Taoyuan and Hsinchu counties, Taiwan
+ATA25	Atayal, Taiwan aborigines	Taoyuan and Hsinchu counties, Taiwan
+Bes10	Besemah	Sumatra, Indonesia
+Bes13	Besemah	Sumatra, Indonesia
+Bes18	Besemah	Sumatra, Indonesia
+Bes19	Besemah	Sumatra, Indonesia
+Bes2	Besemah	Sumatra, Indonesia
+Bes20	Besemah	Sumatra, Indonesia
+Bes21	Besemah	Sumatra, Indonesia
+Bes22	Besemah	Sumatra, Indonesia
+Bes23	Besemah	Sumatra, Indonesia
+Bes25	Besemah	Sumatra, Indonesia
+BOR_06	Borneo	Barito River region, Borneo
+BOR_07	Borneo	Barito River region, Borneo
+BOR_08	Borneo	Barito River region, Borneo
+BOR_09	Borneo	Barito River region, Borneo
+BOR_1	Borneo	Barito River region, Borneo
+BOR_10	Borneo	Barito River region, Borneo
+BOR_11	Borneo	Barito River region, Borneo
+BOR_13	Borneo	Barito River region, Borneo
+BOR_15	Borneo	Barito River region, Borneo
+BOR_16	Borneo	Barito River region, Borneo
+BOR_17	Borneo	Barito River region, Borneo
+BOR_18	Borneo	Barito River region, Borneo
+BOR_19	Borneo	Barito River region, Borneo
+BOR_2	Borneo	Barito River region, Borneo
+BOR_20	Borneo	Barito River region, Borneo
+BOR_21	Borneo	Barito River region, Borneo
+BOR_22	Borneo	Barito River region, Borneo
+BOR_23	Borneo	Barito River region, Borneo
+BOR_24	Borneo	Barito River region, Borneo
+BOR_26	Borneo	Barito River region, Borneo
+BOR_3	Borneo	Barito River region, Borneo
+BOR_4	Borneo	Barito River region, Borneo
+BOR_5	Borneo	Barito River region, Borneo
+Bor1_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor10_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor11_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor12_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor15_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor16_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor17_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor19_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor2_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor20_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor21_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor23_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor24_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor25_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor26_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor3_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor30_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor31_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor32_EG	Borneo	Kalimantan, Land Dayak, Borneo
+Bor33_EG	Borneo	Kalimantan, Land Dayak, Borneo
+BUN06	Bunun, Taiwan aborigines	Kaohsiung county, Taiwan
+BUN39	Bunun, Taiwan aborigines	Kaohsiung county, Taiwan
+DRA_11	Dravidian speakers	South India
+DRA_14	Dravidian speakers	South India
+DRA_16	Dravidian speakers	South India
+DRA_24	Dravidian speakers	South India
+DRA_27	Dravidian speakers	South India
+DRA_3	Dravidian speakers	South India
+DRA_35	Dravidian speakers	South India
+DRA_4	Dravidian speakers	South India
+DRA_59	Dravidian speakers	South India
+DRA_62	Dravidian speakers	South India
+DRA_67	Dravidian speakers	South India
+DRA_68	Dravidian speakers	South India
+DRA_76	Dravidian speakers	South India
+F15	Flores	Flores, Indonesia
+FIJ_1	Fiji	Fiji
+FIJ_10	Fiji	Fiji
+FIJ_11	Fiji	Fiji
+FIJ_12	Fiji	Fiji
+FIJ_13	Fiji	Fiji
+FIJ_14	Fiji	Fiji
+FIJ_15	Fiji	Fiji
+FIJ_16	Fiji	Fiji
+FIJ_17	Fiji	Fiji
+FIJ_18	Fiji	Fiji
+FIJ_19	Fiji	Fiji
+FIJ_2	Fiji	Fiji
+FIJ_20	Fiji	Fiji
+FIJ_21	Fiji	Fiji
+FIJ_22	Fiji	Fiji
+FIJ_23	Fiji	Fiji
+FIJ_24	Fiji	Fiji
+FIJ_25	Fiji	Fiji
+FIJ_3	Fiji	Fiji
+FIJ_4	Fiji	Fiji
+FIJ_5	Fiji	Fiji
+FIJ_6	Fiji	Fiji
+FIJ_7	Fiji	Fiji
+FIJ_8	Fiji	Fiji
+FIJ_9	Fiji	Fiji
+H14	Hiri	Hiri, Indonesia
+H20	Hiri	Hiri, Indonesia
+H24	Hiri	Hiri, Indonesia
+H25	Hiri	Hiri, Indonesia
+H26	Hiri	Hiri, Indonesia
+H3	Hiri	Hiri, Indonesia
+H8	Hiri	Hiri, Indonesia
+MEL_06	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_07	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_08	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_09	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_1	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_10	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_11	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_12	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_13	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_14	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_15	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_16	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_17	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_18	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_19	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_2	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_20	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_21	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_24	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_25	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_26	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_28	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_3	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_4	Papua New Guinea	Southern Highlands of Papua New Guinea
+MEL_5	Papua New Guinea	Southern Highlands of Papua New Guinea
+PAI10	Paiwan, Taiwan aborigines	Kaohsiung county, Taiwan
+PAI26	Paiwan, Taiwan aborigines	Kaohsiung county, Taiwan
+PH1	Mamanwa (Negrito)	Mindanao, Philippines
+PH101e	Manobo	Mindanao, Philippines
+PH104e	Manobo	Mindanao, Philippines
+PH10b	Mamanwa (Negrito)	Mindanao, Philippines
+PH110	Manobo	Mindanao, Philippines
+PH117	Manobo	Mindanao, Philippines
+PH119	Manobo	Mindanao, Philippines
+PH120	Manobo	Mindanao, Philippines
+PH121	Manobo	Mindanao, Philippines
+PH2	Mamanwa (Negrito)	Mindanao, Philippines
+PH36e	Mamanwa (Negrito)	Mindanao, Philippines
+PH3b	Mamanwa (Negrito)	Mindanao, Philippines
+PH45	Mamanwa (Negrito)	Mindanao, Philippines
+PH46	Mamanwa (Negrito)	Mindanao, Philippines
+PH48	Mamanwa (Negrito)	Mindanao, Philippines
+PH63b	Mamanwa (Negrito)	Mindanao, Philippines
+PH64	Mamanwa (Negrito)	Mindanao, Philippines
+PH68	Mamanwa (Negrito)	Mindanao, Philippines
+PH6b	Mamanwa (Negrito)	Mindanao, Philippines
+PH70	Mamanwa (Negrito)	Mindanao, Philippines
+PH77	Mamanwa (Negrito)	Mindanao, Philippines
+PH81	Mamanwa (Negrito)	Mindanao, Philippines
+PH83	Manobo	Mindanao, Philippines
+PH84	Manobo	Mindanao, Philippines
+PH85	Manobo	Mindanao, Philippines
+PH87	Manobo	Mindanao, Philippines
+PH90	Manobo	Mindanao, Philippines
+PH92	Manobo	Mindanao, Philippines
+PH93	Manobo	Mindanao, Philippines
+PH96	Manobo	Mindanao, Philippines
+PH97	Manobo	Mindanao, Philippines
+PIN18	Pingpu, Taiwan aborigines	Pingtung county, Taiwan
+PIN25	Pingpu, Taiwan aborigines	Pingtung county, Taiwan
+PLY_05	Polynesia	Polynesia
+PLY_06	Polynesia	Polynesia
+PLY_07	Polynesia	Polynesia
+PLY_08	Polynesia	Polynesia
+PLY_11	Polynesia	Polynesia
+PLY_13	Polynesia	Polynesia
+PLY_14	Polynesia	Polynesia
+PLY_16	Polynesia	Polynesia
+PLY_17	Polynesia	Polynesia
+PLY_19	Polynesia	Polynesia
+PLY_21	Polynesia	Polynesia
+PLY_22	Polynesia	Polynesia
+PLY_25	Polynesia	Polynesia
+PLY_26	Polynesia	Polynesia
+PLY_27	Polynesia	Polynesia
+PLY_28	Polynesia	Polynesia
+PLY_29	Polynesia	Polynesia
+PLY_3	Polynesia	Polynesia
+PLY_30	Polynesia	Polynesia
+PLY_31	Polynesia	Polynesia
+PLY_32	Polynesia	Polynesia
+PLY_34	Polynesia	Polynesia
+PLY_35	Polynesia	Polynesia
+PLY_36	Polynesia	Polynesia
+PLY_4	Polynesia	Polynesia
+PUY16	Puyuma, Taiwan aborigines	Taitung county, Taiwan
+PUY30	Puyuma, Taiwan aborigines	Taitung county, Taiwan
+R23	Roti	Roti, Indonesia
+R24	Roti	Roti, Indonesia
+R25	Roti	Roti, Indonesia
+R8	Roti	Roti, Indonesia
+RUK23	Rukai, Taiwan aborigines	Kaohsiung county, Taiwan
+RUK36	Rukai, Taiwan aborigines	Kaohsiung county, Taiwan
+SAI17	Saisiat, Taiwan aborigines	Miaoli county, Taiwan
+SAI23	Saisiat, Taiwan aborigines	Miaoli county, Taiwan
+Smd28	Semende	Sumatra, Indonesia
+Smd29	Semende	Sumatra, Indonesia
+Smd3	Semende	Sumatra, Indonesia
+Smd30	Semende	Sumatra, Indonesia
+Smd31	Semende	Sumatra, Indonesia
+Smd32	Semende	Sumatra, Indonesia
+Smd34	Semende	Sumatra, Indonesia
+Smd35	Semende	Sumatra, Indonesia
+Smd36	Semende	Sumatra, Indonesia
+Smd4	Semende	Sumatra, Indonesia
+Te8	Ternate	Ternate, Indonesia
+Te12	Ternate	Ternate, Indonesia
+Te6	Ternate	Ternate, Indonesia
+Ti15	Timor	Timor, Indonesia
+Ti21	Timor	Timor, Indonesia
+Ti7	Timor	Timor, Indonesia
+TSO40	Tsou, Taiwan aborigines	Taitung county, Taiwan
+TSO43	Tsou, Taiwan aborigines	Taitung county, Taiwan

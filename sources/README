@@ -1,0 +1,13 @@
+Data_for_Ben_Meta.xlsx: obtained from Mait Metspalu on November 2015 (email)
+Stoneking.pops.txt : From Stoneking.Data.tar, obtained from Mark Stoneking
+HGDP: obtained from wget -O HGDP_SampleInformation.txt http://web.stanford.edu/group/rosenberglab/data/rosenberg2006ahg/SampleInformation.txt
+human_origins.csv : Table S9.4, Email from David Reich through John Novembre
+POPRES_Phenotypes.txt : obtained from John's popres folder on pps
+POPRES_TS3:table S3 from paper 
+PASNP_Map.htm : from the website http://www4a.biotec.or.th/PASNP/PASNP_Map
+Pop_Positions_Xing_2010.csv: from Jichuan Xing by Email
+botigue2013.pdf: paper for Botigue2013 data
+1000g_loc.csv: from http://www.1000genomes.org/category/frequently-asked-questions/population
+journal.pgen.*png: Verduetal paper Table 1 as image
+paschou_locations.csv: Table S3 from paper
+

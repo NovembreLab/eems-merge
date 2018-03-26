@@ -109,8 +109,45 @@ manufacturer's website
 - chip/Mapping250K_Nsp.na32.annot.csv
 - chip/Mapping250K_Sty.na32.annot.csv
 
+All temporary and final mergeing files
+- merged/\*bed
+- merged/\*bim
+- merged/\*fam
+
+Datafiles (also bim and fam files named similarly)
+- data/Data_for_Ben.bed #estonian biocentre data from Mait Metspalu
+- data/hugo.bed #hugo data
+- data/MARITIME_ROUTE.bed #Paschou et al data
+- data/POPRES_Genotypes_QC1_v2.bed #popres data
+- data/reich2011.bed
+- data/vdata.bed #Lazaridis full data
+- data/verdu.bed #verdu et al 2014 data (not used in paper)
+- data/xing.bed #xing et al 2010 data
+- qatari/NWAfrica_HM3_Qat.bed (African data)
+- qatari/qatari.bed (qatari data)
+- qatari/hg37.bed (lifted african data)
+
+
 
 ## Data file present in repo
 liftover for hugo data
 - supplementary/lifted.xbed
 - supplementary/unlifted.xbed
+list of duplicated labels across studies, used to merge and exclude samples
+- duplicate_dict.txt 
+
+location sources:
+- sources/Data_for_Ben_Meta.xlsx: obtained from Mait Metspalu on November 2015 (email)                                                                   
+- sources/Stoneking.pops.txt : From Stoneking.Data.tar, obtained from Mark Stoneking                                                                     
+- sources/HGDP_SampleInformation.txt: obtained from wget -O HGDP_SampleInformation.txt http://web.stanford.edu/group/rosenberglab/data/rosenberg2006ahg/SampleInformation.txt  
+- sources/human_origins.csv : Table S9.4, Email from David Reich through John Novembre                                                                   
+- sources/POPRES_Phenotypes.txt : obtained from John's popres folder on pps                                                                              
+- sources/POPRES_TS3.csv:table S3 from paper                                                                                                                 
+- sources/PASNP_Map.htm : from the website http://www4a.biotec.or.th/PASNP/PASNP_Map                                                                     
+- sources/hugo_meta.csv : processed version
+- sources/Pop_Positions_Xing_2010.csv: from Jichuan Xing by Email                                                                                        
+- sources/botigue2013.pdf: paper for Botigue2013 data                                                                                                    
+- sources/1000g_loc.csv: from http://www.1000genomes.org/category/frequently-asked-questions/population                                                  
+- sources/journal.pgen.*png: Verduetal paper Table 1 as image                                                                                            
+- sources/paschou_locations.csv: Table S3 from paper                                                                                                     
+

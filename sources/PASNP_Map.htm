@@ -1,0 +1,307 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Geographical distribution of PanAsian & HapMap samples</title>
+<style type="text/css">
+v\:* {
+behavior:url(#default#VML);
+}
+#map {
+position: absolute;
+left: 8px;
+top: 8px;
+border: 2px solid black;
+width:600px;
+height:600px;
+}
+body>#map {
+width: auto;
+height: auto;
+right: 264px;
+bottom: 48px;
+}
+#data {
+position: absolute;
+left: 8px;
+border: 2px solid black;
+width:600px;
+height:40px;
+        padding: 8px;
+background: #efffef;
+        color: #003f00;
+}
+body>#data {
+width: auto;
+right: 264px;
+bottom: 8px;
+}
+
+#list {
+position: absolute;
+left: 616px;
+top: 8px;
+width: 230px;
+height: 584px;
+border: 2px solid #003f00;
+padding: 8px;
+background: #efffef;
+font-family: sans-serif;
+font-size: 10pt;
+overflow: auto;
+}
+body>#list {
+height: auto;
+left: auto;
+right: 8px;
+bottom: 8px;
+}
+
+#list h2 {
+font-size: 12pt;
+margin: 0px 0px 6px 0px;
+padding: 0px;
+color: #003f00;
+font-weight: bold;
+}
+#list a {
+display:block;
+color: #003f00;
+text-decoration: none;
+margin-bottom: 2px;
+}
+#list a:hover {
+color: #007f00;
+}
+.bubble {
+width: 300px;
+font-size: 10pt;
+}
+.bubble strong {
+font-family: sans-serif;
+}
+</style>
+<script type="text/javascript" src="//maps.googleapis.com/maps/api/js?key=AIzaSyClJaMYTdWH9fCh0-myKNQVq_6JMucLf0Y&sensor=false"></script>
+
+
+<script type="text/javascript">
+  var map;
+  var migration_path;
+  var toggleState = 0;
+    
+//<![CDATA[
+function togglepath() 
+{
+  if (toggleState == 1) {
+    map.removeOverlay(migration_path);
+    toggleState = 0;
+    document.getElementById("migrate_btn").value="Show Migration"; 
+  } else {
+    var marker = new google.maps.Marker(migration_path);
+    toggleState = 1;
+    document.getElementById("migrate_btn").value="Hide Migration"; 
+  }
+}
+function initialize()
+{
+        var map = new google.maps.Map(document.getElementById("map"), {center: new google.maps.LatLng(15.35, 101.0333), zoom: 3, mapTypeId: google.maps.MapTypeId.ROADMAP});
+
+var marker = new google.maps.Marker(make_marker(map,'MY-TM (Proto-Malay)','<b>Ethnicity</b>: Proto-Malay<br><b>Language</b>: Temuan<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Malayic, Malayan, Aboriginal Malay<br><b>Locale</b>: Kampung Parit Gong, Jelebu District, Negri Sembilan, Malaysia<br><b>Latitude</b>: 2.933 Longtitude: 102.083<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=MY-TM"target="_blank">SNP Genotypes</a>',[102.083055555556,2.93305555555556],'green'));
+var marker = new google.maps.Marker(make_marker(map,'MY-TM (Proto-Malay)','<b>Ethnicity</b>: Proto-Malay<br><b>Language</b>: Temuan<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Malayic, Malayan, Aboriginal Malay<br><b>Locale</b>: S.M Datuk Undang Abdul Manap and Kampung Senibai, Kuala Pilah District, Negri Sembilan, Malaysia<br><b>Latitude</b>: 2.733 Longtitude: 102.25<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=MY-TM"target="_blank">SNP Genotypes</a>',[102.25,2.73305555555556],'green'));
+var marker = new google.maps.Marker(make_marker(map,'MY-BD (Bidayuh)','<b>Ethnicity</b>: Bidayuh<br><b>Language</b>: Jagoi<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Land Dayak<br><b>Locale</b>: Kampung Stenggang, Bau District, Sarawak, Malaysia<br><b>Latitude</b>: 1.416 Longtitude: 110.148<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=MY-BD"target="_blank">SNP Genotypes</a>',[110.148055555556,1.41583333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'MY-KS (Negrito)','<b>Ethnicity</b>: Negrito<br><b>Language</b>: Kensiu<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Aslian, North Aslian, Western<br><b>Locale</b>: Kampung Lubuk Lenggong, Baling District, Kedah, Malaysia<br><b>Latitude</b>: 5.667 Longtitude: 100.917<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=MY-KS"target="_blank">SNP Genotypes</a>',[100.916666666667,5.66666666666667],'red'));
+var marker = new google.maps.Marker(make_marker(map,'MY-JH (Negrito)','<b>Ethnicity</b>: Negrito<br><b>Language</b>: Jehai<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Aslian, North Aslian, Eastern<br><b>Locale</b>: RPS Banun, Grik District, Perak, Malaysia<br><b>Latitude</b>: 5.417 Longtitude: 101.133<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=MY-JH"target="_blank">SNP Genotypes</a>',[101.133055555556,5.41666666666667],'red'));
+var marker = new google.maps.Marker(make_marker(map,'MY-KN (Malay)','<b>Ethnicity</b>: Malay<br><b>Language</b>: Malay<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Malayic, Malayan, Local Malay<br><b>Locale</b>: Bachok, Rantau Panjang, Kota Bharu, Jeli (Dabung), Machang, Kelantan, Malaysia<br><b>Latitude</b>: 6.118 Longtitude: 102.24<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=MY-KN"target="_blank">SNP Genotypes</a>',[102.239791666667,6.11808888888889],'green'));
+var marker = new google.maps.Marker(make_marker(map,'MY-MN (Malay)','<b>Ethnicity</b>: Malay<br><b>Language</b>: Malay<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Malayic, Malayan, Para-Malay<br><b>Locale</b>: Sri Menanti, Lenggeng, Negeri Sembilan, Malaysia<br><b>Latitude</b>: 2.7 Longtitude: 101.933<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=MY-MN"target="_blank">SNP Genotypes</a>',[101.933333333333,2.7],'green'));
+var marker = new google.maps.Marker(make_marker(map,'JP-ML (Japanese)','<b>Ethnicity</b>: Japanese<br><b>Language</b>: Japanese<br><b>Linguistic Classification</b>: Altaic, Japonic, Japanese<br><b>Locale</b>: Tokyo, Japan<br><b>Latitude</b>: 35.667 Longtitude: 139.75<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=JP-ML"target="_blank">SNP Genotypes</a>',[139.75,35.6666666666667],'yellow'));
+var marker = new google.maps.Marker(make_marker(map,'JP-RK (Ryukyuan)','<b>Ethnicity</b>: Ryukyuan<br><b>Language</b>: Okinawan<br><b>Linguistic Classification</b>: Altaic, Japonic, Japanese, Ryukyuan, Amami-Okinawan, Southern Amami-Okinawan<br><b>Locale</b>: Okinawa, Japan<br><b>Latitude</b>: 26.467 Longtitude: 127.933<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=JP-RK"target="_blank">SNP Genotypes</a>',[127.933333333333,26.4666666666667],'yellow'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AT (Ati)','<b>Ethnicity</b>: Ati<br><b>Language</b>: Ati<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Bisayan, Central, Peripheral<br><b>Locale</b>: Malay, Aklan, The Philippines<br><b>Latitude</b>: 11.883 Longtitude: 121.95<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AT"target="_blank">SNP Genotypes</a>',[121.95,11.8833333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AT (Ati)','<b>Ethnicity</b>: Ati<br><b>Language</b>: Ati<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Bisayan, Central, Peripheral<br><b>Locale</b>: Buruanga, Aklan, The Philippines<br><b>Latitude</b>: 11.85 Longtitude: 121.883<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AT"target="_blank">SNP Genotypes</a>',[121.883333333333,11.85],'green'));
+
+var marker = new google.maps.Marker(make_marker(map,'PI-AT (Ati)','<b>Ethnicity</b>: Ati<br><b>Language</b>: Ati<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Bisayan, Central, Peripheral<br><b>Locale</b>: Boracay Islands, The Philippines<br><b>Latitude</b>: 11.983 Longtitude: 121.917<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AT"target="_blank">SNP Genotypes</a>',[121.916666666667,11.9833333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AT (Ati)','<b>Ethnicity</b>: Ati<br><b>Language</b>: Ati<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Bisayan, Central, Peripheral<br><b>Locale</b>: Dumarao, Capiz, The Philippines<br><b>Latitude</b>: 11.267 Longtitude: 122.683<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AT"target="_blank">SNP Genotypes</a>',[122.683333333333,11.2666666666667],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AT (Ati)','<b>Ethnicity</b>: Ati<br><b>Language</b>: Ati<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Bisayan, Central, Peripheral<br><b>Locale</b>: Barotac Viejo, Iloilo, The Philippines<br><b>Latitude</b>: 11.05 Longtitude: 122.85<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AT"target="_blank">SNP Genotypes</a>',[122.85,11.05],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AT (Ati)','<b>Ethnicity</b>: Ati<br><b>Language</b>: Ati<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Bisayan, Central, Peripheral<br><b>Locale</b>: Tobias Fonier, Antique, The Philippines<br><b>Latitude</b>: 10.517 Longtitude: 121.95<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AT"target="_blank">SNP Genotypes</a>',[121.95,10.5166666666667],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AT (Ati)','<b>Ethnicity</b>: Ati<br><b>Language</b>: Ati<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Bisayan, Central, Peripheral<br><b>Locale</b>: Anini-y, Antique, The Philippines<br><b>Latitude</b>: 10.417 Longtitude: 121.917<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AT"target="_blank">SNP Genotypes</a>',[121.916666666667,10.4166666666667],'green'));
+
+var marker = new google.maps.Marker(make_marker(map,'PI-AT (Ati)','<b>Ethnicity</b>: Ati<br><b>Language</b>: Ati<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Bisayan, Central, Peripheral<br><b>Locale</b>: Jordan, Guimaras, The Philippines<br><b>Latitude</b>: 10.667 Longtitude: 122.583<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AT"target="_blank">SNP Genotypes</a>',[122.583333333333,10.6666666666667],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AG (Agta)','<b>Ethnicity</b>: Agta<br><b>Language</b>: Agta<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Northern Philippine, Northern Luzon, Northern Cordilleran, Dumagat, Southern<br><b>Locale</b>: Iriga City, Camarines Sur, The Philippines<br><b>Latitude</b>: 13.45 Longtitude: 123.433<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AG"target="_blank">SNP Genotypes</a>',[123.433333333333,13.45],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AG (Agta)','<b>Ethnicity</b>: Agta<br><b>Language</b>: Agta<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Northern Philippine, Northern Luzon, Northern Cordilleran, Dumagat, Southern<br><b>Locale</b>: Buhi, Camarines Sur, The Philippines<br><b>Latitude</b>: 13.917 Longtitude: 122.933<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AG"target="_blank">SNP Genotypes</a>',[122.933333333333,13.9166666666667],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AG (Agta)','<b>Ethnicity</b>: Agta<br><b>Language</b>: Agta<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Northern Philippine, Northern Luzon, Northern Cordilleran, Dumagat, Southern<br><b>Locale</b>: Ocampo, Camarines Sur, The Philippines<br><b>Latitude</b>: 13.55 Longtitude: 123.367<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AG"target="_blank">SNP Genotypes</a>',[123.366666666667,13.55],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-MA (Minanubu)','<b>Ethnicity</b>: Minanubu<br><b>Language</b>: Manobo<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Southern Philippine, Manobo, Central, East<br><b>Locale</b>: Loreto, Agusan del Sur, The Philippines<br><b>Latitude</b>: 8.167 Longtitude: 125.867<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-MA"target="_blank">SNP Genotypes</a>',[125.866666666667,8.16666666666667],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-MW (Mamanwa)','<b>Ethnicity</b>: Mamanwa<br><b>Language</b>: Mamanwa<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Mamanwa<br><b>Locale</b>: Alegria, Surigao del Norte, The Philippines<br><b>Latitude</b>: 9.883 Longtitude: 125.517<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-MW"target="_blank">SNP Genotypes</a>',[125.516666666667,9.88333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-MW (Mamanwa)','<b>Ethnicity</b>: Mamanwa<br><b>Language</b>: Mamanwa<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Mamanwa<br><b>Locale</b>: Claver, Surigao del Norte, The Philippines<br><b>Latitude</b>: 9.583 Longtitude: 125.733<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-MW"target="_blank">SNP Genotypes</a>',[125.733333333333,9.58333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-MW (Mamanwa)','<b>Ethnicity</b>: Mamanwa<br><b>Language</b>: Mamanwa<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Mamanwa<br><b>Locale</b>: Gigaquit, Surigao del Norte, The Philippines<br><b>Latitude</b>: 9.583 Longtitude: 125.683<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-MW"target="_blank">SNP Genotypes</a>',[125.683333333333,9.58333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-MW (Mamanwa)','<b>Ethnicity</b>: Mamanwa<br><b>Language</b>: Mamanwa<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Mamanwa<br><b>Locale</b>: Bacuag, Surigao del Norte, The Philippines<br><b>Latitude</b>: 9.60 Longtitude: 125.633<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-MW"target="_blank">SNP Genotypes</a>',[125.633333333333,9.6],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-MW (Mamanwa)','<b>Ethnicity</b>: Mamanwa<br><b>Language</b>: Mamanwa<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Mamanwa<br><b>Locale</b>: San Francisco, Surigao del Norte, The Philippines<br><b>Latitude</b>: 9.533 Longtitude: 125.467<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-MW"target="_blank">SNP Genotypes</a>',[125.466666666667,9.53333333333333],'green'));
+
+var marker = new google.maps.Marker(make_marker(map,'PI-AE (Ayta)','<b>Ethnicity</b>: Ayta<br><b>Language</b>: Ayta<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Northern Philippine, Bashiic-Central Luzon-Northern Mindoro, Central Luzon, Sambalic<br><b>Locale</b>: Castillejos, Zambales, The Philippines<br><b>Latitude</b>: 14.933 Longtitude: 120.20<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AE"target="_blank">SNP Genotypes</a>',[120.2,14.9333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AE (Ayta)','<b>Ethnicity</b>: Ayta<br><b>Language</b>: Ayta<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Northern Philippine, Bashiic-Central Luzon-Northern Mindoro, Central Luzon, Sambalic<br><b>Locale</b>: Morong, Bataan, The Philippines<br><b>Latitude</b>: 14.683 Longtitude: 120.267<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AE"target="_blank">SNP Genotypes</a>',[120.266666666667,14.6833333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AE (Ayta)','<b>Ethnicity</b>: Ayta<br><b>Language</b>: Ayta<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Northern Philippine, Bashiic-Central Luzon-Northern Mindoro, Central Luzon, Sambalic<br><b>Locale</b>: Hermosa, Bataan, The Philippines<br><b>Latitude</b>: 14.833 Longtitude: 120.50<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AE"target="_blank">SNP Genotypes</a>',[120.5,14.8333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AE (Ayta)','<b>Ethnicity</b>: Ayta<br><b>Language</b>: Ayta<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Northern Philippine, Bashiic-Central Luzon-Northern Mindoro, Central Luzon, Sambalic<br><b>Locale</b>: SBMA, The Philippines<br><b>Latitude</b>: 14.883 Longtitude: 120.233<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AE"target="_blank">SNP Genotypes</a>',[120.233333333333,14.8833333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-AE (Ayta)','<b>Ethnicity</b>: Ayta<br><b>Language</b>: Ayta<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Northern Philippine, Bashiic-Central Luzon-Northern Mindoro, Central Luzon, Sambalic<br><b>Locale</b>: Orion, Bataan, The Philippines<br><b>Latitude</b>: 14.617 Longtitude: 120.567<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-AE"target="_blank">SNP Genotypes</a>',[120.566666666667,14.6166666666667],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-IR (Iraya)','<b>Ethnicity</b>: Iraya<br><b>Language</b>: Iraya<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Northern Philippine, Bashiic-Central Luzon-Northern Mindoro, Northern Mindoro<br><b>Locale</b>: Calapan, Oriental Mindoro, The Philippines<br><b>Latitude</b>: 13.417 Longtitude: 121.167<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-IR"target="_blank">SNP Genotypes</a>',[121.166666666667,13.4166666666667],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-IR (Iraya)','<b>Ethnicity</b>: Iraya<br><b>Language</b>: Iraya<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Northern Philippine, Bashiic-Central Luzon-Northern Mindoro, Northern Mindoro<br><b>Locale</b>: Baco, Oriental Mindoro, The Philippines<br><b>Latitude</b>: 13.35 Longtitude: 121.083<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-IR"target="_blank">SNP Genotypes</a>',[121.083333333333,13.35],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-UI (Filipino)','<b>Ethnicity</b>: Filipino<br><b>Language</b>: Visaya, Chabakano<br><b>Linguistic Classification</b>: Austronesian, Creole, Spanish based<br><b>Locale</b>: Zamboango, The Philippines<br><b>Latitude</b>: 6.90 Longtitude: 122.067<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-UI"target="_blank">SNP Genotypes</a>',[122.066666666667,6.9],'green'));
+var marker = new google.maps.Marker(make_marker(map,'PI-UN (Filipino)','<b>Ethnicity</b>: Filipino<br><b>Language</b>: Tagalog<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Meso Philippine, Central Philippine, Tagalog<br><b>Locale</b>: Metro Manila, The Philippines<br><b>Latitude</b>: 14.633 Longtitude: 121.033<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-UN"target="_blank">SNP Genotypes</a>',[121.033333333333,14.6333333333333],'green'));
+
+var marker = new google.maps.Marker(make_marker(map,'PI-UB (Filipino)','<b>Ethnicity</b>: Filipino<br><b>Language</b>: Ilocano<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Northern Philippine, Northern Luzon, Ilocano<br><b>Locale</b>: Isabela Province, The Philippines<br><b>Latitude</b>: 17.167 Longtitude: 121.90<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=PI-UB"target="_blank">SNP Genotypes</a>',[121.9,17.1666666666667],'green'));
+var marker = new google.maps.Marker(make_marker(map,'KR-KR (Koreans)','<b>Ethnicity</b>: Koreans<br><b>Language</b>: Korean<br><b>Linguistic Classification</b>: Altaic, Korean<br><b>Locale</b>: AnSung City, Gyunggi-province, Korea<br><b>Latitude</b>: 36.937 Longtitude: 127.494<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=KR-KR"target="_blank">SNP Genotypes</a>',[127.493755555556,36.9365805555556],'yellow'));
+var marker = new google.maps.Marker(make_marker(map,'TH-HM (Hmong (Miao))','<b>Ethnicity</b>: Hmong (Miao)<br><b>Language</b>: Hmong<br><b>Linguistic Classification</b>: Hmong-Mien, Hmongic, Chuanqiandian<br><b>Locale</b>: Mae Tho village, Bou Sali sub-district, Hod district, Chiang Mai province, Thailand<br><b>Latitude</b>: 18.633 Longtitude: 98.083<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-HM"target="_blank">SNP Genotypes</a>',[98.0833333333333,18.6333333333333],'cyan'));
+var marker = new google.maps.Marker(make_marker(map,'TH-HM (Hmong (Miao))','<b>Ethnicity</b>: Hmong (Miao)<br><b>Language</b>: Hmong<br><b>Linguistic Classification</b>: Hmong-Mien, Hmongic, Chuanqiandian<br><b>Locale</b>: Khun Heuy Mae Pao village, Mae Pao sub-district, Phaya Mengrai district, Chiang Rai province, Thailand<br><b>Latitude</b>: 19.917 Longtitude: 100.117<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-HM"target="_blank">SNP Genotypes</a>',[100.116666666667,19.9166666666667],'cyan'));
+var marker = new google.maps.Marker(make_marker(map,'TH-HM (Hmong (Miao))','<b>Ethnicity</b>: Hmong (Miao)<br><b>Language</b>: Hmong<br><b>Linguistic Classification</b>: Hmong-Mien, Hmongic, Chuanqiandian<br><b>Locale</b>: Khun Klang village, Ban Luang sub-District, Chom Thong district, Chiang Mai province, Thailand<br><b>Latitude</b>: 18.533 Longtitude: 98.517<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-HM"target="_blank">SNP Genotypes</a>',[98.5166666666667,18.5333333333333],'cyan'));
+var marker = new google.maps.Marker(make_marker(map,'TH-HM (Hmong (Miao))','<b>Ethnicity</b>: Hmong (Miao)<br><b>Language</b>: Hmong<br><b>Linguistic Classification</b>: Hmong-Mien, Hmongic, Chuanqiandian<br><b>Locale</b>: Kra Lae village, Mae Pao sub-district, Phaya Mengrai district, Chiang Rai province,  Thailand<br><b>Latitude</b>: 19.933 Longtitude: 100.15<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-HM"target="_blank">SNP Genotypes</a>',[100.15,19.9333333333333],'cyan'));
+var marker = new google.maps.Marker(make_marker(map,'TH-KA (Karen)','<b>Ethnicity</b>: Karen<br><b>Language</b>: Karen<br><b>Linguistic Classification</b>: Sino-Tibetan, Tibeto-Burman, Karen, (Sgaw-Bghai, Sgaw??)<br><b>Locale</b>: Tung Loy village, Omkoi sub-district, Omkoi district, Chiang Mai province, Thailand<br><b>Latitude</b>: 17.967 Longtitude: 98.35<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-KA"target="_blank">SNP Genotypes</a>',[98.35,17.9666666666667],'purple'));
+var marker = new google.maps.Marker(make_marker(map,'TH-KA (Karen)','<b>Ethnicity</b>: Karen<br><b>Language</b>: Karen<br><b>Linguistic Classification</b>: Sino-Tibetan, Tibeto-Burman, Karen, (Sgaw-Bghai, Sgaw??)<br><b>Locale</b>: Mai Lan village, Pang Mapha sub-district, Pang Mapha district, Mae Hong Son province, Thailand<br><b>Latitude</b>: 19.70 Longtitude: 98.233<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-KA"target="_blank">SNP Genotypes</a>',[98.2333333333333,19.7],'purple'));
+var marker = new google.maps.Marker(make_marker(map,'TH-KA (Karen)','<b>Ethnicity</b>: Karen<br><b>Language</b>: Karen<br><b>Linguistic Classification</b>: Sino-Tibetan, Tibeto-Burman, Karen, (Sgaw-Bghai, Sgaw??)<br><b>Locale</b>: Nai Soy refugee camp (supported by the United Nations), Pang Moo sub-district, Muang district, Mae Hong Son province, Thailand<br><b>Latitude</b>: 19.383 Longtitude: 97.883<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-KA"target="_blank">SNP Genotypes</a>',[97.8833333333333,19.3833333333333],'purple'));
+var marker = new google.maps.Marker(make_marker(map,'TH-LW (Lawa)','<b>Ethnicity</b>: Lawa<br><b>Language</b>: Lawa<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Northern Mon-Khmer, Palaungic, Western Palaungic, Waic, Lawa  <br><b>Locale</b>: Dong village, Hua Hom sub-district, Mae La Noi district, Mae Hong Son province, Thailand<br><b>Latitude</b>: 18.35 Longtitude: 98.083<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-LW"target="_blank">SNP Genotypes</a>',[98.0833333333333,18.35],'red'));
+var marker = new google.maps.Marker(make_marker(map,'TH-MA (Mlabri)','<b>Ethnicity</b>: Mlabri<br><b>Language</b>: Mlabri<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Northern Mon-Khmer, Khmuic, Mlabri<br><b>Locale</b>: Hauy Yuak village, Wiang Sa district, Nan province, Thailand<br><b>Latitude</b>: 18.7 Longtitude: 100.467<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-MA"target="_blank">SNP Genotypes</a>',[100.466666666667,18.7],'red'));
+
+var marker = new google.maps.Marker(make_marker(map,'TH-MO (Mon)','<b>Ethnicity</b>: Mon<br><b>Language</b>: Mon<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Monic <br><b>Locale</b>: Nong Du village along the Mae Ping riverside in the territory of Pa Sang district, Lamphun province, Thailand<br><b>Latitude</b>: 18.517 Longtitude: 98.90<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-MO"target="_blank">SNP Genotypes</a>',[98.9,18.5166666666667],'red'));
+var marker = new google.maps.Marker(make_marker(map,'TH-PL (Paluang)','<b>Ethnicity</b>: Paluang<br><b>Language</b>: Paluang<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Northern Mon-Khmer, Palaungic, Eastern Palaungic, Palaung  <br><b>Locale</b>: Nor Lae village, Mon Pin sub-district, Fang district, Chiang Mai province, Thailand<br><b>Latitude</b>: 19.933 Longtitude: 99.15<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-PL"target="_blank">SNP Genotypes</a>',[99.15,19.9333333333333],'red'));
+var marker = new google.maps.Marker(make_marker(map,'TH-PL (Paluang)','<b>Ethnicity</b>: Paluang<br><b>Language</b>: Paluang<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Northern Mon-Khmer, Palaungic, Eastern Palaungic, Palaung  <br><b>Locale</b>: Pang Daeng, Chiang Dao sub-district, Chiang Dao district, Chiang Mai province, Thailand<br><b>Latitude</b>: 19.933 Longtitude: 99.15<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-PL"target="_blank">SNP Genotypes</a>',[99.15,19.9333333333333],'red'));
+var marker = new google.maps.Marker(make_marker(map,'TH-PP (Plang)','<b>Ethnicity</b>: Plang<br><b>Language</b>: Blang<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Northern Mon-Khmer, Palaungic, Western Palaungic, Waic, Bulang  <br><b>Locale</b>: Pa Yang village, Wiang Pang Kham sub-district, Mae Sai district, Chiang Rai province, Thailand<br><b>Latitude</b>: 20.417 Longtitude: 99.867<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-PP"target="_blank">SNP Genotypes</a>',[99.8666666666667,20.4166666666667],'red'));
+var marker = new google.maps.Marker(make_marker(map,'TH-PP (Plang)','<b>Ethnicity</b>: Plang<br><b>Language</b>: Blang<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Northern Mon-Khmer, Palaungic, Western Palaungic, Waic, Bulang  <br><b>Locale</b>: Lua Pattana village, Pa Tung sub-district, Mae Chan district, Chiang Rai province, Thailand<br><b>Latitude</b>: 20.133 Longtitude: 99.833<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-PP"target="_blank">SNP Genotypes</a>',[99.8333333333333,20.1333333333333],'red'));
+var marker = new google.maps.Marker(make_marker(map,'TH-TK (Tai Khuen)','<b>Ethnicity</b>: Tai Khuen<br><b>Language</b>: Tai Khuen<br><b>Linguistic Classification</b>: Tai-Kadai, Kam-Tai, Be-Tai, Tai-Sek, Tai, Southwestern, East Central, Northwest.<br><b>Locale</b>: Thung Ruang Thong sub-district, Mae Wang district, Ban Mae sub-district, San Pa Tong district, Chiang Mai province, Thailand<br><b>Latitude</b>: 18.633 Longtitude: 98.85<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-TK"target="_blank">SNP Genotypes</a>',[98.85,18.6333333333333],'blue'));
+var marker = new google.maps.Marker(make_marker(map,'TH-TL (Tai Lue)','<b>Ethnicity</b>: Tai Lue<br><b>Language</b>: Lue<br><b>Linguistic Classification</b>: Tai-Kadai, Kam-Tai, Be-Tai, Tai-Sek, Tai, Southwestern, Northwest ??<br><b>Locale</b>: Hia village, Silalaeng sub-district, Pua district, Nan province, Thailand<br><b>Latitude</b>: 19.15 Longtitude: 100.933<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-TL"target="_blank">SNP Genotypes</a>',[100.933333333333,19.15],'blue'));
+var marker = new google.maps.Marker(make_marker(map,'TH-TL (Tai Lue)','<b>Ethnicity</b>: Tai Lue<br><b>Language</b>: Lue<br><b>Linguistic Classification</b>: Tai-Kadai, Kam-Tai, Be-Tai, Tai-Sek, Tai, Southwestern, Northwest<br><b>Locale</b>: Luang Nua village, Luang Nua sub-district, Doi Saket district, Chiang Mai province, Thailand<br><b>Latitude</b>: 18.867 Longtitude: 99.117<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-TL"target="_blank">SNP Genotypes</a>',[99.1166666666667,18.8666666666667],'blue'));
+var marker = new google.maps.Marker(make_marker(map,'TH-TN (H\'tin)','<b>Ethnicity</b>: H\'tin<br><b>Language</b>: Mal<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Northern Mon-Khmer, Khmuic, Mal-Khmu\', Mal-Phrai<br><b>Locale</b>: Ta Luang village, Pa Klang sub-district, Pua district, Nan province, Thailand<br><b>Latitude</b>: 19.133 Longtitude: 100.933<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-TN"target="_blank">SNP Genotypes</a>',[100.933333333333,19.1333333333333],'red'));
+
+var marker = new google.maps.Marker(make_marker(map,'TH-TN (H\'tin)','<b>Ethnicity</b>: H\'tin<br><b>Language</b>: Mal<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Northern Mon-Khmer, Khmuic, Mal-Khmu\', Mal-Phrai<br><b>Locale</b>: Nam Sod village, Thung Chang district, Nan province, Thailand<br><b>Latitude</b>: 19.45 Longtitude: 100.85<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-TN"target="_blank">SNP Genotypes</a>',[100.85,19.45],'red'));
+var marker = new google.maps.Marker(make_marker(map,'TH-TU (Tai Yuan)','<b>Ethnicity</b>: Tai Yuan<br><b>Language</b>: Tai Yuan<br><b>Linguistic Classification</b>: Tai-Kadai, Kam-Tai, Be-Tai, Tai-Sek, Tai, Northern<br><b>Locale</b>: Mae Faek Mai sub-district, San Sai district, Chiang Mai province, Thailand<br><b>Latitude</b>: 19.00 Longtitude: 98.983<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-TU"target="_blank">SNP Genotypes</a>',[98.9833333333333,19],'blue'));
+var marker = new google.maps.Marker(make_marker(map,'TH-TU (Tai Yuan)','<b>Ethnicity</b>: Tai Yuan<br><b>Language</b>: Tai Yuan<br><b>Linguistic Classification</b>: Tai-Kadai, Kam-Tai, Be-Tai, Tai-Sek, Tai, Northern<br><b>Locale</b>: Ban Pao sub-district, Mae Taeng district, Chiang Mai province, Thailand<br><b>Latitude</b>: 19.183 Longtitude: 98.983<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-TU"target="_blank">SNP Genotypes</a>',[98.9833333333333,19.1833333333333],'blue'));
+var marker = new google.maps.Marker(make_marker(map,'TH-TU (Tai Yuan)','<b>Ethnicity</b>: Tai Yuan<br><b>Language</b>: Tai Yuan<br><b>Linguistic Classification</b>: Tai-Kadai, Kam-Tai, Be-Tai, Tai-Sek, Tai, Northern<br><b>Locale</b>: Si Tia sub-district, Ban Hong district, Lamphun province, Thailand<br><b>Latitude</b>: 18.4 Longtitude: 98.75<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-TU"target="_blank">SNP Genotypes</a>',[98.75,18.4],'blue'));
+var marker = new google.maps.Marker(make_marker(map,'TH-TU (Tai Yuan)','<b>Ethnicity</b>: Tai Yuan<br><b>Language</b>: Tai Yuan<br><b>Linguistic Classification</b>: Tai-Kadai, Kam-Tai, Be-Tai, Tai-Sek, Tai, Northern<br><b>Locale</b>: Ton Tan sub-district, Sao Hai district, Saraburi province, Thailand<br><b>Latitude</b>: 14.55 Longtitude: 100.883<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-TU"target="_blank">SNP Genotypes</a>',[100.883333333333,14.55],'blue'));
+var marker = new google.maps.Marker(make_marker(map,'TH-TY (Tai Yong)','<b>Ethnicity</b>: Tai Yong<br><b>Language</b>: Tai Yong<br><b>Linguistic Classification</b>: Tai-Kadai, Kam-Tai, Be-Tai, Tai-Sek, Tai, Southwestern, Unclassified<br><b>Locale</b>: Makok village and Wai village, Makok sub-district, Pa Sang district, Lamphun province, Thailand<br><b>Latitude</b>: 18.4 Longtitude: 98.933<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-TY"target="_blank">SNP Genotypes</a>',[98.9333333333333,18.4],'blue'));
+var marker = new google.maps.Marker(make_marker(map,'TH-YA (Yao)','<b>Ethnicity</b>: Yao<br><b>Language</b>: Iu Mien<br><b>Linguistic Classification</b>: Hmong-Mien, Mienic, Mian-Jin<br><b>Locale</b>: Mae Tam village, Mae Pao sub-district, Phaya Mengrai district, Chiang Rai province, Thailand<br><b>Latitude</b>: 19.983 Longtitude: 100.167<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-YA"target="_blank">SNP Genotypes</a>',[100.166666666667,19.9833333333333],'cyan'));
+var marker = new google.maps.Marker(make_marker(map,'TH-YA (Yao)','<b>Ethnicity</b>: Yao<br><b>Language</b>: Iu Mien<br><b>Linguistic Classification</b>: Hmong-Mien, Mienic, Mian-Jin<br><b>Locale</b>: Mai Pang Kha village, Pha Chang Noi sub-district, Pong district, Phayao province, Thailand<br><b>Latitude</b>: 19.333 Longtitude: 100.433<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-YA"target="_blank">SNP Genotypes</a>',[100.433333333333,19.3333333333333],'cyan'));
+var marker = new google.maps.Marker(make_marker(map,'TH-YA (Yao)','<b>Ethnicity</b>: Yao<br><b>Language</b>: Iu Mien<br><b>Linguistic Classification</b>: Hmong-Mien, Mienic, Mian-Jin<br><b>Locale</b>: Nam Khong village, SaNean sub-district, Muang district, Nan province,  Thailand<br><b>Latitude</b>: 18.833 Longtitude: 100.667<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TH-YA"target="_blank">SNP Genotypes</a>',[100.666666666667,18.8333333333333],'cyan'));
+
+var marker = new google.maps.Marker(make_marker(map,'TW-HA (Chinese)','<b>Ethnicity</b>: Chinese<br><b>Language</b>: Hakka<br><b>Linguistic Classification</b>: Sino-Tibetan, Chinese<br><b>Locale</b>: Taipei, Taiwan<br><b>Latitude</b>: 25.033 Longtitude: 121.517<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TW-HA"target="_blank">SNP Genotypes</a>',[121.516666666667,25.0333333333333],'purple'));
+var marker = new google.maps.Marker(make_marker(map,'TW-HB (Chinese)','<b>Ethnicity</b>: Chinese<br><b>Language</b>: Minnan<br><b>Linguistic Classification</b>: Sino-Tibetan, Chinese<br><b>Locale</b>: Taipei, Taiwan<br><b>Latitude</b>: 25.033 Longtitude: 121.517<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=TW-HB"target="_blank">SNP Genotypes</a>',[121.516666666667,25.0333333333333],'purple'));
+var marker = new google.maps.Marker(make_marker(map,'SG-CH (Chinese)','<b>Ethnicity</b>: Chinese<br><b>Language</b>: Mandarin<br><b>Linguistic Classification</b>: Sino-Tibetan, Chinese  <br><b>Locale</b>: Singapore<br><b>Latitude</b>: 1.35 Longtitude: 103.80<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=SG-CH"target="_blank">SNP Genotypes</a>',[103.8,1.35],'purple'));
+var marker = new google.maps.Marker(make_marker(map,'SG-ML (Malay)','<b>Ethnicity</b>: Malay<br><b>Language</b>: Malay<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Malayic, Malayan, Local Malay<br><b>Locale</b>: Singapore<br><b>Latitude</b>: 1.35 Longtitude: 103.80<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=SG-ML"target="_blank">SNP Genotypes</a>',[103.8,1.35],'green'));
+var marker = new google.maps.Marker(make_marker(map,'SG-ID (Indian)','<b>Ethnicity</b>: Indian<br><b>Language</b>: Tamil<br><b>Linguistic Classification</b>: Dravidian, (Mixed; tamil)<br><b>Locale</b>: Singapore<br><b>Latitude</b>: 1.35 Longtitude: 103.80<br><b>Source</b>: submitted<br><a href="db/pop_based/PASNP_Poplocation?pop_name=SG-ID"target="_blank">SNP Genotypes</a>',[103.8,1.35],'green'));
+var marker = new google.maps.Marker(make_marker(map,'CN-CC (Zhuang)','<b>Ethnicity</b>: Zhuang<br><b>Language</b>: Zhuang, Northern<br><b>Linguistic Classification</b>: Tai-Kadai, Kam-Tai, Be-Tai, Tai-Sek, Tai, Northern<br><b>Locale</b>: Wuming, Guangxi, China<br><b>Latitude</b>: 24.40 Longtitude: 110.233<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=CN-CC"target="_blank">SNP Genotypes</a>',[110.233333333333,24.4],'blue'));
+var marker = new google.maps.Marker(make_marker(map,'CN-CC (Zhuang)','<b>Ethnicity</b>: Zhuang<br><b>Language</b>: Zhuang, Northern<br><b>Linguistic Classification</b>: Tai-Kadai, Kam-Tai, Be-Tai, Tai-Sek, Tai, Northern<br><b>Locale</b>: Congzuo, Guangxi, China<br><b>Latitude</b>: 23.35 Longtitude: 108.117<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=CN-CC"target="_blank">SNP Genotypes</a>',[108.116666666667,23.35],'blue'));
+var marker = new google.maps.Marker(make_marker(map,'CN-GA (Han)','<b>Ethnicity</b>: Han<br><b>Language</b>: Cantonese<br><b>Linguistic Classification</b>: Sino-Tibetan, Chinese  <br><b>Locale</b>: Guangzhou, China<br><b>Latitude</b>: 23.333 Longtitude: 113.50<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=CN-GA"target="_blank">SNP Genotypes</a>',[113.5,23.3333333333333],'purple'));
+
+var marker = new google.maps.Marker(make_marker(map,'CN-HM (Hmong)','<b>Ethnicity</b>: Hmong<br><b>Language</b>: Hmong<br><b>Linguistic Classification</b>: Hmong-Mien, Hmongic, Chuanqiandian<br><b>Locale</b>: Southeast Guizhou, China<br><b>Latitude</b>: 26.25 Longtitude: 108.667<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=CN-HM"target="_blank">SNP Genotypes</a>',[108.666666666667,26.25],'cyan'));
+var marker = new google.maps.Marker(make_marker(map,'CN-JI (Jiamao)','<b>Ethnicity</b>: Jiamao<br><b>Language</b>: Jiamao<br><b>Linguistic Classification</b>: Tai-Kadai, Hlai  <br><b>Locale</b>: Hainan, China<br><b>Latitude</b>: 18.933 Longtitude: 109.817<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=CN-JI"target="_blank">SNP Genotypes</a>',[109.816666666667,18.9333333333333],'blue'));
+var marker = new google.maps.Marker(make_marker(map,'CN-JN (Jinuo)','<b>Ethnicity</b>: Jinuo<br><b>Language</b>: Jinuo<br><b>Linguistic Classification</b>: Sino-Tibetan, Tibeto-Burman, Lolo-Burmese, Loloish, Southern <br><b>Locale</b>: Xishuangbanna, Yunnan, China<br><b>Latitude</b>: 22.0 Longtitude: 101.0<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=CN-JN"target="_blank">SNP Genotypes</a>',[101,22],'purple'));
+var marker = new google.maps.Marker(make_marker(map,'CN-SH (Han)','<b>Ethnicity</b>: Han<br><b>Language</b>: Mandarin<br><b>Linguistic Classification</b>: Sino-Tibetan, Chinese  <br><b>Locale</b>: Shanghai, China<br><b>Latitude</b>: 31.217 Longtitude: 121.50<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=CN-SH"target="_blank">SNP Genotypes</a>',[121.5,31.2166666666667],'purple'));
+var marker = new google.maps.Marker(make_marker(map,'CN-UG (Uyghur)','<b>Ethnicity</b>: Uyghur<br><b>Language</b>: Uyghur<br><b>Linguistic Classification</b>: Altaic, Turkic, Eastern<br><b>Locale</b>: Hetian, Xinjiang, China<br><b>Latitude</b>: 37.05 Longtitude: 86.617<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=CN-UG"target="_blank">SNP Genotypes</a>',[86.6166666666667,37.05],'yellow'));
+var marker = new google.maps.Marker(make_marker(map,'CN-WA (Wa)','<b>Ethnicity</b>: Wa<br><b>Language</b>: Wa<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Northern Mon-Khmer, Palaungic, Western Palaungic, Waic, Wa <br><b>Locale</b>: Ximeng, Yunnan, China<br><b>Latitude</b>: 22.783 Longtitude: 100.233<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=CN-WA"target="_blank">SNP Genotypes</a>',[100.233333333333,22.7833333333333],'red'));
+var marker = new google.maps.Marker(make_marker(map,'CN-WA (Wa)','<b>Ethnicity</b>: Wa<br><b>Language</b>: Wa<br><b>Linguistic Classification</b>: Austro-Asiatic, Mon-Khmer, Northern Mon-Khmer, Palaungic, Western Palaungic, Waic, Wa <br><b>Locale</b>: Yunnan, China<br><b>Latitude</b>: 22.40 Longtitude: 99.783<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=CN-WA"target="_blank">SNP Genotypes</a>',[99.7833333333333,22.4],'red'));
+var marker = new google.maps.Marker(make_marker(map,'ID-AL (Alorese)','<b>Ethnicity</b>: Alorese<br><b>Language</b>: Alorese<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Central-Eastern, Central Malayo-Polynesian, Timor, Flores-Lembata<br><b>Locale</b>: Alor Island, Indonesia<br><b>Latitude</b>: -8.283 Longtitude: 124.733<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-AL"target="_blank">SNP Genotypes</a>',[124.733333333333,-8.28333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'ID-DY (Dayak)','<b>Ethnicity</b>: Dayak<br><b>Language</b>: Dayak<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Land Dayak (??)<br><b>Locale</b>: East Kalimantan, Indonesia<br><b>Latitude</b>: 1.233 Longtitude: 116.667<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-DY"target="_blank">SNP Genotypes</a>',[116.666666666667,1.23333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'ID-JA (Javanese)','<b>Ethnicity</b>: Javanese<br><b>Language</b>: Javanese<br>;<b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Javanese<br><b>Locale</b>: Jakarta, Java, Indonesia<br><b>Latitude</b>: -6.15 Longtitude: 106.70<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-JA"target="_blank">SNP Genotypes</a>',[106.7,-6.15],'green'));
+var marker = new google.maps.Marker(make_marker(map,'ID-JV (Javanese)','<b>Ethnicity</b>: Javanese<br><b>Language</b>: Javanese<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Javanese<br><b>Locale</b>: Java, Indonesia<br><b>Latitude</b>: -7.333 Longtitude: 110.367<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-JV"target="_blank">SNP Genotypes</a>',[110.366666666667,-7.33333333333333],'green'));
+
+var marker = new google.maps.Marker(make_marker(map,'ID-KR (Batak Karo)','<b>Ethnicity</b>: Batak Karo<br><b>Language</b>: Batak Karo<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Sumatra, Batak, Northern<br><b>Locale</b>: Karo, North Sumatra, Indonesia<br><b>Latitude</b>: 1.517 Longtitude: 99.95<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-KR"target="_blank">SNP Genotypes</a>',[99.95,1.51666666666667],'green'));
+var marker = new google.maps.Marker(make_marker(map,'ID-LA (Lamaholot)','<b>Ethnicity</b>: Lamaholot<br><b>Language</b>: Lamaholot<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Central-Eastern, Central Malayo-Polynesian, Timor, Flores-Lembata<br><b>Locale</b>: Larantuka, East Flores,  Indonesia<br><b>Latitude</b>: -8.333 Longtitude: 123.00<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-LA"target="_blank">SNP Genotypes</a>',[123,-8.33333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'ID-LE (Lembata)','<b>Ethnicity</b>: Lembata<br><b>Language</b>: Lembata<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Central-Eastern, Central Malayo-Polynesian, Timor, Flores-Lembata<br><b>Locale</b>: Lembata, East Flores, Indonesia<br><b>Latitude</b>: -8.30 Longtitude: 124.667<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-LE"target="_blank">SNP Genotypes</a>',[124.666666666667,-8.3],'green'));
+var marker = new google.maps.Marker(make_marker(map,'ID-ML (Malay)','<b>Ethnicity</b>: Malay<br><b>Language</b>: Malay<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Malayic, Malayan, Local Malay<br><b>Locale</b>: Pelembang, South Sumatra, Indonesia<br><b>Latitude</b>: -2.983 Longtitude: 104.733<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-ML"target="_blank">SNP Genotypes</a>',[104.733333333333,-2.98333333333333],'green'));
+
+var marker = new google.maps.Marker(make_marker(map,'ID-MT (Mentawai)','<b>Ethnicity</b>: Mentawai<br><b>Language</b>: Mentawai<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Sumatra, Mentawai<br><b>Locale</b>: Mentawai Island, Indonesia<br><b>Latitude</b>: -0.283 Longtitude: 98.417<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-MT"target="_blank">SNP Genotypes</a>',[98.4166666666667,-0.283333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'ID-RA (Manggarai)','<b>Ethnicity</b>: Manggarai<br><b>Language</b>: Manggarai<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Central-Eastern, Central Malayo-Polynesian, Bima-Sumba<br><b>Locale</b>: Rampasasa, Manggarai, Indonesia<br><b>Latitude</b>: -8.65 Longtitude: 120.45<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-RA"target="_blank">SNP Genotypes</a>',[120.45,-8.65],'green'));
+var marker = new google.maps.Marker(make_marker(map,'ID-SB (Kambera)','<b>Ethnicity</b>: Kambera<br><b>Language</b>: Kambera<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Central-Eastern, Central Malayo-Polynesian, Bima-Sumba<br><b>Locale</b>: Sumba Timur, Indonesia<br><b>Latitude</b>: -9.75 Longtitude: 120.00<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-SB"target="_blank">SNP Genotypes</a>',[120,-9.75],'green'));
+var marker = new google.maps.Marker(make_marker(map,'ID-SO (Manggarai)','<b>Ethnicity</b>: Manggarai<br><b>Language</b>: Manggarai<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Central-Eastern, Central Malayo-Polynesian, Bima-Sumba<br><b>Locale</b>: Ngada, Flores,  Indonesia<br><b>Latitude</b>: -8.633 Longtitude: 120.117<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-SO"target="_blank">SNP Genotypes</a>',[120.116666666667,-8.63333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'ID-SU (Sunda)','<b>Ethnicity</b>: Sunda<br><b>Language</b>: Sunda<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Sundanese<br><b>Locale</b>: Jakarta, Java,  Indonesia<br><b>Latitude</b>: -6.15 Longtitude: 106.70<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-SU"target="_blank">SNP Genotypes</a>',[106.7,-6.15],'green'));
+var marker = new google.maps.Marker(make_marker(map,'ID-TB (Batak Toba)','<b>Ethnicity</b>: Batak Toba<br><b>Language</b>: Batak Toba<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Sumatra, Batak, Southern<br><b>Locale</b>: Balige, Sumatra, Indonesia<br><b>Latitude</b>: 2.317 Longtitude: 99.067<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-TB"target="_blank">SNP Genotypes</a>',[99.0666666666667,2.31666666666667],'green'));
+var marker = new google.maps.Marker(make_marker(map,'ID-TR (Toraja)','<b>Ethnicity</b>: Toraja<br><b>Language</b>: Toraja<br><b>Linguistic Classification</b>: Austronesian, Malayo-Polynesian, Sulawesi, South Sulawesi, Northern, Toraja-Sa\'dan<br><b>Locale</b>: Tana Toraja, Sulawesi,  Indonesia<br><b>Latitude</b>: -4.733 Longtitude: 119.717<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=ID-TR"target="_blank">SNP Genotypes</a>',[119.716666666667,-4.73333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'IN-DR (Proto-Austroloids)','<b>Ethnicity</b>: Proto-Austroloids<br><b>Language</b>: Telugu<br><b>Linguistic Classification</b>: Dravidian, (Mixed; Telugu and kannada)<br><b>Locale</b>: Andhra Pradesh, India<br><b>Latitude</b>: 15.25 Longtitude: 77.767<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=IN-DR"target="_blank">SNP Genotypes</a>',[77.7666666666667,15.25],'gray'));
+var marker = new google.maps.Marker(make_marker(map,'IN-DR (Proto-Austroloids)','<b>Ethnicity</b>: Proto-Austroloids<br><b>Language</b>: Kannada<br><b>Linguistic Classification</b>: Dravidian, (Mixed; Telugu and kannada)<br><b>Locale</b>: Karnataka, India<br><b>Latitude</b>: 15.483 Longtitude: 74.75<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=IN-DR"target="_blank">SNP Genotypes</a>',[74.75,15.4833333333333],'gray'));
+var marker = new google.maps.Marker(make_marker(map,'IN-EL (Caucasoids (may have admixture with Mongoloids))','<b>Ethnicity</b>: Caucasoids (may have admixture with Mongoloids)<br><b>Language</b>: Bengali<br><b>Linguistic Classification</b>: Indo-European, Indo-Iranian, Indo-Aryan, Eastern zone, Bengali-Assamese  <br><b>Locale</b>: West Bengal, India<br><b>Latitude</b>: 22.95 Longtitude: 88.183<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=IN-EL"target="_blank">SNP Genotypes</a>',[88.1833333333333,22.95],'brown'));
+var marker = new google.maps.Marker(make_marker(map,'IN-IL (Caucasoids)','<b>Ethnicity</b>: Caucasoids<br><b>Language</b>: Hindi<br><b>Linguistic Classification</b>: Indo-European, Indo-Iranian, Indo-Aryan, Central zone, Western Hindi, Hindustani  <br><b>Locale</b>: Rajasthan, India<br><b>Latitude</b>: 26.65 Longtitude: 74.00<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=IN-IL"target="_blank">SNP Genotypes</a>',[74,26.65],'brown'));
+var marker = new google.maps.Marker(make_marker(map,'IN-NI (Mongoloid features)','<b>Ethnicity</b>: Mongoloid features<br><b>Language</b>: Pahari<br><b>Linguistic Classification</b>: Indo-European, Indo-Iranian, Indo-Aryan, Northern zone, Western Pahari  <br><b>Locale</b>: Uttaranchal, India<br><b>Latitude</b>: 30.4 Longtitude: 79.167<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=IN-NI"target="_blank">SNP Genotypes</a>',[79.1666666666667,30.4],'brown'));
+var marker = new google.maps.Marker(make_marker(map,'IN-NL (Caucasoids)','<b>Ethnicity</b>: Caucasoids<br><b>Language</b>: Hindi<br><b>Linguistic Classification</b>: Indo-European, Indo-Iranian, Indo-Aryan, Central zone, Western Hindi, Hindustani  <br><b>Locale</b>: Uttar Pradesh, India<br><b>Latitude</b>: 26.767 Longtitude: 81.417<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=IN-NL"target="_blank">SNP Genotypes</a>',[81.4166666666667,26.7666666666667],'brown'));
+var marker = new google.maps.Marker(make_marker(map,'IN-SP (Caucasoids)','<b>Ethnicity</b>: Caucasoids<br><b>Language</b>: Hindi<br><b>Linguistic Classification</b>: Indo-European, Indo-Iranian, Indo-Aryan, Central zone, Western Hindi, Hindustani  <br><b>Locale</b>: Haryana, India<br><b>Latitude</b>: 29.117 Longtitude: 76.483<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=IN-SP"target="_blank">SNP Genotypes</a>',[76.4833333333333,29.1166666666667],'brown'));
+
+var marker = new google.maps.Marker(make_marker(map,'IN-TB (Mongoloid features)','<b>Ethnicity</b>: Mongoloid features<br><b>Language</b>: Spiti<br><b>Linguistic Classification</b>: Sino-Tibetan, Tibeto-Burman, Himalayish, Tibeto-Kanauri, Tibetic, Tibetan, Central  <br><b>Locale</b>: Jammu and Kashmir, India<br><b>Latitude</b>: 34.683 Longtitude: 76.45<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=IN-TB"target="_blank">SNP Genotypes</a>',[76.45,34.6833333333333],'purple'));
+var marker = new google.maps.Marker(make_marker(map,'IN-WI (Caucasoids)','<b>Ethnicity</b>: Caucasoids<br><b>Language</b>: Bhili<br><b>Linguistic Classification</b>: Indo-European, Indo-Iranian, Indo-Aryan, Central zone, Bhil  <br><b>Locale</b>: Rajasthan, India<br><b>Latitude</b>: 26.65 Longtitude: 74.00<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=IN-WI"target="_blank">SNP Genotypes</a>',[74,26.65],'brown'));
+var marker = new google.maps.Marker(make_marker(map,'IN-WL (Caucasoids)','<b>Ethnicity</b>: Caucasoids<br><b>Language</b>: Marathi<br><b>Linguistic Classification</b>: Indo-European, Indo-Iranian, Indo-Aryan, Southern zone  <br><b>Locale</b>: Maharashtra, India<br><b>Latitude</b>: 19.683 Longtitude: 75.867<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=IN-WL"target="_blank">SNP Genotypes</a>',[75.8666666666667,19.6833333333333],'brown'));
+var marker = new google.maps.Marker(make_marker(map,'AX-AI (Karitiana)','<b>Ethnicity</b>: Karitiana<br><b>Language</b>: Tupi<br><b>Linguistic Classification</b>: Amerindian<br><b>Locale</b>: Rondonia, Brazil<br><b>Latitude</b>: -10.617 Longtitude: -62.767<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=AX-AI"target="_blank">SNP Genotypes</a>',[-62.7666666666667,-10.6166666666667],'darkred'));
+var marker = new google.maps.Marker(make_marker(map,'AX-AI (Maya)','<b>Ethnicity</b>: Maya<br><b>Language</b>: Yucatec<br><b>Linguistic Classification</b>: Amerindian<br><b>Locale</b>: Campeche, Mexico<br><b>Latitude</b>: 18.617 Longtitude: -90.683<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=AX-AI"target="_blank">SNP Genotypes</a>',[-90.6833333333333,18.6166666666667],'darkred'));
+var marker = new google.maps.Marker(make_marker(map,'AX-AI (Quechua)','<b>Ethnicity</b>: Quechua<br><b>Language</b>: Quechua<br><b>Linguistic Classification</b>: Amerindian<br><b>Locale</b>: Lima, Peru<br><b>Latitude</b>: -12.033 Longtitude: -77.00<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=AX-AI"target="_blank">SNP Genotypes</a>',[-77,-12.0333333333333],'darkred'));
+var marker = new google.maps.Marker(make_marker(map,'AX-AI (Auca)','<b>Ethnicity</b>: Auca<br><b>Language</b>: Waorani<br><b>Linguistic Classification</b>: Amerindian<br><b>Locale</b>: Ecuador<br><b>Latitude</b>: -1.633 Longtitude: -78.50<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=AX-AI"target="_blank">SNP Genotypes</a>',[-78.5,-1.63333333333333],'darkred'));
+var marker = new google.maps.Marker(make_marker(map,'AX-AI (Pima)','<b>Ethnicity</b>: Pima<br><b>Language</b>: Pima<br><b>Linguistic Classification</b>: Amerindian<br><b>Locale</b>: Sonora, Mexico<br><b>Latitude</b>: 29.817 Longtitude: -110.717<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=AX-AI"target="_blank">SNP Genotypes</a>',[-110.716666666667,29.8166666666667],'darkred'));
+var marker = new google.maps.Marker(make_marker(map,'AX-AM (Ami)','<b>Ethnicity</b>: Ami<br><b>Language</b>: Ami<br><b>Linguistic Classification</b>: Austronesian, East Formosan, Central<br><b>Locale</b>: Taiwan<br><b>Latitude</b>: 23.733 Longtitude: 121.4<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=AX-AM"target="_blank">SNP Genotypes</a>',[121.4,23.7333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'AX-AT (Atayal)','<b>Ethnicity</b>: Atayal<br><b>Language</b>: Atayal<br><b>Linguistic Classification</b>: Austronesian, Atayalic<br><b>Locale</b>: Taiwan<br><b>Latitude</b>: 24.633 Longtitude: 121.433<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=AX-AT"target="_blank">SNP Genotypes</a>',[121.433333333333,24.6333333333333],'green'));
+var marker = new google.maps.Marker(make_marker(map,'AX-ME (Melanesians)','<b>Ethnicity</b>: Melanesians<br><b>Language</b>: Melanesian<br><b>Linguistic Classification</b>: East Papuan, Naasioi<br><b>Locale</b>: Indo-Pacific<br><b>Latitude</b>: 6.233 Longtitude: 155.133<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=AX-ME"target="_blank">SNP Genotypes</a>',[155.133333333333,-6.23333333333333],'darkgreen'));
+var marker = new google.maps.Marker(make_marker(map,'CEU (European)','<b>Ethnicity</b>: European<br><b>Language</b>: English<br><b>Linguistic Classification</b>: Indo-European<br><b>Locale</b>: Utah, The United States of America<br><b>Latitude</b>: 39.917 Longtitude: 116.383<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=CEU"target="_blank">SNP Genotypes</a>',[-116.383333333333,39.9166666666667],'brown'));
+var marker = new google.maps.Marker(make_marker(map,'CHB (Han)','<b>Ethnicity</b>: Han<br><b>Language</b>: Chinese<br><b>Linguistic Classification</b>: Sino-Tibetan, Chinese  <br><b>Locale</b>: Beijing, China<br><b>Latitude</b>: 39.983 Longtitude: 116.383<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=CHB"target="_blank">SNP Genotypes</a>',[116.383333333333,39.9833333333333],'purple'));
+var marker = new google.maps.Marker(make_marker(map,'JPT (Japanese)','<b>Ethnicity</b>: Japanese<br><b>Language</b>: Japanese<br><b>Linguistic Classification</b>: Altaic, Japonic, Japanese<br><b>Locale</b>: Tokyo, Japan<br><b>Latitude</b>: 35.667 Longtitude: 139.75<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=JPT"target="_blank">SNP Genotypes</a>',[139.75,35.6666666666667],'yellow'));
+var marker = new google.maps.Marker(make_marker(map,'YRI (Yoruba)','<b>Ethnicity</b>: Yoruba<br><b>Language</b>: Yoruba<br><b>Linguistic Classification</b>: Niger-Congo<br><b>Locale</b>: Ibadan, Nigeria<br><b>Latitude</b>: 3.90 Longtitude: 7.383<br><b>Source</b>: approximated<br><a href="db/pop_based/PASNP_Poplocation?pop_name=YRI"target="_blank">SNP Genotypes</a>',[3.9,7.38333333333333],'white'));
+
+        // Show migration path
+        migration_path = new make_path(map); 
+       //var marker = new google.maps.Marker(make_path(map));
+}
+
+
+
+function make_path(map)
+{
+  // Create migration path
+    var migration_coord = [
+        new google.maps.LatLng(3.90, 7.383),
+        new google.maps.LatLng(26.65,74.00),
+        new google.maps.LatLng(17.967, 98.35),
+        new google.maps.LatLng(39.983, 116.383)
+    ]
+    var migration_path = new google.maps.Polyline({path: migration_coord, strokeColor:"#FF0000", strokeWeight:5});
+    return migration_path;
+}
+
+function make_marker(map,n,desc,coords,color)
+{
+        // Create tiny marker icon
+        if (color) {
+           var image = {url:'Map/marker/mm_20_' + color + '.png', size: new google.maps.Size(12,20), anchor: new google.maps.Point(6,20)};
+        }
+        else {
+           var image = {url:'Map/marker/mm_20_' + 'white.png', size: new google.maps.Size(12,20), anchor: new google.maps.Point(6,20)};
+        }
+       
+        var point=new google.maps.LatLng(coords[1],coords[0]);
+var marker=new google.maps.Marker({position: point, map: map, title: n, icon: image});
+var html='<div class="bubble">';
+html+='<strong>'+n+'</strong>';
+if(desc) html+='<p>'+desc+'</p>';
+html+='</div>';
+var infowindow = new google.maps.InfoWindow({content: html});
+google.maps.event.addListener(marker,'click',function() {
+infowindow.open(map, marker);
+});
+var list=document.getElementById("list");
+var link=document.createElement("a");
+link.innerHTML=n;
+link.href="javascript:void(0)";
+link.onclick=function() {
+map.setCenter(point);
+infowindow.open(map, marker);
+}
+list.appendChild(link);
+return marker;
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+//]]>
+</script>
+</head>
+<body>
+<div id="map"></div>
+<div id="list">
+<h2>Population</h2>
+</div>
+<div id="data">
+<table>
+<tr><td align="center"><input type="button" value="Back to home" onClick="history.back();window.close();" title='Back to home' /></td>
+
+</tr>
+</table>
+</div>
+</body>
+</html>

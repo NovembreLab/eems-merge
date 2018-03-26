@@ -1,0 +1,256 @@
+Simple Population ID,Verbose Population ID,Region,Country,Lat-itude,Lon-gi-tude,Sam-ples,Passed QC,Contributor
+Ain_Touta_WGA,Ain_Touta_WGA,Africa,Algeria,35.4,5.9,3,0,Mark G. Thomas / Leila Laredj
+Algerian,Algerian,Africa,Algeria,36.8,3,7,7,David Comas
+Mozabite,Mozabite,Africa,Algeria,32,3,27,21,Patterson et al. 2012
+BantuSA,Bantu_SA_Ovambo,Africa,Angola,-19,18,1,1,Patterson et al. 2012
+Gana,Gana,Africa,Botswana,-21.7,23.4,9,8,Pickrell et al. 2012 and 2014
+Gui,Gui,Africa,Botswana,-21.5,23.3,11,7,Pickrell et al. 2012 and 2014
+Hoan,Hoan,Africa,Botswana,-24,23.4,7,7,Pickrell et al. 2012 and 2014
+Ju_hoan_South,Ju_hoan_South,Africa,Botswana,-21.2,20.7,9,6,Pickrell et al. 2012 and 2014
+Kgalagadi,Kgalagadi,Africa,Botswana,-24.8,21.8,5,5,Pickrell et al. 2012 and 2014
+Khwe,Khwe,Africa,Botswana,-18.4,21.9,10,8,Pickrell et al. 2012 and 2014
+Naro,Naro,Africa,Botswana,-22,21.6,10,8,Pickrell et al. 2012 and 2014
+Shua,Shua,Africa,Botswana,-20.6,25.3,10,9,Pickrell et al. 2012 and 2014
+Taa_East,Taa_East,Africa,Botswana,-24.2,22.8,8,7,Pickrell et al. 2012 and 2014
+Taa_North,Taa_North,Africa,Botswana,-23,22.4,11,9,Pickrell et al. 2012 and 2014
+Taa_West,Taa_West,Africa,Botswana,-23.6,20.3,17,16,Pickrell et al. 2012 and 2014
+Tshwa,Tshwa,Africa,Botswana,-21,25.9,9,5,Pickrell et al. 2012 and 2014
+Tswana,Tswana,Africa,Botswana,-24.1,25.4,5,5,Pickrell et al. 2012 and 2014
+BantuSA,Bantu_SA_Herero,Africa,BotswanaOrNamibia,-22,19,2,2,Patterson et al. 2012
+BantuSA,Bantu_SA_Tswana,Africa,BotswanaOrNamibia,-28,24,2,2,Patterson et al. 2012
+Biaka,BiakaPygmy,Africa,CentralAfricanRepublic,4,17,23,20,Patterson et al. 2012
+Mbuti,MbutiPygmy,Africa,Congo,1,29,14,10,Patterson et al. 2012
+Egyptian,Egyptian_Comas,Africa,Egypt,31,31.2,14,11,David Comas / Pierre Zalloua
+Egyptian,Egyptian_Metspalu,Africa,Egypt,30.2,31.2,8,7,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+Afar_WGA,Afar_WGA,Africa,Ethiopia,11.8,41.4,5,0,Mark G. Thomas / Ayele Tarekegn
+Ethiopian_Jew,Ethiopian_Jew,Africa,Ethiopia,9,38.7,7,7,The National Laboratory for the Genetics of Israeli Populations 
+Oromo,Oromo,Africa,Ethiopia,9,36.5,5,4,Anna Di Rienzo* / Cynthia Beall* / Amha Gebremedhin*
+Gambian,Gambian_GWD,Africa,Gambia,13.4,16.7,6,6,Coriell Cell Repositories
+BantuKenya,BantuKenya,Africa,Kenya,-3,37,11,6,Patterson et al. 2012
+Kikuyu,Kikuyu,Africa,Kenya,-0.4,36.9,4,4,George Ayodo
+Luhya,Luhya_Kenya_LWK,Africa,Kenya,1.3,36.8,8,8,Coriell Cell Repositories
+Luo,Luo,Africa,Kenya,-0.1,34.3,9,8,George Ayodo
+Masai,Masai_Ayodo,Africa,Kenya,-1.1,35.9,3,2,George Ayodo
+Masai,Masai_Kinyawa_MKK,Africa,Kenya,-1.5,35.2,10,10,Coriell Cell Repositories
+Somali,Somali,Africa,Kenya,5.6,48.3,13,13,George Ayodo
+BantuSA,Bantu_SA_S_Sotho,Africa,Lesotho,-29,29,1,1,Patterson et al. 2012
+Libyan_Jew,Libyan_Jew,Africa,Libya,32.9,13.2,9,9,The National Laboratory for the Genetics of Israeli Populations 
+Burbur_WGA,Burbur_WGA,Africa,Morocco,33.5,5.1,5,0,Mark G. Thomas / Fouad Berrada
+Moroccan,Moroccan,Africa,Morocco,32.3,-6.4,7,0,David Comas
+Moroccan_Jew,Moroccan_Jew,Africa,Morocco,34,-6.8,7,6,The National Laboratory for the Genetics of Israeli Populations 
+Damara,Damara,Africa,Namibia,-19.8,16.2,13,12,Pickrell et al. 2012 and 2014
+Haiom,Haiom,Africa,Namibia,-19.3,17,9,7,Pickrell et al. 2012 and 2014
+Himba,Himba,Africa,Namibia,-19.1,14.1,5,4,Pickrell et al. 2012 and 2014
+Ju_hoan_North,Ju_hoan_North,Africa,Namibia,-18.9,21.5,24,22,Patterson et al. 2012
+Nama,Nama,Africa,Namibia,-24.3,17.3,18,16,Pickrell et al. 2012 and 2014
+Wambo,Wambo,Africa,Namibia,-17.7,18.1,5,5,Pickrell et al. 2012 and 2014
+Xuun,Xuun,Africa,Namibia,-18.7,19.7,15,13,Pickrell et al. 2012 and 2014
+Esan,Esan_Nigeria_ESN,Africa,Nigeria,6.5,6,8,8,Coriell Cell Repositories
+Yoruba,Yoruba,Africa,Nigeria,7.4,3.9,108,70,Coriell Cell Repositories
+Mandenka,Mandenka,Africa,Senegal,12,-12,22,17,Patterson et al. 2012
+Mende,Mende_Sierra_Leone_MSL,Africa,SierraLeone,8.5,-13.2,8,8,Coriell Cell Repositories
+Khomani,Khomani,Africa,South_Africa,-27.8,21.1,12,11,Brenna Henna
+BantuSA,Bantu_SA_Pedi,Africa,SouthAfrica,-29,30,1,1,Patterson et al. 2012
+BantuSA,Bantu_SA_Zulu,Africa,SouthAfrica,-28,31,1,1,Patterson et al. 2012
+Dinka,Dinka,Africa,Sudan,8.8,27.4,9,7,Michael Hammer
+Shaigi_WGA,Shaigi_WGA,Africa,Sudan,15.6,32.5,3,0,Mark G. Thomas / Hamza A. Babiker
+Datog,Datog,Africa,Tanzania,-3.3,35.7,3,3,Brenna Henna / Joanna Mountain
+Hadza,Hadza,Africa,Tanzania,-3.8,35.3,20,17,Sarah A. Tishkoff / Thomas Nyambo
+Hadza,Hadza_Henn,Africa,Tanzania,-3.6,35.1,8,5,Brenna Henna / Joanna Mountain
+Hadza_WGA,Hadza_Henn_WGA,Africa,Tanzania,-3.6,35.1,1,0,Brenna Henna / Joanna Mountain
+Sandawe,Sandawe,Africa,Tanzania,-5.5,35.5,28,22,Sarah A. Tishkoff / Thomas Nyambo
+Tunisian,Tunisian,Africa,Tunisia,36.8,10.2,8,8,David Comas
+Tunisian_Jew,Tunisian_Jew,Africa,Tunisia,36.8,10.2,7,7,The National Laboratory for the Genetics of Israeli Populations 
+Saharawi,Saharawi,Africa,WesternSahara(Morocco),27.3,-8.9,7,6,David Comas
+Chane,Chane,America,Argentina,-25,-60,1,1,Andres Ruiz-Linares / Claudio M. Bravi / Graciela Bailliet / Daniel Corach
+Guarani,Guarani,America,Argentina,-27.5,-59,5,5,Andres Ruiz-Linares / Claudio M. Bravi / Graciela Bailliet / Daniel Corach
+Aymara,Aymara,America,Bolivia,-16.5,-68.2,6,5,Andres Ruiz-Linares / Francisco Rothhammer / Jean-Michel Dugoujon / René Vasquez / Mercedes Villena
+Bolivian,Bolivian_Cochabamba,America,Bolivia,-17.4,-66.2,1,1,Antonio Salas
+Bolivian,Bolivian_LaPaz,America,Bolivia,-16.5,-68.2,3,3,Antonio Salas
+Bolivian,Bolivian_Pando,America,Bolivia,-11.2,-67.2,3,3,Antonio Salas
+Quechua,Quechua_RuizLinares,America,Bolivia,-20,-66,2,2,Andres Ruiz-Linares / Jean-Michel Dugoujon / René Vasquez / Mercedes Villena
+Karitiana,Karitiana,America,Brazil,-10,-63,14,12,Patterson et al. 2012
+Surui,Surui,America,Brazil,-11,-62,8,8,Patterson et al. 2012
+Algonquin,Algonquin,America,Canada,48.4,-71.1,9,9,Damian Labuda*
+Chipewyan,Chipewyan,America,Canada,59.6,-107.3,32,30,Damian Labuda*
+Cree,Cree,America,Canada,50.3,-102.5,13,13,Damian Labuda*
+Ojibwa,Ojibwa,America,Canada,46.5,-81,28,19,David E. C. Cole / Damian Labuda*
+Chilote,Chilote,America,Chile,-42.5,-73.9,4,4,Andres Ruiz-Linares / Francisco Rothhammer
+Inga,Inga,America,Colombia,1,-77,2,2,Andres Ruiz-Linares / Gabriel Bedoya
+Piapoco,Piapoco,America,Colombia,3,-68,5,4,Patterson et al. 2012
+Ticuna,Ticuna,America,Colombia,-3.8,-70,1,1,Andres Ruiz-Linares / Gabriel Bedoya
+Wayuu,Wayuu,America,Colombia,11,-73,1,1,Andres Ruiz-Linares / Gabriel Bedoya
+Cabecar,Cabecar,America,Costa Rica,9.5,-84,6,6,Andres Ruiz-Linares / Ramiro Barrantes
+Kaqchikel,Kaqchikel,America,Guatemala,15,-91,5,5,Andres Ruiz-Linares / Julio Molina
+Mayan,Mayan,America,Mexico,19,-91,21,18,Patterson et al. 2012
+Mixe,Mixe,America,Mexico,17,96.6,10,10,William Klitz / Cheryl Winkler
+Mixtec,Mixtec,America,Mexico,16.7,-97.2,10,10,William Klitz / Cheryl Winkler
+Pima,Pima,America,Mexico,29,-108,14,14,Patterson et al. 2012
+Zapotec,Zapotec,America,Mexico,17,-96.5,10,10,William Klitz / Cheryl Winkler
+Quechua,Quechua_Coriell,America,Peru,-13.5,-72,5,5,Coriell Cell Repositories
+AA,AA_Denver,America,USA,39.7,-105,12,12,Rick Kittles
+Mongola,Mongola,CentralAsiaSiberia,China,45,111,11,6,Patterson et al. 2012
+Kyrgyz,Kyrgyz,CentralAsiaSiberia,Kyrgyzstan,42.9,74.6,10,9,Robert W. Mahley / Ugur Hodoglugil
+Aleut,Aleut,CentralAsiaSiberia,Russia,53.6,160.8,7,7,Rem Sukernik / Stanislav Dryomov
+Altaian,Altaian,CentralAsiaSiberia,Russia,51.9,86,7,7,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Olga L. Posukh
+Chukchi,Chukchi,CentralAsiaSiberia,Russia,69.5,168.8,24,20,Rem Sukernik / Stanislav Dryomov
+Chukchi,Chukchi_Reindeer,CentralAsiaSiberia,Russia,64.4,173.9,1,1,Rem Sukernik / Stanislav Dryomov
+Chukchi,Chukchi_Sir,CentralAsiaSiberia,Russia,64.4,173.9,2,2,Rem Sukernik / Stanislav Dryomov
+Dolgan,Dolgan,CentralAsiaSiberia,Russia,73,115.4,4,3,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Sardana A. Fedorova / Fedor Platonov
+Eskimo,Eskimo_Chaplin,CentralAsiaSiberia,Russia,64.5,172.9,5,4,Rem Sukernik / Stanislav Dryomov
+Eskimo,Eskimo_Naukan,CentralAsiaSiberia,Russia,66,169.7,20,13,Rem Sukernik / Stanislav Dryomov
+Eskimo,Eskimo_Sireniki,CentralAsiaSiberia,Russia,64.4,173.9,5,5,Rem Sukernik / Stanislav Dryomov
+Even,Even,CentralAsiaSiberia,Russia,57.5,135.9,10,10,Rem Sukernik / Stanislav Dryomov
+Itelmen,Itelmen,CentralAsiaSiberia,Russia,57.2,156.9,7,6,Rem Sukernik / Stanislav Dryomov
+Kalmyk,Kalmyk,CentralAsiaSiberia,Russia,46.2,45.3,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+Koryak,Koryak,CentralAsiaSiberia,Russia,58.1,159,13,9,Rem Sukernik / Stanislav Dryomov
+Mansi,Mansi,CentralAsiaSiberia,Russia,62.5,63.3,8,8,Rem Sukernik / Stanislav Dryomov
+Nganasan,Nganasan,CentralAsiaSiberia,Russia,71.1,96.1,14,11,Rem Sukernik / Elena B. Starikovskaya
+Selkup,Selkup,CentralAsiaSiberia,Russia,65.5,82.3,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Ludmila Osipova
+Tlingit,Tlingit,CentralAsiaSiberia,Russia,54.7,164.5,5,4,Rem Sukernik / Stanislav Dryomov
+Tubalar,Tubalar,CentralAsiaSiberia,Russia,51.1,87,31,22,Rem Sukernik / Stanislav Dryomov
+Tuvinian,Tuvinian,CentralAsiaSiberia,Russia,50.3,95.2,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Larissa Damba / Mikhail Voevoda / Marina Gubina
+Ulchi,Ulchi,CentralAsiaSiberia,Russia,52.2,140.4,33,25,Rem Sukernik / Stanislav Dryomov
+Yakut,Yakut,CentralAsiaSiberia,Russia,63,129.5,25,20,Patterson et al. 2012
+Yakut,Yakut_Metspalu,CentralAsiaSiberia,Russia,n/a,n/a,1,0,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Sardana A. Fedorova / Fedor Platonov
+Yukagir,Yukagir_Forest,CentralAsiaSiberia,Russia,65.5,151,5,5,Rem Sukernik / Stanislav Dryomov
+Yukagir,Yukagir_Tundra,CentralAsiaSiberia,Russia,68.6,153,20,14,Rem Sukernik / Stanislav Dryomov
+Tajik_Pomiri,Tajik_Pomiri,CentralAsiaSiberia,Tajikistan,37.4,71.7,8,8,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Oleg Balanovsky / Elena Balanovska
+Turkmen,Turkmen,CentralAsiaSiberia,Uzbekistan,42.5,59.6,7,7,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Oleg Balanovsky / Elena Balanovska / Shahlo Turdikulova
+Uzbek,Uzbek,CentralAsiaSiberia,Uzbekistan,41.3,69.2,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+Cambodian,Cambodian,EastAsia,Cambodia,12,105,10,8,Patterson et al. 2012
+Dai,Dai,EastAsia,China,21,100,10,10,Patterson et al. 2012
+Daur,Daur,EastAsia,China,48.5,124,9,9,Patterson et al. 2012
+Han,Han,EastAsia,China,32.3,114,35,33,Patterson et al. 2012
+Han_NChina,Han_NChina,EastAsia,China,32.3,114,10,10,Patterson et al. 2012
+Hezhen,Hezhen,EastAsia,China,47.5,133.5,9,8,Patterson et al. 2012
+Lahu,Lahu,EastAsia,China,22,100,8,8,Patterson et al. 2012
+Miao,Miao,EastAsia,China,28,109,10,10,Patterson et al. 2012
+Naxi,Naxi,EastAsia,China,26,100,9,9,Patterson et al. 2012
+Oroqen,Oroqen,EastAsia,China,50.4,126.5,9,9,Patterson et al. 2012
+She,She,EastAsia,China,27,119,10,10,Patterson et al. 2012
+Tu,Tu,EastAsia,China,36,101,10,10,Patterson et al. 2012
+Tujia,Tujia,EastAsia,China,29,109,10,10,Patterson et al. 2012
+Uygur,Uygur,EastAsia,China,44,81,10,10,Patterson et al. 2012
+Xibo,Xibo,EastAsia,China,43.5,81.5,9,7,Patterson et al. 2012
+Yi,Yi,EastAsia,China,28,103,10,10,Patterson et al. 2012
+Japanese,Japanese,EastAsia,Japan,38,138,29,29,Patterson et al. 2012
+Korean,Korean,EastAsia,Korea,37.6,127,6,6,Coriell Cell Repositories
+Ami,Ami_Coriell,EastAsia,Taiwan,22.8,121.2,10,10,Coriell Cell Repositories
+Atayal,Atayal_Coriell,EastAsia,Taiwan,24.6,121.3,10,9,Coriell Cell Repositories
+Thai,Thai,EastAsia,Thailand,13.8,100.5,10,10,European Collection of Cell Cultures
+Kinh,Kinh_Vietnam_KHV,EastAsia,Vietnam,21,105.9,8,8,Coriell Cell Repositories
+Australian,Australian_ECCAC,Oceania,Australia,-13,143,9,3,European Collection of Cell Cultures
+Bougainville,Bougainville,Oceania,PapuaNewGuinea,-6,155,12,10,Patterson et al. 2012
+Papuan,Papuan,Oceania,PapuaNewGuinea,-4,143,18,14,Patterson et al. 2012
+Bengali,Bengali_Bangladesh_BEB,SouthAsia,Bangladesh,23.7,90.4,8,7,Coriell Cell Repositories
+Cochin_Jew,Cochin_Jew,SouthAsia,India,10,76.3,5,5,The National Laboratory for the Genetics of Israeli Populations 
+GujaratiA,GujaratiA_GIH,SouthAsia,India,23.2,72.7,5,5,Coriell Cell Repositories
+GujaratiB,GujaratiB_GIH,SouthAsia,India,23.2,72.7,5,5,Coriell Cell Repositories
+GujaratiC,GujaratiC_GIH,SouthAsia,India,23.2,72.7,5,5,Coriell Cell Repositories
+GujaratiD,GujaratiD_GIH,SouthAsia,India,23.2,72.7,5,5,Coriell Cell Repositories
+Kharia,Kharia,SouthAsia,India,25.8,82.7,15,12,Lalji Singh / Kumarasamy Thangaraj
+Lodhi,Lodhi,SouthAsia,India,25.5,78.6,14,13,Lalji Singh / Kumarasamy Thangaraj
+Mala,Mala,SouthAsia,India,18.7,78.2,15,13,Lalji Singh / Kumarasamy Thangaraj
+Onge,Onge,SouthAsia,India,10.8,92.5,17,11,Lalji Singh / Kumarasamy Thangaraj
+Tiwari,Tiwari,SouthAsia,India,21.9,83.4,15,15,Lalji Singh / Kumarasamy Thangaraj
+Vishwabrahmin,Vishwabrahmin,SouthAsia,India,16.3,80.5,15,13,Lalji Singh / Kumarasamy Thangaraj
+Kusunda,Kusunda,SouthAsia,Nepal,28.1,82.5,10,10,Aashish R. Jha / George van Driem / Irene Gallego Romero / Toomas Kivisild
+Balochi,Balochi,SouthAsia,Pakistan,30.5,66.5,24,20,Patterson et al. 2012
+Brahui,Brahui,SouthAsia,Pakistan,30.5,66.5,24,21,Patterson et al. 2012
+Burusho,Burusho,SouthAsia,Pakistan,36.5,74,25,23,Patterson et al. 2012
+Hazara,Hazara,SouthAsia,Pakistan,33.5,70,22,14,Patterson et al. 2012
+Kalash,Kalash,SouthAsia,Pakistan,36,71.5,19,18,Patterson et al. 2012
+Makrani,Makrani,SouthAsia,Pakistan,26,64,25,20,Patterson et al. 2012
+Pathan,Pathan,SouthAsia,Pakistan,33.5,70.5,24,19,Patterson et al. 2012
+Punjabi,Punjabi_Lahore_PJL,SouthAsia,Pakistan,31.5,74.3,8,8,Coriell Cell Repositories
+Sindhi,Sindhi,SouthAsia,Pakistan,25.5,69,24,18,Patterson et al. 2012
+Abkhasian,Abkhasian,WestEurasia,Georgia,43,41,9,9,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+Albanian,Albanian,WestEurasia,Albania,41.3,19.8,6,6,David Comas
+Armenian,Armenian,WestEurasia,Armenia,40.2,44.5,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Levon Yepiskoposyan / Hovhannes Sahakyan
+Armenian_WGA,Armenian_WGA,WestEurasia,Armenia,40.2,44.5,3,0,Mark G. Thomas / Levon Yepiskoposyan
+Assyrian_WGA,Assyrian_WGA,WestEurasia,Armenia,40.3,44.6,5,0,Mark G. Thomas / Levon Yepiskoposyan
+Kurd_WGA,Kurd_WGA,WestEurasia,Armenia,40.7,44.3,2,0,Mark G. Thomas / Levon Yepiskoposyan
+Baku_WGA,Baku_WGA,WestEurasia,Azerbaijan,40.4,49.9,3,0,Mark G. Thomas / Ruslan Ruizbakiev
+Belarusian,Belarusian,WestEurasia,Belarus,53.9,28,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Alena Kushniarevich
+Bulgarian,Bulgarian,WestEurasia,Bulgaria,42.2,24.7,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Draga Toncheva / Sena Karachanak-Yankova / Mari Nelis*
+Croatian,Croatian,WestEurasia,Croatia,43.5,16.4,10,10,Cristian Capelli / George B. J. Busby / Igor Rudan / Tatijana Zemunik
+Cypriot,Cypriot,WestEurasia,Cyprus,35.1,33.4,8,8,David Comas / Pierre Zalloua
+Czech,Czech,WestEurasia,Czechoslovia(pre1989),50.1,14.4,10,10,Coriell Cell Repositories
+English,English_Cornwall_GBR,WestEurasia,England,50.3,-4.9,5,5,Coriell Cell Repositories
+English,English_Kent_GBR,WestEurasia,England,51.2,0.7,5,5,Coriell Cell Repositories
+Scottish,Scottish_Argyll_Bute_GBR,WestEurasia,England,56,-3.9,4,4,Coriell Cell Repositories
+Estonian,Estonian,WestEurasia,Estonia,58.5,24.9,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Jüri Parik
+Finnish,Finnish_FIN,WestEurasia,Finland,60.2,24.9,8,7,Coriell Cell Repositories
+Saami_WGA,Saami_WGA,WestEurasia,Finland,68.4,23.6,1,1,Svante Pääbo / Antti Sajantila / Klemetti Näkkäläjärvi
+Basque,Basque_French,WestEurasia,France,43,0,22,20,Patterson et al. 2012
+French,French,WestEurasia,France,46,2,29,25,Patterson et al. 2012
+French_South,French_South,WestEurasia,France,43.4,-0.6,7,7,David Comas
+Georgian,Georgian_Megrels,WestEurasia,Georgia,42.5,41.9,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+Georgian_Jew,Georgian_Jew,WestEurasia,Georgia,41.7,44.8,9,7,The National Laboratory for the Genetics of Israeli Populations 
+Georgian_WGA,Georgian_WGA,WestEurasia,Georgia,41.7,44.8,2,0,Mark G. Thomas / Haim Ben-Ami
+Greek,Greek_Comas,WestEurasia,Greece,40.6,22.9,14,14,David Comas
+Greek,Greek_Coriell,WestEurasia,Greece,38,23.7,8,6,Coriell Cell Repositories
+Greek_WGA,Greek_WGA,WestEurasia,Greece,37.9,23.7,18,0,Mark G. Thomas / Theologos Loukidis
+Hungarian,Hungarian_Coriell,WestEurasia,Hungary,47.5,19.1,10,10,Coriell Cell Repositories
+Hungarian,Hungarian_Metspalu,WestEurasia,Hungary,47.5,19.1,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Béla Melegh / Judit Bene
+Icelandic,Icelandic,WestEurasia,Iceland,64.1,-21.9,12,12,Coriell Cell Repositories
+Iranian,Iranian,WestEurasia,Iran,35.6,51.5,9,8,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+Iranian_Jew,Iranian_Jew,WestEurasia,Iran,35.7,51.4,10,9,The National Laboratory for the Genetics of Israeli Populations 
+Iraqi_Jew,Iraqi_Jew,WestEurasia,Iraq,33.3,44.4,9,6,The National Laboratory for the Genetics of Israeli Populations 
+Druze,Druze,WestEurasia,Israel(Carmel),32,35,42,39,Patterson et al. 2012
+Palestinian,Palestinian,WestEurasia,Israel(Central),32,35,45,38,Patterson et al. 2012
+BedouinA,BedouinA,WestEurasia,Israel(Negev),31,35,25,25,Patterson et al. 2012
+BedouinB,BedouinB,WestEurasia,Israel(Negev),31,35,21,19,Patterson et al. 2012
+Italian_South,Italian_South,WestEurasia,Italy,39.4,15.5,1,1,Cristian Capelli / George B. J. Busby / Francesca Brisighelli
+Sicilian,Italian_EastSicilian,WestEurasia,Italy,37.1,15.3,5,5,Cristian Capelli / George B. J. Busby / Francesco Cali / Valentino Romano
+Sicilian,Italian_WestSicilian,WestEurasia,Italy,38,12.5,6,6,Cristian Capelli / George B. J. Busby / Francesca Brisighelli
+Bergamo,Italian_Bergamo,WestEurasia,Italy(Bergamo),46,10,13,12,Patterson et al. 2012
+Sardinian,Sardinian,WestEurasia,Italy(Sardinia),40,9,29,27,Patterson et al. 2012
+Tuscan,Italian_Tuscan,WestEurasia,Italy(Tuscany),43,11,8,8,Patterson et al. 2012
+Jordanian,Jordanian,WestEurasia,Jordan,32.1,35.9,10,9,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+Lebanese,Lebanese,WestEurasia,Lebanon,33.8,35.6,8,8,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+Lithuanian,Lithuanian,WestEurasia,Lithuania,54.9,23.9,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Vaidutis Kučinskas / Ingrida Uktveryte
+Maltese,Maltese,WestEurasia,Malta,35.9,14.4,8,8,David Comas / Pierre Zalloua
+Norwegian,Norwegian,WestEurasia,Norway,60.4,5.4,11,11,Cristian Capelli / George B. J. Busby / Tor Hervig
+Orcadian,Orcadian,WestEurasia,OrkneyIslands,59,-3,13,13,Patterson et al. 2012
+Ashkenazi_Jew,Ashkenazi_Jew,WestEurasia,Poland,52.2,21,9,7,The National Laboratory for the Genetics of Israeli Populations 
+Balkar,Balkar,WestEurasia,Russia,43.5,43.6,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+Chechen,Chechen,WestEurasia,Russia,43.3,45.7,9,9,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+Chuvash,Chuvash,WestEurasia,Russia,56.1,47.3,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+Kumyk,Kumyk,WestEurasia,Russia,43.3,46.6,9,8,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+Lezgin,Lezgin,WestEurasia,Russia,42.1,48.2,10,9,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+Mordovian,Mordovian,WestEurasia,Russia,54.2,45.2,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+Nogai,Nogai,WestEurasia,Russia,44.4,41.9,9,9,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+North_Ossetian,North_Ossetian,WestEurasia,Russia,43,44.7,10,10,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Elza Khusnutdinova / Rita Khusainova / Sergey Litvinov
+Russian,Russian,WestEurasia,Russia,61,40,23,22,Patterson et al. 2012
+Adygei,Adygei,WestEurasia,Russia(Caucasus),44,39,25,17,Coriell Cell Repositories
+Saudi,Saudi,WestEurasia,Saudi_Arabia,18.5,42.5,10,8,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+Basque,Basque_Spanish,WestEurasia,Spain,43.1,-2.1,10,9,David Comas
+Canary_Islanders,Spanish_Canarias_IBS,WestEurasia,Spain,28.1,-15.4,2,2,Coriell Cell Repositories
+Spanish,Spanish_Andalucia_IBS,WestEurasia,Spain,37.4,-6,4,4,Coriell Cell Repositories
+Spanish,Spanish_Aragon_IBS,WestEurasia,Spain,41,-1,6,6,Coriell Cell Repositories
+Spanish,Spanish_Baleares_IBS,WestEurasia,Spain,39.5,3,4,4,Coriell Cell Repositories
+Spanish,Spanish_Cantabria_IBS,WestEurasia,Spain,43.3,-4,5,5,Coriell Cell Repositories
+Spanish,Spanish_Castilla_la_Mancha_IBS,WestEurasia,Spain,39.9,-4,5,5,Coriell Cell Repositories
+Spanish,Spanish_Castilla_y_Leon_IBS,WestEurasia,Spain,41.4,-4.5,5,5,Coriell Cell Repositories
+Spanish,Spanish_Cataluna_IBS,WestEurasia,Spain,41.8,1.5,5,5,Coriell Cell Repositories
+Spanish,Spanish_Extremadura_IBS,WestEurasia,Spain,39,-6,5,5,Coriell Cell Repositories
+Spanish,Spanish_Galicia_IBS,WestEurasia,Spain,42.5,-8.1,5,5,Coriell Cell Repositories
+Spanish,Spanish_Murcia_IBS,WestEurasia,Spain,38,-1.1,5,4,Coriell Cell Repositories
+Spanish,Spanish_Valencia_IBS,WestEurasia,Spain,39.5,-0.4,5,5,Coriell Cell Repositories
+Spanish_North,Spanish_Pais_Vasco_IBS,WestEurasia,Spain,42.8,-2.7,5,5,Coriell Cell Repositories
+Syrian,Syrian,WestEurasia,Syrian,35.1,36.9,8,8,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+Turkish,Turkish,WestEurasia,Turkey,39.6,28.5,4,4,David Comas / Pierre Zalloua
+Turkish,Turkish_Adana,WestEurasia,Turkey,37,35.3,10,10,Robert W. Mahley / Ugur Hodoglugil
+Turkish,Turkish_Aydin,WestEurasia,Turkey,37.9,27.8,10,7,Robert W. Mahley / Ugur Hodoglugil
+Turkish,Turkish_Balikesir,WestEurasia,Turkey,39.4,27.5,10,6,Robert W. Mahley / Ugur Hodoglugil
+Turkish,Turkish_Istanbul,WestEurasia,Turkey,41,29,10,10,Robert W. Mahley / Ugur Hodoglugil
+Turkish,Turkish_Kayseri,WestEurasia,Turkey,38.7,35.5,10,10,Robert W. Mahley / Ugur Hodoglugil
+Turkish,Turkish_Trabzon,WestEurasia,Turkey,41,39.7,10,9,Robert W. Mahley / Ugur Hodoglugil
+Turkish_Jew,Turkish_Jew,WestEurasia,Turkey,41,29,9,8,The National Laboratory for the Genetics of Israeli Populations 
+Ukrainian,Ukrainian_East,WestEurasia,Ukraine,50.3,31.6,6,6,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Oleg Balanovsky / Elena Balanovska / Mikhail Churnosov
+Ukrainian,Ukrainian_West,WestEurasia,Ukraine,49.9,24,3,3,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu / Oleg Balanovsky / Elena Balanovska / Mikhail Churnosov / Olga Utevska
+Uzbek_WGA,Uzbek_WGA,WestEurasia,Uzbekistan,41.3,69.3,1,0,Mark G. Thomas / Ruslan Ruizbakiev
+Yemen,Yemen,WestEurasia,Yemen,14,44.6,7,6,Mait Metspalu / Richard Villems / Leila Laredj / Ene Metspalu
+Yemenite_Jew,Yemenite_Jew,WestEurasia,Yemen,15.4,44.2,8,8,The National Laboratory for the Genetics of Israeli Populations 
