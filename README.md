@@ -179,3 +179,8 @@ qatari/codes.txt
 qatari/flip.txt
 qatari/keep_snp.txt
 
+merging updates:
+pgs/gvar3.names
+pgs/update_pos.csv
+pgs/merge.csv
+
