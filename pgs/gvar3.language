@@ -1,0 +1,103 @@
+popId,language,abbrev2
+582,West Slavic,CZ
+79,West Slavic,PL
+85,East Slavic,UA-Lv
+86,East Slavic,BY
+560,East Slavic,UA-E
+561,East Slavic,UA-W
+81,East Slavic,UA-Sv
+82,East Slavic,UA-Kh
+83,East Slavic,UA-Po
+84,East Slavic,UA-Be
+85,East Slavic,UA-Lv
+56,Western Germanic,DE
+571,Western Germanic,CH-D
+578,Western Germanic,NL
+575,Western Germanic,BE
+488,North Germanic,GB-Cw
+489,North Germanic,GB-Kt
+523,North Germanic,NO
+566,North Germanic,GB-Uk
+583,North Germanic,SE
+597,North Germanic,DK
+597,Western Germanic,AT
+53,Iranian,IR-Ir
+124,Iranian,RU-Oss
+467,Iranian,PK-Ba
+469,isolate,PK-Bu
+470,Iranian,AF-ha
+471,Iranian,PK-Ka
+472,Iranian,PK-Ma
+473,Iranian,PK-Pa
+119,Kartvelian,GE-Ge
+120,Kartvelian,GE-Mi
+121,Abkhasians,GE-Ab
+122,Turkic,RU-Bal
+123,Circassian,RU-Kab
+125,Nakh-Daghestanian,RU-Che
+126,Nakh-Daghestanian,RU-Lez
+128,Nakh-Daghestanian,RU-Tab
+535,Kabardin,RU-Ay
+127,Turkic,RU-Kum
+131,Turkic,AZ
+558,Turkic,TR-Tr
+54,Turkic,IR-Az
+474,NW-Indo-Aryan,PK-Si
+475,NW-Indo-Aryan,PK-Pu
+461,Central Indo-Aryan,ID-Lo
+168,Central Indo-Aryan,ID-Me
+166,Central Indo-Aryan,ID-BT
+181,Central Indo-Aryan,ID-Bh
+464,Central Indo-Aryan,ID-Tw
+460,Austroasiatic,ID-Khar
+200,Austroasiatic,ID-Ho
+208,Austroasiatic,ID-Khi
+211,Sino-Tibetan,ID-Na
+212,isolate,ID-Ni
+462,unknown,ID-Ml
+465,unknown,ID-Vi
+215,unknown,ID-Ba
+167,Dravidian,ID-BTN
+182,Dravidian,ID-Dh
+188,Dravidian,ID-Ha
+183,Dravidian,ID-Go
+185,Dravidian,ID-Che
+191,Dravidian,ID-My
+216,Sino-Tibetan,ID-Kay
+363,Nilotic,SS-Di
+1013,Central Sudanic,TD-Bu
+1018,Central Sudanic,CF-Ka
+331,Afro-Asiatic,EG
+796,Afro-Asiatic,LY
+343,Afro-Asiatic,SO
+370,Afro-Asiatic,TN
+1010,Afro-Asiatic,QA
+339,Bantu,LWK
+340,Nilotic,KE-Luo
+338,Bantu,KE-Kik
+341,Nilotic,KE-MaA
+342,Nilotic,MKK
+337,Bantu,TZ-Ba
+365,Nilotic,TZ-Da
+1020,Afro-Asiatic,NG-Ma
+1019,Bantu,CD
+1021,Bantu,ZA-Xh
+1017,Atlantic-Congo,NG-Ib
+1015,Atlantic-Congo,NG-Fu
+1016,Afro-Asiatic,NG-Ha
+1014,Bantu,CM-Fa
+1012,Atlantic-Congo,GH-Br
+1011,Atlantic-Congo,CM-Ba
+605,Mande,ML-Ba
+610,Dogon,ML-Do
+336,Atlantic-Congo,ET-Cha
+358,Mande,GN-Ma
+359,Mande,SL-Men
+790,Afro-Asiatic,MA-Sa0
+791,Afro-Asiatic,MA-S
+6,Afro-Asiatic,MA-Ma
+372,Afro-Asiatic,MA-Sa
+311,Afro-Asiatic,DZ-Dz
+312,Afro-Asiatic,DZ-Mo
+165,many/unknown,ID-BUT
+166,many/unknown,ID-BUP
