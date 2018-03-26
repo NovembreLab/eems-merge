@@ -3,6 +3,10 @@
 The exact pipeline used is available on github under GITHUB_LINK. As some of the
 data sets are subjects to some restrictions, they cannot be made available. 
 
+Thus, this repo contains all the code used to merge repo, and below (and in the
+paper) we have info on how data was obtained. We can provide meta-data, however,
+as this is either part of publications or publicly available
+
 ## Human Origins Data set (Lazaridis et al. 2014)
 The full data set was obtained from David Reich with permission for demographic
 analyses. Sampling location information was obtained from table S9.4 of
@@ -93,3 +97,20 @@ calculated a relationship matrix using the `--make-grm-bin` flag, and removed
 individuals with a relationship larger than 0.6, which reduced the number of
 individuals to 8062 individuals.
 
+
+
+## Files not present in repo (and how to obtain them)
+
+
+#### chip info
+These files are require to annotate snp correctly, they were obtained from the
+manufacturer's website
+- chip/GenomeWideSNP_6.na32.annot.csv
+- chip/Mapping250K_Nsp.na32.annot.csv
+- chip/Mapping250K_Sty.na32.annot.csv
+
+
+## Data file present in repo
+liftover for hugo data
+- supplementary/lifted.xbed
+- supplementary/unlifted.xbed
