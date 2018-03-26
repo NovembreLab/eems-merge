@@ -1,0 +1,81 @@
+import os
+base = lambda x: os.path.splitext(x)[0]
+
+rule get_hgdp_dudes:
+    input:
+        bed="tibetans/HGDP_Tibetan_Merged_160509.bed",
+        bim="tibetans/HGDP_Tibetan_Merged_160509.bim",
+        fam="tibetans/HGDP_Tibetan_Merged_160509.fam",
+        samples="tibetans/tib.plink",
+    output:
+        bed="tibetans/eatw_tibetans.bed",
+        bim="tibetans/eatw_tibetans.bim",
+        fam="tibetans/eatw_tibetans.fam",
+        tmp=temp("tibetans/other.fam")
+    run:
+        inname=base(input.bed)
+        outname=base(output.bed)
+        s = "plink --bfile {inname} --make-bed --out {outname}"
+        s += " --keep {input.samples}"
+        shell(s)
+        with open(output.fam, 'r') as f:
+            with open(output.tmp, "w") as o:
+                for line in f:
+                    l = line.split()
+                    l[0] = l[1]
+                    o.write(" ".join(l) + "\n")
+        shell("mv {output.tmp} {output.fam}")
+
+        with open(output.bim, 'r') as f:
+            with open(output.tmp, "w") as o:
+                for line in f:
+                    l = line.split()
+                    l[1] = "%s_%s" % (l[0],l[3])
+                    o.write(" ".join(l) + "\n")
+        shell("mv {output.tmp} {output.bim}")
+
+
+EXTS=["indiv.geo", "indiv_prov", "pop_display",
+    "pop_geo"]
+rule merge_meta:
+    input:
+        ail="pgs/gvar.indiv_label",
+        aip="pgs/gvar.indiv_prov",
+        apd="pgs/gvar.pop_display",
+        apg="pgs/gvar.pop_geo",
+        bil="tib/tibetan.indiv_label",
+        bip="tib/tibetan.indiv_prov",
+        bpd="tib/tibetan.pop_display",
+        bpg="tib/tibetan.pop_geo",
+    output:
+        oil="pgs/gvar2.indiv_label",
+        oip="pgs/gvar2.indiv_prov",
+        opd="pgs/gvar2.pop_display",
+        opg="pgs/gvar2.pop_geo",
+    run:
+        import pandas as pd
+
+        p1, p2 = pd.read_csv(input.ail), pd.read_csv(input.bil)
+        iil = p1.append(p2)
+        assert len(p1.popId.unique()) + len(p2.popId.unique()) ==\
+            len(iil.popId.unique())
+        #assert sum(iil.sampleId.duplicated()) == 0
+        iil.to_csv(output.oil)
+
+        p1, p2 = pd.read_csv(input.aip), pd.read_csv(input.bip)
+        iip = p1.append(p2)
+        assert set(iil.sampleId) == set(iip.sampleId)
+        #assert sum(iip.sampleId.duplicated()) == 0
+        iip.to_csv(output.oip)
+
+        p1, p2 = pd.read_csv(input.apd), pd.read_csv(input.bpd)
+        ipd = p1.append(p2)
+        assert sum(ipd.popId.duplicated()) == 0
+        ipd.to_csv(output.opd)
+
+        p1, p2 = pd.read_csv(input.apg), pd.read_csv(input.bpg)
+        ipg = p1.append(p2)
+        assert sum(ipg.popId.duplicated()) == 0
+        assert set(ipg.popId) == set(ipd.popId)
+        ipg.to_csv(output.opg)
+    
