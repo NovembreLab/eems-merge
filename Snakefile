@@ -4,8 +4,8 @@ import snakemake.utils
 from snakemake.utils import R
 import os
 
-include: 'cleanup_snp.snake'
-include: 'meta.snake'
+include: 'sfiles/cleanup_snp.snake'
+include: 'sfiles/meta.snake'
 
 base = lambda x : os.path.splitext(x)[0]
 
@@ -195,7 +195,7 @@ rule extract_paschou:
 rule deduplicate_master_table:
     input:
         table='regions/location_coords.csv',
-        script='deduplicate_master_file.py'
+        script='scripts/deduplicate_master_file.py'
     output:
         'regions/locations_deduplicated.csv',
         'duplicate_dict.txt'
@@ -394,7 +394,7 @@ rule make_curated_table:
                       'intermediate/sample_pop_stoneking.csv',
                       'intermediate/sample_pop_verdu.csv',
                       'intermediate/sample_pop_xing.csv'],
-        script='curate.py'
+        script='scripts/curate.py'
     output:
         sample_out='intermediate/sample_pop_all.csv',
         loc_out='intermediate/locations_all.csv'
@@ -673,7 +673,7 @@ rule merge_qatar_to_tib_meta:
         bpg="qatari/qatari.pop_geo",
         fam="merged/tq_prune0.6.fam",
         fix=["pgs/gvar3.names", "pgs/update_pos.csv", "pgs/merge.csv",
-            "fix.R"
+            "scripts/fix.R"
         ]
     output:
         oil="pgs/gvar3.indiv_label",
@@ -713,7 +713,7 @@ rule merge_qatar_to_tib_meta:
         assert set(ipg.popId) == set(ipd.popId)
         ipg.to_csv(output.opg, index=False)
 
-        R("source('fix.R')")
+        R("source('scripts/fix.R')")
 	
 
 
