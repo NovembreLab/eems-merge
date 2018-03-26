@@ -1,0 +1,9 @@
+*bed
+*bim
+*fam
+chip/
+tmp/
+intermediate/
+.snakemake
+data/
+data2/

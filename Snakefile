@@ -168,12 +168,6 @@ rule download_xing:
         "wget -O {output} http://jorde-lab.genetics.utah.edu/pub/affy6_xing2010/UID_344_Map.txt"
 
 
-rule download_converge:
-    output:
-        protected("raw/converge_raw_data.txt.gz")
-    shell:
-        "wget -O {output} ftp://climb.genomics.cn/pub/10.5524/100001_101000/100155/MD_GWAS_SNPresults.txt.gz"
-
 rule download_paschou:
     output:
         "data/paschou.zip"
@@ -355,7 +349,7 @@ rule sample_pop_xing:
 rule sample_pop_lazaridis:
     input:
         loc='regions/location_simplified.csv',
-        samples='/home/peterb/old_data/data_clean/raw/EuropeAllData/vdata.ind'
+        samples='raw/EuropeAllData/vdata.ind'
     output:
         'intermediate/sample_pop_lazaridis.csv'
     run:

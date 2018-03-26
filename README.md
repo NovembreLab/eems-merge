@@ -7,6 +7,19 @@ Thus, this repo contains all the code used to merge repo, and below (and in the
 paper) we have info on how data was obtained. We can provide meta-data, however,
 as this is either part of publications or publicly available
 
+#How to run this
+1. obtain all the genetic data files listed below, and copy them in the correct 
+folders (see below)
+1. obtain genotype chip info files
+2. download Snakemake, the workflow was run using version 3.5.2, and is not
+   working on some more recent versions
+3. make sure plink is in the path
+4. install numpy, pandas, scipy for python
+5. install dplyr, yaml, rworldmap, data.table for R
+6. run `snakemake pgs/gvar3.indiv_meta`
+
+#Data Sources
+
 ## Human Origins Data set (Lazaridis et al. 2014)
 The full data set was obtained from David Reich with permission for demographic
 analyses. Sampling location information was obtained from table S9.4 of
@@ -102,19 +115,39 @@ individuals to 8062 individuals.
 ## Files not present in repo (and how to obtain them)
 
 
+
+
+#### raw genetic data: (also bim and fam files;, or map for ped files)
+these are the files that are required to start the pipeline
+- raw/paschou.zip #downloaded archive
+- raw/MARITIME_ROUTE.bed #extracted
+- raw/POPRES_Genotypes_QC1_v2.bed #popres data from John Novembre
+- raw/reich2011/Australia.bed #stoneking/reich SEAsia data
+- raw/reich2011/Denisova-SEAsia-Oceania.bed #stoneking/reich SEAsia data
+- raw/reich2011/Stoneking.Data.tar #stoneking/reich SEAsia data
+- raw/reich2011/STONEKING.malaysia.ped #stoneking/reich SEAsia data
+- raw/verdu2014/allAutosomes_82-nativeAmericans_illuminaHuman610_unphased_passedQC_SNPs_dbGaP.ped #verdu data from dbgap, not used in paper
+- raw/hugo/Genotypes_All.txt #downloaded HUGO genotypes
+- raw/affy6_344_raw_genotype_xing #downloaded xing et al data
+- raw/xing_sample_pop.txt #individual/pop data for xing et al
+- raw/EuropeAllData/vdata.ind/snp/pop #reich format Lazaridis et al. data
+- raw/Data_for_Ben.bed #estonian biocentre data from mait
+- qatari/NWAfrica_HM3_Qat.bed (African data)
+- qatari/qatari.bed (qatari data)
+- qatari/hg37.bed (lifted african data)
+- tib/HGDP_Tibetan_Merged_160509.bed #obtained from Choongwon Jeong
+
 #### chip info
 These files are require to annotate snp correctly, they were obtained from the
-manufacturer's website
+manufacturer's website and are also required for the automated processing
 - chip/GenomeWideSNP_6.na32.annot.csv
 - chip/Mapping250K_Nsp.na32.annot.csv
 - chip/Mapping250K_Sty.na32.annot.csv
 
-All temporary and final mergeing files
-- merged/\*bed
-- merged/\*bim
-- merged/\*fam
 
-Datafiles (also bim and fam files named similarly)
+#### intermediate data files
+intermediate Datafiles after basic cleaning, in plink format (also bim and fam files named similarly)
+they are automatically generated here
 - data/Data_for_Ben.bed #estonian biocentre data from Mait Metspalu
 - data/hugo.bed #hugo data
 - data/MARITIME_ROUTE.bed #Paschou et al data
@@ -123,21 +156,22 @@ Datafiles (also bim and fam files named similarly)
 - data/vdata.bed #Lazaridis full data
 - data/verdu.bed #verdu et al 2014 data (not used in paper)
 - data/xing.bed #xing et al 2010 data
-- qatari/NWAfrica_HM3_Qat.bed (African data)
-- qatari/qatari.bed (qatari data)
-- qatari/hg37.bed (lifted african data)
-- tib/HGDP_Tibetan_Merged_160509.bed #obtained from Choongwon Jeong
 
+
+All temporary mergeing files and the merged genotype data
+- merged/\*bed
+- merged/\*bim
+- merged/\*fam
 
 
 ## Data file present in repo
-liftover for hugo data
+####liftover for hugo data
 - supplementary/lifted.xbed
 - supplementary/unlifted.xbed
 list of duplicated labels across studies, used to merge and exclude samples
 - duplicate_dict.txt 
 
-location sources:
+####location sources:
 - sources/Data_for_Ben_Meta.xlsx: obtained from Mait Metspalu on November 2015 (email)                                                                   
 - sources/Stoneking.pops.txt : From Stoneking.Data.tar, obtained from Mark Stoneking                                                                     
 - sources/HGDP_SampleInformation.txt: obtained from wget -O HGDP_SampleInformation.txt http://web.stanford.edu/group/rosenberglab/data/rosenberg2006ahg/SampleInformation.txt  
@@ -152,7 +186,7 @@ location sources:
 - sources/journal.pgen.\*png: Verduetal paper Table 1 as image                                                                                            
 - sources/paschou_locations.csv: Table S3 from paper                                                                                                     
 
-additional source data (partially processed):
+####additional source data (partially processed):
 regions/estonian_bibtex.csv          
 regions/estonian_studies.csv         
 regions/location2.csv                
@@ -164,7 +198,7 @@ regions/locations_deduplicated.csv
 regions/location_simplified.csv      
 regions/Stoneking.pops.csv           
 
-Tibetan data:
+#### Tibetan metadata:
 tib/tib.plink
 tib/tibetan.indiv\_\* #used here
 tib/tibetan.pop\_\* #used here
@@ -174,12 +208,12 @@ tib/HGDP_Tibetan_Merged_160509_tibetan.pop\* #all tibetan (for Jeong et al 2017
 tib/HGDP_Tibetan_Merged_160509.indiv\* #all data from Jeong et al 2017)
 tib/HGDP_Tibetan_Merged_160509.pop\* #all data from Jeong et al 2017)
 
-Northafrican / Qatari data
+#### Northafrican / Qatari data
 qatari/codes.txt
 qatari/flip.txt
 qatari/keep_snp.txt
 
-merging updates:
+#### merging update files:
 pgs/gvar3.names
 pgs/update_pos.csv
 pgs/merge.csv
