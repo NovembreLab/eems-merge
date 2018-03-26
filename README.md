@@ -7,7 +7,7 @@ Thus, this repo contains all the code used to merge repo, and below (and in the
 paper) we have info on how data was obtained. We can provide meta-data, however,
 as this is either part of publications or publicly available
 
-#How to run this
+# How to run this
 1. obtain all the genetic data files listed below, and copy them in the correct 
 folders (see below)
 1. obtain genotype chip info files
@@ -18,7 +18,7 @@ folders (see below)
 5. install dplyr, yaml, rworldmap, data.table for R
 6. run `snakemake pgs/gvar3.indiv_meta`
 
-#Data Sources
+# Data Sources
 
 ## Human Origins Data set (Lazaridis et al. 2014)
 The full data set was obtained from David Reich with permission for demographic
@@ -61,20 +61,20 @@ polymorphisms. Following Novembre et al. we only retained individuals for which
 all grand-parents were from the same country, and split up the Swiss sample
 according to language groups.
 
-##reich2011 data
+## reich2011 data
 The data were obtained on 7/14/15 from Mark Stoneking with permission for
 demographic analyses. After merging the three different source files, SNP not mapping to hg19 using the annotation file
 "GenomeWideSNP_6.na32.annot.csv" were removed, as were AT and GC SNPs. Sampling
 locations were extracted from Figure 1 of Reich et al. (2011)
 
-##Paschou et al. (2013)
+## Paschou et al. (2013)
 Data was obtained on 8/13/15 in binary plink format from
 http://drineas.org/Maritime_Route/RAW_DATA/PLINK_FILES/MARITIME_ROUTE.zip.
 Sampling location information was obtained from Supplementary Table 3 in Paschou
 et al. (2013). SNP not mapping to hg19 using the annotation file
 "GenomeWideSNP_6.na32.annot.csv" were removed, as were AT and GC SNPS. 
 
-##Jeong et al. (2017), Bigham et al. (2011) and Xu et al. (2012) data
+## Jeong et al. (2017), Bigham et al. (2011) and Xu et al. (2012) data
 This data was obtained from Choongwon Jeong and Anna Di Rienzo. We used the same
 filtering as in the Jeong et al. (2017) study, but only added the samples
 originating from these three studies with permissions from the respective
@@ -165,13 +165,13 @@ All temporary mergeing files and the merged genotype data
 
 
 ## Data file present in repo
-####liftover for hugo data
+#### liftover for hugo data
 - supplementary/lifted.xbed
 - supplementary/unlifted.xbed
 list of duplicated labels across studies, used to merge and exclude samples
 - duplicate_dict.txt 
 
-####location sources:
+#### location sources:
 - sources/Data_for_Ben_Meta.xlsx: obtained from Mait Metspalu on November 2015 (email)                                                                   
 - sources/Stoneking.pops.txt : From Stoneking.Data.tar, obtained from Mark Stoneking                                                                     
 - sources/HGDP_SampleInformation.txt: obtained from wget -O HGDP_SampleInformation.txt http://web.stanford.edu/group/rosenberglab/data/rosenberg2006ahg/SampleInformation.txt  
@@ -186,7 +186,7 @@ list of duplicated labels across studies, used to merge and exclude samples
 - sources/journal.pgen.\*png: Verduetal paper Table 1 as image                                                                                            
 - sources/paschou_locations.csv: Table S3 from paper                                                                                                     
 
-####additional source data (partially processed):
+#### additional source data (partially processed):
 regions/estonian_bibtex.csv          
 regions/estonian_studies.csv         
 regions/location2.csv                
