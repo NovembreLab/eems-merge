@@ -3,15 +3,15 @@ base = lambda x: os.path.splitext(x)[0]
 
 rule get_hgdp_dudes:
     input:
-        bed="tibetans/HGDP_Tibetan_Merged_160509.bed",
-        bim="tibetans/HGDP_Tibetan_Merged_160509.bim",
-        fam="tibetans/HGDP_Tibetan_Merged_160509.fam",
-        samples="tibetans/tib.plink",
+        bed="tib/HGDP_Tibetan_Merged_160509.bed",
+        bim="tib/HGDP_Tibetan_Merged_160509.bim",
+        fam="tib/HGDP_Tibetan_Merged_160509.fam",
+        samples="tib/tib.plink",
     output:
-        bed="tibetans/eatw_tibetans.bed",
-        bim="tibetans/eatw_tibetans.bim",
-        fam="tibetans/eatw_tibetans.fam",
-        tmp=temp("tibetans/other.fam")
+        bed="tib/eatw_tibetans.bed",
+        bim="tib/eatw_tibetans.bim",
+        fam="tib/eatw_tibetans.fam",
+        tmp=temp("tib/other.fam")
     run:
         inname=base(input.bed)
         outname=base(output.bed)

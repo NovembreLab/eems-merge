@@ -126,6 +126,7 @@ Datafiles (also bim and fam files named similarly)
 - qatari/NWAfrica_HM3_Qat.bed (African data)
 - qatari/qatari.bed (qatari data)
 - qatari/hg37.bed (lifted african data)
+- tib/HGDP_Tibetan_Merged_160509.bed #obtained from Choongwon Jeong
 
 
 
@@ -148,6 +149,28 @@ location sources:
 - sources/Pop_Positions_Xing_2010.csv: from Jichuan Xing by Email                                                                                        
 - sources/botigue2013.pdf: paper for Botigue2013 data                                                                                                    
 - sources/1000g_loc.csv: from http://www.1000genomes.org/category/frequently-asked-questions/population                                                  
-- sources/journal.pgen.*png: Verduetal paper Table 1 as image                                                                                            
+- sources/journal.pgen.\*png: Verduetal paper Table 1 as image                                                                                            
 - sources/paschou_locations.csv: Table S3 from paper                                                                                                     
+
+additional source data (partially processed):
+regions/estonian_bibtex.csv          
+regions/estonian_studies.csv         
+regions/location2.csv                
+regions/location_coords2.csv         
+regions/location_coords.csv          
+regions/location_full.csv            
+regions/location_hugo.csv            
+regions/locations_deduplicated.csv   
+regions/location_simplified.csv      
+regions/Stoneking.pops.csv           
+
+Tibetan data:
+tib/tib.plink
+tib/tibetan.indiv\_\* #used here
+tib/tibetan.pop\_\* #used here
+tib/tib_tibetan.csv
+tib/HGDP_Tibetan_Merged_160509_tibetan.indiv\* #all tibetan
+tib/HGDP_Tibetan_Merged_160509_tibetan.pop\* #all tibetan (for Jeong et al 2017
+tib/HGDP_Tibetan_Merged_160509.indiv\* #all data from Jeong et al 2017)
+tib/HGDP_Tibetan_Merged_160509.pop\* #all data from Jeong et al 2017)
 
