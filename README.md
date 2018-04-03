@@ -137,6 +137,10 @@ these are the files that are required to start the pipeline
 - qatari/hg37.bed (lifted african data)
 - tib/HGDP_Tibetan_Merged_160509.bed #obtained from Choongwon Jeong
 
+#### private meta data
+- sources/POPRES_Phenotypes.txt : obtained from John Novembre through data from
+  2008 paper
+
 #### chip info
 These files are require to annotate snp correctly, they were obtained from the
 manufacturer's website and are also required for the automated processing
@@ -176,7 +180,6 @@ list of duplicated labels across studies, used to merge and exclude samples
 - sources/Stoneking.pops.txt : From Stoneking.Data.tar, obtained from Mark Stoneking                                                                     
 - sources/HGDP_SampleInformation.txt: obtained from wget -O HGDP_SampleInformation.txt http://web.stanford.edu/group/rosenberglab/data/rosenberg2006ahg/SampleInformation.txt  
 - sources/human_origins.csv : Table S9.4, Email from David Reich through John Novembre                                                                   
-- sources/POPRES_Phenotypes.txt : obtained from John's popres folder on pps                                                                              
 - sources/POPRES_TS3.csv:table S3 from paper                                                                                                                 
 - sources/PASNP_Map.htm : from the website http://www4a.biotec.or.th/PASNP/PASNP_Map                                                                     
 - sources/hugo_meta.csv : processed version
